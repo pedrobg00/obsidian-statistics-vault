@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 353.5
   },
   "right": {
     "id": "aebed1efef8e762b",
@@ -167,8 +167,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -191,19 +191,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "baabf97dc9d1a978",
+  "active": "242b1795385ff8c3",
   "lastOpenFiles": [
-    "README.md",
-    "Latex Examples.md",
-    "Cálculo/Sequências.md",
+    "Probabilidade/Sigma-Álgebra de Borel.md",
+    "Probabilidade/Leis de Morgan.md",
+    "Probabilidade/Espaço de Probabilidade Produzido por Variável Aleatória.md",
+    "Métodos Numéricos/Verificação da Existência De Zeros.md",
+    "Cálculo/Estimativa Para a Soma de uma Série.md",
     "Cálculo/Séries Infinitas.md",
+    "Cálculo/Soma de Séries por Sequências Parciais.md",
+    "Latex Examples.md",
+    "README.md",
+    "Cálculo/Sequências.md",
     "Cálculo/Cálculo.canvas",
     "Métodos Numéricos/Método da Bisseção.md",
-    "Métodos Numéricos/Verificação Da Existência De Zeros.md",
     "Métodos Numéricos/Métodos Numéricos.canvas",
     "Métodos Numéricos/Zeros de Funções.md",
     "Probabilidade/Probabilidade.canvas",
-    "Cálculo/Soma de Séries por Sequências Parciais.md",
     "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Probabilidade/Variável Aleatória.md",
     "Statistics Synced Notes/Probabilidade/Sigma-Álgebra De Borel.md",
@@ -222,14 +226,10 @@
     "Statistics Synced Notes/Métodos Numéricos/Método da Bisseção.md",
     "Statistics Synced Notes/Métodos Numéricos",
     "Statistics Synced Notes/Cálculo/Séries Infinitas.md",
-    "Statistics Synced Notes/Cálculo/Soma de Séries por Sequências Parciais.md",
     "Statistics Synced Notes/Cálculo/Cálculo.canvas",
-    "Statistics Synced Notes/Cálculo/Sequências.md",
     "Statistics Synced Notes/Cálculo",
-    "Synced Notes/README.md",
     "Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes",
-    "2025-03-18.md",
     "Synced Notes/Cálculo/Cálculo.canvas",
     "Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
     "Synced Notes/Métodos Numéricos",

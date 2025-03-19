@@ -24,28 +24,26 @@ Considere a expressão lógica :
 
 $$
 \neg (P \lor Q)
-$$Usando a lei de Morgan para "ou", podemos reescrever essa expressão como:
-
 $$
 
+Usando a lei de Morgan para "ou", podemos reescrever essa expressão como:
+
+$$
 \neg (P \lor Q) = \neg P \land \neg Q
-
 $$
-
 **Exemplo 2: Simplificação em Circuitos Lógicos**
 
 Em um circuito lógico, se temos uma porta OR seguida por uma porta NOT, podemos simplificar o circuito usando a lei de Morgan. Por exemplo:
 
 - Se \(A\) e \(B\) são entradas de uma porta OR, e essa saída é conectada à entrada de uma porta NOT, a expressão lógica seria:
 $$
-
 \neg (A \lor B)
-
-$$Usando a lei de Morgan, isso pode ser simplificado para:
 $$
 
-\neg A \land \neg B
+Usando a lei de Morgan, isso pode ser simplificado para:
 
+$$
+\neg A \land \neg B
 $$
 
 ### 3. Propriedades Das Leis De Morgan
@@ -53,7 +51,7 @@ $$
 As leis de Morgan possuem algumas propriedades importantes:
 
 - **Comutatividade:** As leis de Morgan são comutativas, ou seja, a ordem dos operandos não altera o resultado.
-  
+
 - **Associatividade:** Elas também são associativas, permitindo que múltiplas operações sejam agrupadas sem alterar o resultado.
 
 - **Distributividade:** Embora as leis de Morgan não sejam distributivas em si mesmas, elas podem ser usadas para simplificar expressões complexas que envolvem distribuição.

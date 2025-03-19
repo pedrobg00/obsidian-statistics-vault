@@ -42,4 +42,4 @@ A compreensão das sigma álgebras é crucial para muitos campos da matemática 
 
 ## Sigma-Álgebra De Borel
 
-[[Sigma-Álgebra De Borel]]
+[[Sigma-Álgebra de Borel]]

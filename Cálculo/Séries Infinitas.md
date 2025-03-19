@@ -59,6 +59,6 @@ $$
 - **r = -1:** A série oscila e diverge
 - **r = 0:** A série tem apenas um termo (a) e converge trivialmente
 
-### Soma De Séries Por Sequências Parciais
+## Soma De Séries Por Sequências Parciais
 
 [[Soma de Séries por Sequências Parciais]]
