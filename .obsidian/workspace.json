@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "319c5cd773c8b0c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a6e1a22885b9192",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "baabf97dc9d1a978",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16a88d5c5512664c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a262bbade841ce4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e02bdf9d12782ca4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f484ef16a1b33e94",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "108e6fe53c52c850",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259.5
+  },
+  "right": {
+    "id": "aebed1efef8e762b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0d40a030c71522e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9385a74d91264943",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Statistics Synced Notes/Probabilidade/Leis de Morgan.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Leis de Morgan"
+            }
+          },
+          {
+            "id": "e71e7327f0ab0466",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Statistics Synced Notes/Probabilidade/Leis de Morgan.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Leis de Morgan"
+            }
+          },
+          {
+            "id": "fdd85b809026d1dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Statistics Synced Notes/Probabilidade/Leis de Morgan.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Leis de Morgan"
+            }
+          },
+          {
+            "id": "eb02c848107f2751",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "242b1795385ff8c3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "f5f8d301619f4a99",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 357.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "canvas:Create new canvas": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "baabf97dc9d1a978",
+  "lastOpenFiles": [
+    "Cálculo/Cálculo.canvas",
+    "Métodos Numéricos/Método da Bisseção.md",
+    "Métodos Numéricos/Verificação Da Existência De Zeros.md",
+    "Métodos Numéricos/Métodos Numéricos.canvas",
+    "Métodos Numéricos/Zeros de Funções.md",
+    "Probabilidade/Probabilidade.canvas",
+    "Cálculo/Soma de Séries por Sequências Parciais.md",
+    "Cálculo/Séries Infinitas.md",
+    "Cálculo/Sequências.md",
+    "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
+    "Statistics Synced Notes/Probabilidade/Variável Aleatória.md",
+    "Statistics Synced Notes/Probabilidade/Sigma-Álgebra De Borel.md",
+    "Statistics Synced Notes/Probabilidade/Espaço De Probabilidade Produzido Por Variável Aleatória.md",
+    "Statistics Synced Notes/Probabilidade/Leis de Morgan.md",
+    "Synced Notes/Latex Examples.md",
+    "Synced Notes/RCM Utils/Debugging.md",
+    "Synced Notes/RCM Utils/Deploy.md",
+    "Synced Notes/RCM Utils/Migration.md",
+    "Statistics Synced Notes/README.md",
+    "Statistics Synced Notes/Probabilidade/Sigma-Álgebra.md",
+    "Statistics Synced Notes/Probabilidade",
+    "Statistics Synced Notes/Métodos Numéricos/Zeros de Funções.md",
+    "Statistics Synced Notes/Métodos Numéricos/Verificação Da Existência De Zeros.md",
+    "Statistics Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
+    "Statistics Synced Notes/Métodos Numéricos/Método da Bisseção.md",
+    "Statistics Synced Notes/Métodos Numéricos",
+    "Statistics Synced Notes/Cálculo/Séries Infinitas.md",
+    "Statistics Synced Notes/Cálculo/Soma de Séries por Sequências Parciais.md",
+    "Statistics Synced Notes/Cálculo/Cálculo.canvas",
+    "Statistics Synced Notes/Cálculo/Sequências.md",
+    "Statistics Synced Notes/Cálculo",
+    "Synced Notes/README.md",
+    "Synced Notes/Probabilidade/Probabilidade.canvas",
+    "Statistics Synced Notes",
+    "2025-03-18.md",
+    "Synced Notes/Probabilidade/Sigma-Álgebra.md",
+    "Synced Notes/Cálculo/Cálculo.canvas",
+    "Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
+    "Synced Notes/Métodos Numéricos",
+    "Synced Notes/Cálculo",
+    "Untitled.canvas",
+    "Excalidraw",
+    "Synced Notes/RCM Utils",
+    "Synced Notes/Probabilidade",
+    "Synced Notes"
+  ]
+}

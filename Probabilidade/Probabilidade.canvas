@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"d539ad623344abfd","type":"text","text":"# Probabilidade","x":-1440,"y":-1580,"width":250,"height":60,"color":"1"},
+		{"id":"85b9bafaab101eff","type":"file","file":"Probabilidade/Leis de Morgan.md","x":-1040,"y":-1520,"width":400,"height":400},
+		{"id":"da73b68226588eed","type":"file","file":"Probabilidade/Sigma-Álgebra.md","x":-160,"y":-1160,"width":400,"height":400},
+		{"id":"fabe00f138f9e2d9","type":"file","file":"Probabilidade/Variável Aleatória.md","x":-1200,"y":-400,"width":400,"height":440},
+		{"id":"7990142874b911ea","type":"file","file":"Probabilidade/Sigma-Álgebra De Borel.md","x":-640,"y":-880,"width":400,"height":400},
+		{"id":"83c9553fd454b0be","type":"file","file":"Probabilidade/Espaço De Probabilidade Produzido Por Variável Aleatória.md","x":-720,"y":-180,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"94ab4c2adeae78ce","fromNode":"85b9bafaab101eff","fromSide":"right","toNode":"da73b68226588eed","toSide":"top"},
+		{"id":"ca23309da47d9072","fromNode":"da73b68226588eed","fromSide":"bottom","toNode":"7990142874b911ea","toSide":"right"},
+		{"id":"2510767f31d807ea","fromNode":"fabe00f138f9e2d9","fromSide":"right","toNode":"83c9553fd454b0be","toSide":"left"},
+		{"id":"203e273e9d31d629","fromNode":"7990142874b911ea","fromSide":"left","toNode":"fabe00f138f9e2d9","toSide":"top"},
+		{"id":"9acd99a73b0ec02d","fromNode":"d539ad623344abfd","fromSide":"bottom","toNode":"85b9bafaab101eff","toSide":"left"}
+	]
+}
