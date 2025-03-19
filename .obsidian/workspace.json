@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Latex Examples.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Latex Examples"
             }
           }
         ]
@@ -193,6 +193,10 @@
   },
   "active": "baabf97dc9d1a978",
   "lastOpenFiles": [
+    "README.md",
+    "Latex Examples.md",
+    "Cálculo/Sequências.md",
+    "Cálculo/Séries Infinitas.md",
     "Cálculo/Cálculo.canvas",
     "Métodos Numéricos/Método da Bisseção.md",
     "Métodos Numéricos/Verificação Da Existência De Zeros.md",
@@ -200,8 +204,6 @@
     "Métodos Numéricos/Zeros de Funções.md",
     "Probabilidade/Probabilidade.canvas",
     "Cálculo/Soma de Séries por Sequências Parciais.md",
-    "Cálculo/Séries Infinitas.md",
-    "Cálculo/Sequências.md",
     "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Probabilidade/Variável Aleatória.md",
     "Statistics Synced Notes/Probabilidade/Sigma-Álgebra De Borel.md",
@@ -228,7 +230,6 @@
     "Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes",
     "2025-03-18.md",
-    "Synced Notes/Probabilidade/Sigma-Álgebra.md",
     "Synced Notes/Cálculo/Cálculo.canvas",
     "Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
     "Synced Notes/Métodos Numéricos",
