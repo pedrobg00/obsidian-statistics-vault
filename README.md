@@ -1,2 +1,1 @@
-# obsidian-statistics-vault
-Statistics notes in markdown format (obsidian vault)
+📊 This Obsidian vault stores statistics studies. It includes key concepts, formulas, practical examples, and insights. The notes are structured and interconnected to make learning and review easier.
