@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Soma de Séries por Sequências Parciais"
             }
           }
         ]
@@ -191,13 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "242b1795385ff8c3",
+  "active": "baabf97dc9d1a978",
   "lastOpenFiles": [
-    "Latex Examples.md",
+    "Cálculo/Cálculo.canvas",
     "README.md",
+    "Latex Examples.md",
     "Probabilidade/Leis de Morgan.md",
     "Métodos Numéricos/Método da Bisseção.md",
-    "Cálculo/Cálculo.canvas",
     "Cálculo/Séries Infinitas/Sequências.md",
     "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
     "Cálculo/Séries Infinitas/Séries Infinitas.md",
