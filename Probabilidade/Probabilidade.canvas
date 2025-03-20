@@ -1,17 +1,22 @@
 {
 	"nodes":[
-		{"id":"d539ad623344abfd","type":"text","text":"# Probabilidade","x":-1440,"y":-1580,"width":250,"height":60,"color":"1"},
-		{"id":"85b9bafaab101eff","type":"file","file":"Probabilidade/Leis de Morgan.md","x":-1040,"y":-1520,"width":400,"height":400},
-		{"id":"da73b68226588eed","type":"file","file":"Probabilidade/Sigma-Álgebra.md","x":-160,"y":-1160,"width":400,"height":400},
-		{"id":"fabe00f138f9e2d9","type":"file","file":"Probabilidade/Variável Aleatória.md","x":-1200,"y":-400,"width":400,"height":440},
-		{"id":"7990142874b911ea","type":"file","file":"Probabilidade/Sigma-Álgebra de Borel.md","x":-640,"y":-880,"width":400,"height":400},
-		{"id":"83c9553fd454b0be","type":"file","file":"Probabilidade/Espaço de Probabilidade Produzido por Variável Aleatória.md","x":-720,"y":-180,"width":400,"height":400}
+		{"id":"8d9311dc4dd4fc28","type":"group","x":-2160,"y":-360,"width":1400,"height":1180,"label":"Variáveis Aleatórias"},
+		{"id":"d539ad623344abfd","type":"text","text":"# Probabilidade","x":-1685,"y":-980,"width":250,"height":60,"color":"1"},
+		{"id":"fabe00f138f9e2d9","type":"file","file":"Probabilidade/Variável Aleatória/Variável Aleatória.md","x":-1840,"y":-340,"width":400,"height":440},
+		{"id":"83c9553fd454b0be","type":"file","file":"Probabilidade/Variável Aleatória/Espaço de Probabilidade Produzido por Variável Aleatória.md","x":-1240,"y":-100,"width":400,"height":400},
+		{"id":"9ff31e68ab4cb7f5","x":-1992,"y":371,"width":400,"height":400,"type":"file","file":"Probabilidade/Variável Aleatória/Variável Aleatória Contínua.md"},
+		{"id":"b58fd77c1645fb0d","type":"file","file":"Probabilidade/Variável Aleatória/Variável Aleatória Discreta.md","x":-1560,"y":371,"width":400,"height":400},
+		{"id":"7990142874b911ea","type":"file","file":"Probabilidade/Sigma-Álgebra de Borel.md","x":-600,"y":-640,"width":400,"height":400},
+		{"id":"da73b68226588eed","type":"file","file":"Probabilidade/Sigma-Álgebra.md","x":-200,"y":-1120,"width":400,"height":400},
+		{"id":"85b9bafaab101eff","type":"file","file":"Probabilidade/Leis de Morgan.md","x":-1000,"y":-1440,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"94ab4c2adeae78ce","fromNode":"85b9bafaab101eff","fromSide":"right","toNode":"da73b68226588eed","toSide":"top"},
 		{"id":"ca23309da47d9072","fromNode":"da73b68226588eed","fromSide":"bottom","toNode":"7990142874b911ea","toSide":"right"},
 		{"id":"2510767f31d807ea","fromNode":"fabe00f138f9e2d9","fromSide":"right","toNode":"83c9553fd454b0be","toSide":"left"},
 		{"id":"203e273e9d31d629","fromNode":"7990142874b911ea","fromSide":"left","toNode":"fabe00f138f9e2d9","toSide":"top"},
-		{"id":"9acd99a73b0ec02d","fromNode":"d539ad623344abfd","fromSide":"bottom","toNode":"85b9bafaab101eff","toSide":"left"}
+		{"id":"9e1969bcdc599acd","fromNode":"fabe00f138f9e2d9","fromSide":"bottom","toNode":"b58fd77c1645fb0d","toSide":"top"},
+		{"id":"096af6524ac91079","fromNode":"fabe00f138f9e2d9","fromSide":"bottom","toNode":"9ff31e68ab4cb7f5","toSide":"top"},
+		{"id":"9e82f2481e2947d7","fromNode":"d539ad623344abfd","fromSide":"top","toNode":"85b9bafaab101eff","toSide":"left"}
 	]
 }

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8a6e1a22885b9192",
+        "id": "05bc04cdc37d9a9e",
         "type": "tabs",
         "children": [
           {
-            "id": "baabf97dc9d1a978",
+            "id": "807a00bae6624456",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Soma de Séries por Sequências Parciais"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,13 +90,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics Synced Notes/Probabilidade/Leis de Morgan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Leis de Morgan"
+              "title": "Outline"
             }
           },
           {
@@ -191,24 +186,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "baabf97dc9d1a978",
+  "active": "807a00bae6624456",
   "lastOpenFiles": [
-    "Cálculo/Cálculo.canvas",
-    "README.md",
+    "Probabilidade/Variável Aleatória/Variável Aleatória Contínua.md",
+    "Probabilidade/Variável Aleatória/Variável Aleatória Discreta.md",
+    "Álgebra Linear",
+    "Cálculo/Integrais",
+    "Cálculo/Derivadas",
+    "Cálculo/Limites",
+    "Probabilidade/Sigma-Álgebra.md",
+    "Probabilidade/Probabilidade.canvas",
+    "Probabilidade/Variável Aleatória/Espaço de Probabilidade Produzido por Variável Aleatória.md",
     "Latex Examples.md",
-    "Probabilidade/Leis de Morgan.md",
-    "Métodos Numéricos/Método da Bisseção.md",
-    "Cálculo/Séries Infinitas/Sequências.md",
-    "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
-    "Cálculo/Séries Infinitas/Séries Infinitas.md",
-    "Cálculo/Séries Infinitas",
-    "Cálculo/Séries Infinitas/Estimativa Para a Soma de uma Série.md",
     "Probabilidade/Sigma-Álgebra de Borel.md",
-    "Probabilidade/Espaço de Probabilidade Produzido por Variável Aleatória.md",
+    "Métodos Numéricos/Zeros de Funções.md",
+    "Cálculo/Cálculo.canvas",
+    "Probabilidade/Variável Aleatória",
+    "Probabilidade/Variável Aleatória/Variável Aleatória.md",
+    "Controle Estatístico do Processo",
+    "Cálculo/Séries Infinitas/Séries Infinitas.md",
+    "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
+    "Probabilidade/Leis de Morgan.md",
     "Métodos Numéricos/Verificação da Existência De Zeros.md",
     "Métodos Numéricos/Métodos Numéricos.canvas",
-    "Métodos Numéricos/Zeros de Funções.md",
-    "Probabilidade/Probabilidade.canvas",
+    "Métodos Numéricos/Método da Bisseção.md",
+    "Cálculo/Séries Infinitas/Estimativa Para a Soma de uma Série.md",
+    "Cálculo/Séries Infinitas/Sequências.md",
+    "README.md",
+    "Cálculo/Séries Infinitas",
     "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Probabilidade/Variável Aleatória.md",
     "Statistics Synced Notes/Probabilidade/Sigma-Álgebra De Borel.md",
@@ -219,24 +224,14 @@
     "Synced Notes/RCM Utils/Deploy.md",
     "Synced Notes/RCM Utils/Migration.md",
     "Statistics Synced Notes/README.md",
-    "Statistics Synced Notes/Probabilidade/Sigma-Álgebra.md",
     "Statistics Synced Notes/Probabilidade",
-    "Statistics Synced Notes/Métodos Numéricos/Zeros de Funções.md",
-    "Statistics Synced Notes/Métodos Numéricos/Verificação Da Existência De Zeros.md",
     "Statistics Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
-    "Statistics Synced Notes/Métodos Numéricos/Método da Bisseção.md",
     "Statistics Synced Notes/Métodos Numéricos",
     "Statistics Synced Notes/Cálculo/Cálculo.canvas",
     "Statistics Synced Notes/Cálculo",
     "Synced Notes/Probabilidade/Probabilidade.canvas",
-    "Statistics Synced Notes",
     "Synced Notes/Cálculo/Cálculo.canvas",
     "Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
-    "Synced Notes/Métodos Numéricos",
-    "Synced Notes/Cálculo",
-    "Untitled.canvas",
-    "Excalidraw",
-    "Synced Notes/RCM Utils",
-    "Synced Notes/Probabilidade"
+    "Untitled.canvas"
   ]
 }
