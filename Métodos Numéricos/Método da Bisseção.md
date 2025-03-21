@@ -125,6 +125,30 @@ O método da bisseção depende do **Teorema de Bolzano**, que exige que a funç
 
 O método da bisseção tem convergência **linear**, ou seja, reduz o erro pela metade a cada iteração. Comparado a métodos como Newton-Raphson, que tem convergência **quadrática**, a bisseção pode ser muito mais lenta.  
 
-### Conclusão
+## Estimativa Do Número De Iterações
 
-O método da bisseção é confiável e sempre converge para uma raiz, desde que as condições iniciais sejam respeitadas. No entanto, sua precisão depende do número de iterações, e a convergência pode ser lenta em alguns casos. Para problemas que exigem rapidez, outros métodos como Newton-Raphson ou a Secante podem ser mais eficientes.
+Para estimar o número de iterações necessárias no método da bisseção para garantir que a raiz esteja dentro de um intervalo tolerável, consideramos as seguintes etapas:
+
+1. **Definição do Intervalo Inicial**: Suponha que temos um intervalo inicial $[a_0, b_0]$ onde a função $f(x)$ muda de sinal, indicando a presença de uma raiz.
+2. **Formulando a Estimativa**:
+   - A estimativa do número de iterações necessárias é dada pela fórmula:
+     \[
+     n \geq \frac{\log\left(\frac{b_0 - a_0}{\varepsilon}\right)}{\log(2)}
+     \]
+     onde $n$ é o número mínimo de iterações, e $\varepsilon$ é a tolerância desejada para o erro.
+
+3. **Exemplo**:
+   - Considere uma função $f(x) = x^3 - 2x - 5$, com intervalo inicial $[1, 2]$. Aqui, $a_0 = 1$, $b_0 = 2$ e $\varepsilon = 0.001$.
+   - Calculando:
+     \[
+     n \geq \frac{\log\left(\frac{2 - 1}{0.001}\right)}{\log(2)} = \frac{\log(1000)}{\log(2)} \approx \frac{3}{0.301} \approx 9.97
+     \]
+   - Portanto, precisamos de pelo menos $10$ iterações para garantir que a raiz esteja dentro da tolerância $\varepsilon = 0.001$.
+
+4. **Observações**:
+   - O método da bisseção é garantido a convergir se a função for contínua no intervalo e mudar de sinal.
+   - A estimativa acima é uma aproximação; na prática, pode ser necessário mais iterações para atingir a precisão desejada.
+
+5. **Implementação**:
+   - Em um algoritmo, após cada iteração, o intervalo é metade do anterior, garantindo que a raiz esteja sempre dentro de um subintervalo daquele tamanho.
+   - A condição de parada pode ser definida como $|b_n - a_n| < \varepsilon$, onde $n$ é o número atual de iterações.

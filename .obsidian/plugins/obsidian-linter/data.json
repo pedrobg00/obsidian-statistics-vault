@@ -282,7 +282,7 @@
   "logLevel": "ERROR",
   "lintCommands": [
     {
-      "id": "",
+      "id": null,
       "name": "",
       "enabled": true
     },
@@ -292,7 +292,15 @@
       "enabled": true
     }
   ],
-  "customRegexes": [],
+  "customRegexes": [
+    {
+      "label": "Replace invalid inline LaTeX",
+      "find": "\\\\\\(\\s+(.*?)\\s+\\\\\\)",
+      "replace": "$$$1$$",
+      "flags": "g",
+      "enabled": true
+    }
+  ],
   "commonStyles": {
     "aliasArrayStyle": "single-line",
     "tagArrayStyle": "single-line",

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "05bc04cdc37d9a9e",
+        "id": "65aa51a2177eb59b",
         "type": "tabs",
         "children": [
           {
-            "id": "807a00bae6624456",
+            "id": "c63fd798398cef2d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Métodos Numéricos/Método da Bisseção.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Método da Bisseção"
             }
           }
         ]
@@ -90,12 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Soma de Séries por Sequências Parciais"
             }
           },
           {
@@ -171,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,8 +191,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "807a00bae6624456",
+  "active": "c63fd798398cef2d",
   "lastOpenFiles": [
+    "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
+    "Cálculo/Séries Infinitas/Séries Infinitas.md",
+    "Cálculo/Séries Infinitas/Estimativa Para a Soma de uma Série.md",
+    "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
+    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
+    "Cálculo/Séries Infinitas/Sequências.md",
+    "Cálculo/Cálculo.canvas",
+    "Cálculo/Séries Infinitas/Untitled.md",
+    "README.md",
     "Probabilidade/Variável Aleatória/Variável Aleatória Contínua.md",
     "Probabilidade/Variável Aleatória/Variável Aleatória Discreta.md",
     "Álgebra Linear",
@@ -200,19 +214,13 @@
     "Latex Examples.md",
     "Probabilidade/Sigma-Álgebra de Borel.md",
     "Métodos Numéricos/Zeros de Funções.md",
-    "Cálculo/Cálculo.canvas",
     "Probabilidade/Variável Aleatória",
     "Probabilidade/Variável Aleatória/Variável Aleatória.md",
     "Controle Estatístico do Processo",
-    "Cálculo/Séries Infinitas/Séries Infinitas.md",
-    "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
     "Probabilidade/Leis de Morgan.md",
     "Métodos Numéricos/Verificação da Existência De Zeros.md",
     "Métodos Numéricos/Métodos Numéricos.canvas",
     "Métodos Numéricos/Método da Bisseção.md",
-    "Cálculo/Séries Infinitas/Estimativa Para a Soma de uma Série.md",
-    "Cálculo/Séries Infinitas/Sequências.md",
-    "README.md",
     "Cálculo/Séries Infinitas",
     "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Probabilidade/Variável Aleatória.md",
@@ -221,9 +229,6 @@
     "Statistics Synced Notes/Probabilidade/Leis de Morgan.md",
     "Synced Notes/Latex Examples.md",
     "Synced Notes/RCM Utils/Debugging.md",
-    "Synced Notes/RCM Utils/Deploy.md",
-    "Synced Notes/RCM Utils/Migration.md",
-    "Statistics Synced Notes/README.md",
     "Statistics Synced Notes/Probabilidade",
     "Statistics Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
     "Statistics Synced Notes/Métodos Numéricos",

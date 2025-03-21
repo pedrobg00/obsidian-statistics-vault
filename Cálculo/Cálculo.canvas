@@ -1,16 +1,20 @@
 {
 	"nodes":[
-		{"id":"eb7183589fce371c","type":"group","x":-680,"y":-20,"width":1680,"height":1300,"label":"Séries Infinitas"},
+		{"id":"eb7183589fce371c","type":"group","x":-680,"y":-20,"width":1760,"height":1740,"label":"Séries Infinitas"},
 		{"id":"2cc69d78d833b576","type":"text","text":"# Cálculo","x":-6,"y":-320,"width":175,"height":50},
 		{"id":"300d177e1bf7a912","type":"file","file":"Cálculo/Séries Infinitas/Sequências.md","x":-601,"y":20,"width":400,"height":534},
 		{"id":"aec36fcb8863e9f5","type":"file","file":"Cálculo/Séries Infinitas/Séries Infinitas.md","x":-67,"y":220,"width":400,"height":400},
 		{"id":"d0be5e4058686e16","type":"file","file":"Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md","x":-401,"y":700,"width":400,"height":385},
-		{"id":"eecd7dd1958cce57","type":"file","file":"Cálculo/Séries Infinitas/Estimativa Para a Soma de uma Série.md","x":520,"y":685,"width":400,"height":400}
+		{"id":"eecd7dd1958cce57","type":"file","file":"Cálculo/Séries Infinitas/Estimativa Para a Soma de uma Série.md","x":460,"y":287,"width":400,"height":400},
+		{"id":"ed0b606b8b0f30c7","x":148,"y":1105,"width":400,"height":400,"type":"file","file":"Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md"},
+		{"id":"9af9135e4763ba38","x":660,"y":960,"width":400,"height":400,"type":"file","file":"Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md"}
 	],
 	"edges":[
 		{"id":"7caf4c9d693b4c71","fromNode":"300d177e1bf7a912","fromSide":"right","toNode":"aec36fcb8863e9f5","toSide":"left"},
 		{"id":"4bdd5982804bcca2","fromNode":"aec36fcb8863e9f5","fromSide":"bottom","toNode":"d0be5e4058686e16","toSide":"right"},
 		{"id":"d4ba39fb3811763d","fromNode":"2cc69d78d833b576","fromSide":"bottom","toNode":"eb7183589fce371c","toSide":"top"},
-		{"id":"f8ede8915dfe3dd3","fromNode":"aec36fcb8863e9f5","fromSide":"right","toNode":"eecd7dd1958cce57","toSide":"left"}
+		{"id":"f8ede8915dfe3dd3","fromNode":"aec36fcb8863e9f5","fromSide":"right","toNode":"eecd7dd1958cce57","toSide":"left"},
+		{"id":"a2a0c9d77325d4bf","fromNode":"eecd7dd1958cce57","fromSide":"bottom","toNode":"9af9135e4763ba38","toSide":"top"},
+		{"id":"fe0138d9c703866d","fromNode":"eecd7dd1958cce57","fromSide":"bottom","toNode":"ed0b606b8b0f30c7","toSide":"top"}
 	]
 }

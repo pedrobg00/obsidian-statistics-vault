@@ -53,11 +53,16 @@ $$
  \frac{2}{1-\frac{1}{2}} = \frac{2}{\frac{1}{2}} = 4 
 $$
 
-### Casos Especiais
+#### Casos Especiais
 
 - **r = 1:** A série diverge para +∞ (se a > 0)
 - **r = -1:** A série oscila e diverge
 - **r = 0:** A série tem apenas um termo (a) e converge trivialmente
+
+#### Tipos De Testes Para Convergência
+
+- [[Testes de Comparação para Convergência de Soma de Séries]]
+- [[Critério da Integral para Convergência de Séries]]
 
 ## Soma De Séries Por Sequências Parciais
 
