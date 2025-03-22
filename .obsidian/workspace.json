@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "65aa51a2177eb59b",
+        "id": "c8a1f60631df7e83",
         "type": "tabs",
         "children": [
           {
-            "id": "c63fd798398cef2d",
+            "id": "67a60fbccbbf219e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Métodos Numéricos/Método da Bisseção.md",
+                "file": "Controle Estatístico do Processo/Ferramentas de Qualidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Método da Bisseção"
+              "title": "Ferramentas de Qualidade"
             }
           }
         ]
@@ -187,19 +187,29 @@
       "templates:Insert template": false,
       "canvas:Create new canvas": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c63fd798398cef2d",
+  "active": "242b1795385ff8c3",
   "lastOpenFiles": [
+    "Controle Estatístico do Processo/Fluxograma do Processo - Discos Gheno.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas de Qualidade.md",
+    "Cálculo/Limites/Limites.md",
+    "Limites.pdf",
+    "Latex Examples.md",
+    "Probabilidade/Probabilidade.canvas",
+    "Métodos Numéricos/Métodos Numéricos.canvas",
+    "Métodos Numéricos/Verificação da Existência De Zeros.md",
+    "Métodos Numéricos/Zeros de Funções.md",
+    "Métodos Numéricos/Método da Bisseção.md",
+    "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
+    "Cálculo/Cálculo.canvas",
+    "Cálculo/Séries Infinitas/Sequências.md",
+    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
     "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
     "Cálculo/Séries Infinitas/Séries Infinitas.md",
     "Cálculo/Séries Infinitas/Estimativa Para a Soma de uma Série.md",
-    "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
-    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
-    "Cálculo/Séries Infinitas/Sequências.md",
-    "Cálculo/Cálculo.canvas",
     "Cálculo/Séries Infinitas/Untitled.md",
     "README.md",
     "Probabilidade/Variável Aleatória/Variável Aleatória Contínua.md",
@@ -209,31 +219,22 @@
     "Cálculo/Derivadas",
     "Cálculo/Limites",
     "Probabilidade/Sigma-Álgebra.md",
-    "Probabilidade/Probabilidade.canvas",
     "Probabilidade/Variável Aleatória/Espaço de Probabilidade Produzido por Variável Aleatória.md",
-    "Latex Examples.md",
     "Probabilidade/Sigma-Álgebra de Borel.md",
-    "Métodos Numéricos/Zeros de Funções.md",
     "Probabilidade/Variável Aleatória",
     "Probabilidade/Variável Aleatória/Variável Aleatória.md",
     "Controle Estatístico do Processo",
     "Probabilidade/Leis de Morgan.md",
-    "Métodos Numéricos/Verificação da Existência De Zeros.md",
-    "Métodos Numéricos/Métodos Numéricos.canvas",
-    "Métodos Numéricos/Método da Bisseção.md",
     "Cálculo/Séries Infinitas",
     "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Probabilidade/Variável Aleatória.md",
     "Statistics Synced Notes/Probabilidade/Sigma-Álgebra De Borel.md",
     "Statistics Synced Notes/Probabilidade/Espaço De Probabilidade Produzido Por Variável Aleatória.md",
     "Statistics Synced Notes/Probabilidade/Leis de Morgan.md",
-    "Synced Notes/Latex Examples.md",
-    "Synced Notes/RCM Utils/Debugging.md",
     "Statistics Synced Notes/Probabilidade",
     "Statistics Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
     "Statistics Synced Notes/Métodos Numéricos",
     "Statistics Synced Notes/Cálculo/Cálculo.canvas",
-    "Statistics Synced Notes/Cálculo",
     "Synced Notes/Probabilidade/Probabilidade.canvas",
     "Synced Notes/Cálculo/Cálculo.canvas",
     "Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
