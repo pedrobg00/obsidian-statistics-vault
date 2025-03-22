@@ -1,0 +1,216 @@
+{
+  "isPlusUser": false,
+  "plusLicenseKey": "",
+  "openAIApiKey": "",
+  "openAIOrgId": "",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "azureOpenAIApiKey": "",
+  "azureOpenAIApiInstanceName": "",
+  "azureOpenAIApiDeploymentName": "",
+  "azureOpenAIApiVersion": "",
+  "azureOpenAIApiEmbeddingDeploymentName": "",
+  "googleApiKey": "",
+  "openRouterAiApiKey": "",
+  "defaultChainType": "llm_chain",
+  "defaultModelKey": "qwen2.5:7B|ollama",
+  "embeddingModelKey": "qwen2.5:1.5B|ollama",
+  "temperature": 0,
+  "maxTokens": 2500,
+  "contextTurns": 30,
+  "userSystemPrompt": "You are a model that speaks Brazilian Portuguese AND English. You will be used to write my notes on mathematics, statistics, and data science. Please use correct formatting and explain topics concisely and clearly. You must always provide ACCURATE information, with no doubts about its veracity. Do your best.  \nAlways provide responses in Markdown format. Provide the answer without any introduction or closing statement - just the pure response.  \nAll mathematical notation (MathJax) should be formatted for **Markdown** using the `$...$` format for INLINE math and `$$...$$` for BLOCK math. DO NOT USE code blocks (triple backticks),`\\[ ... \\]` or `\\) ... \\)`.\nAlways write in the LANGUAGE OF THE TEXT; only translate if specifically asked to do so.",
+  "openAIProxyBaseUrl": "",
+  "openAIEmbeddingProxyBaseUrl": "",
+  "stream": true,
+  "defaultSaveFolder": "copilot-conversations",
+  "defaultConversationTag": "copilot-conversation",
+  "autosaveChat": false,
+  "defaultOpenArea": "view",
+  "customPromptsFolder": "copilot-custom-prompts",
+  "indexVaultToVectorStore": "ON MODE SWITCH",
+  "qaExclusions": "*.excalidraw,*.canvas",
+  "qaInclusions": "",
+  "chatNoteContextPath": "",
+  "chatNoteContextTags": [],
+  "enableIndexSync": true,
+  "debug": false,
+  "enableEncryption": true,
+  "maxSourceChunks": 3,
+  "groqApiKey": "",
+  "mistralApiKey": "",
+  "activeModels": [
+    {
+      "name": "copilot-plus-flash",
+      "provider": "copilot-plus",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-4o",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-4o-mini",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "claude-3-5-sonnet-latest",
+      "provider": "anthropic",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-r1:latest",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [
+        "reasoning"
+      ],
+      "stream": true,
+      "displayName": "deepseek 7B local",
+      "enableCors": true
+    },
+    {
+      "name": "qwen2.5:7B",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "displayName": "qwen 7B local",
+      "enableCors": true
+    }
+  ],
+  "activeEmbeddingModels": [
+    {
+      "name": "copilot-plus-small",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true
+    },
+    {
+      "name": "copilot-plus-large",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "believerExclusive": true,
+      "dimensions": 1024
+    },
+    {
+      "name": "copilot-plus-multilingual",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "dimensions": 512
+    },
+    {
+      "name": "text-embedding-3-small",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true
+    },
+    {
+      "name": "qwen2.5:1.5B",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "qwen 1.5B local",
+      "enableCors": true
+    }
+  ],
+  "embeddingRequestsPerMin": 90,
+  "embeddingBatchSize": 16,
+  "disableIndexOnMobile": true,
+  "showSuggestedPrompts": true,
+  "showRelevantNotes": true,
+  "numPartitions": 1,
+  "promptUsageTimestamps": {},
+  "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
+  "inlineEditCommands": [
+    {
+      "name": "Fix grammar and spelling",
+      "prompt": "<instruction>Fix the grammar and spelling of the text below. Preserve all formatting, line breaks, and special characters. Do not add or remove any content.  \nReturn only the corrected text.</instruction>  \n\n<text>{copilot-selection}</text> ",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Summarize",
+      "prompt": "<instruction>Create a bullet-point summary of the text below. Each bullet point should capture a key point. Return only the bullet-point summary.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Make shorter",
+      "prompt": "<instruction>Reduce the text below to half its length while preserving these elements:\n    1. Main ideas and key points\n    2. Essential details\n    3. Original tone and style\n    Return only the shortened text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Generate table of contents",
+      "prompt": "<instruction>Generate a hierarchical table of contents for the text below. Use appropriate heading levels (H1, H2, H3, etc.). Include page numbers if present. Return only the table of contents.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Generate glossary",
+      "prompt": "<instruction>Create a glossary of important terms, concepts, and phrases from the text below. Format each entry as \"Term: Definition\". Sort entries alphabetically. Return only the glossary.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Explain",
+      "prompt": "<instruction>Explain the text below by:  \n1. Adding relevant details and examples for clarity.  \n2. Elaborating on key points to enhance understanding.  \n3. Formatting the explanation properly while maintaining logical structure. \nReturn ONLY the explanation WITHOUT any introduction or conclusion. Keep the response strictly relevant to the subject.</instruction>  \n\n<text>{copilot-selection}</text>  ",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Expand topic",
+      "prompt": "<instruction>Expand the topic below by: \n1. Adding relevant details and examples to enhance clarity.\n2. Elaborating on key points while maintaining conciseness.\n3. Formatting the content properly while preserving logical structure and indentation.\nIMPORTANT:\nMathematical expressions must always use MathJax notation for Markdown (`$...$` for inline and `$$...$$` for math block expressions). DO NOT use `\\[ ... \\]` neither `\\( ... \\)`. Use ONLY `$...$` for inline expressions and ONLY `$$...$$` for block expressions.\nReturn ONLY the expanded content WITHOUT any introduction or conclusion. Stay strictly on topic - DO NOT add unnecessary or unrelated information. Keep the response concise and focused.</instruction>  \n\n<text>{copilot-selection}</text> ",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Fix mathematical notation",
+      "prompt": "<instruction>Reformat all mathematical expressions using **ONLY** MathJax format.\n- MANDATORY: Use `$ ... $` for inline expressions and `$$ ... $$` for block expressions.\n- DO NOT wrap the output in Markdown code blocks (no triple backticks).\n- Modify ONLY mathematical expressions. Do not change any non-mathematical content.\n- PRESERVE all original text structure, formatting, line breaks, and indentation.\n- STRICTLY ENFORCE MathJax syntax for correct rendering in Markdown. Return only the corrected text, without any additional formatting.\n- DO NOT use `\\[ ... \\]` neither `\\( ... \\)`. Use ONLY `$...$` for inline expressions and ONLY `$$...$$` for block expressions.\n</instruction>\n\n<text>{copilot-selection}</text>  ",
+      "showInContextMenu": true,
+      "modelKey": ""
+    }
+  ]
+}
