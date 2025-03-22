@@ -40,6 +40,6 @@ As sigma álgebras fornecem a estrutura necessária para definir medidas e integ
 
 A compreensão das sigma álgebras é crucial para muitos campos da matemática avançada, especialmente na teoria da medida e probabilidade. Elas fornecem uma estrutura rigorosa que permite o estudo de conjuntos complexos e a definição de operações sobre eles.
 
-## Sigma-Álgebra De Borel
+## Sigma-álgebra De Borel
 
 [[Sigma-Álgebra de Borel]]

@@ -9,9 +9,7 @@ Uma variável aleatória é uma função que associa um valor numérico a cada r
 ### Exemplos
 
 1. **Tirar um Dado**: Considere o espaço amostral $\Omega = \{1, 2, 3, 4, 5, 6\}$, onde cada número representa a face de um dado que pode aparecer ao lançá-lo. Se $X$ for a variável aleatória que representa o valor do resultado, então $X(\omega) = \omega$, para $\omega \in \Omega$. Por exemplo, se $\omega = 3$, então $X(3) = 3$.
-
 2. **Tempo de Chegada**: Considere um sistema onde os clientes chegam a uma loja com tempos variáveis. Se $T$ for a variável aleatória que representa o tempo de chegada do próximo cliente, então $T(\omega)$ pode assumir qualquer valor numérico positivo dependendo da situação.
-
 3. **Temperatura**: Suponha que estamos interessados na temperatura diária em um determinado local. Se $Y$ for a variável aleatória que representa a temperatura no dia $\omega$, então $Y(\omega)$ pode assumir qualquer valor numérico dentro de uma faixa específica, dependendo das condições climáticas.
 
 ### Tipos De Variáveis Aleatórias

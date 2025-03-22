@@ -8,7 +8,7 @@
 
      $$  
 
-2. **Exemplo de Probabilidade:**  
+1. **Exemplo de Probabilidade:**  
 
    - Calculando a probabilidade de um evento:  
 
@@ -18,7 +18,7 @@
 
      $$  
 
-3. **Exemplo de Integração:**  
+1. **Exemplo de Integração:**  
 
    - Avaliando uma integral definida:  
 
@@ -28,7 +28,7 @@
 
      $$  
 
-4. **Exemplo de Série:**  
+1. **Exemplo de Série:**  
 
    - Somando uma série infinita:  
 
@@ -38,7 +38,7 @@
 
      $$  
 
-5. **Exemplo de Matrizes:**  
+1. **Exemplo de Matrizes:**  
 
    - Multiplicação de duas matrizes:  
 
@@ -72,7 +72,7 @@
 
      $$  
 
-6. **Exemplo de Equação Diferencial:**  
+1. **Exemplo de Equação Diferencial:**  
 
    - Resolvendo uma equação diferencial:  
 
@@ -82,7 +82,7 @@
 
      $$  
 
-7. **Exemplo de Teoria dos Conjuntos:**  
+1. **Exemplo de Teoria dos Conjuntos:**  
 
    - União e interseção de conjuntos:  
 
@@ -92,7 +92,7 @@
 
      $$  
 
-8. **Exemplo de Estatística:**  
+1. **Exemplo de Estatística:**  
 
    - Calculando a média de um conjunto de dados:  
 
@@ -102,7 +102,7 @@
 
      $$  
 
-9. **Exemplo de Cálculo Vetorial:**  
+1. **Exemplo de Cálculo Vetorial:**  
 
    - Gradiente de uma função:  
 
@@ -112,7 +112,7 @@
 
      $$  
 
-10. **Exemplo de Números Complexos:**  
+1. **Exemplo de Números Complexos:**  
 
     - Multiplicação de números complexos:  
 

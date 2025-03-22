@@ -2,25 +2,28 @@ Para entender o critério da integral para a convergência de séries, é import
 
 ## Definição Do Critério Da Integral
 
-Considere uma função $ f(x) $ contínua, não-negativa e decrescente para $ x \geq 1 $. A série $\sum_{n=1}^{\infty} f(n)$ converge se e somente se a integral $\int_{1}^{\infty} f(x) \, dx$ convergir.
+Considere uma função $f(x)$ contínua, não-negativa e decrescente para $x \geq 1$. A série $\sum_{n=1}^{\infty} f(n)$ converge se e somente se a integral $\int_{1}^{\infty} f(x) \, dx$ convergir.
 
 ## Exemplos
 
 ### Exemplo 1: Série De P
 
-Considere a série geométrica generalizada $\sum_{n=1}^{\infty} \frac{1}{n^p}$, onde $ p > 0 $. Aqui, $f(x) = \frac{1}{x^p}$.
+Considere a série geométrica generalizada $\sum_{n=1}^{\infty} \frac{1}{n^p}$, onde $p > 0$. Aqui, $f(x) = \frac{1}{x^p}$.
 
 - **Integral**:
-  $$
+
+ $$
   \int_{1}^{\infty} \frac{1}{x^p} \, dx
-  
 $$
+
 - Para $p > 1$, a integral converge:
+
 $$
 
   \int_{1}^{\infty} x^{-p} \, dx = \left[ -\frac{1}{(p-1)x^{p-1}} \right]_1^\infty = \frac{1}{p-1}
 
 $$
+
 - Para $p \leq 1$, a integral diverge.
 
 #### Exemplo 2: Série De Termos Positivos
@@ -28,7 +31,7 @@ $$
 Considere a série $\sum_{n=1}^{\infty} \frac{1}{\sqrt{n}}$.
 
 - **Integral**:
-  
+
 $$
 
   \int_{1}^{\infty} \frac{1}{\sqrt{x}} \, dx = \left[ 2\sqrt{x} \right]_1^\infty

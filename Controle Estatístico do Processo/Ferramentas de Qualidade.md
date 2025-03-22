@@ -27,7 +27,7 @@ O **Controle Estatístico de Processos** (CEP) é um conjunto de técnicas e mé
    - **Uso**: Para identificar as causas potenciais de problemas em um processo.
    - **Exemplo**: Identificando os fatores que podem afetar a qualidade da produção, como máquinas, materiais, métodos, meio ambiente e pessoas.
 
-### Importância Do CEP
+### Importância Do Cep
 
 - **Redução de Custos**: Ao prevenir defeitos, o CEP ajuda a reduzir custos associados à rejeição ou reparo de produtos.
 - **Melhoria da Qualidade**: Permite uma produção mais consistente e de alta qualidade.

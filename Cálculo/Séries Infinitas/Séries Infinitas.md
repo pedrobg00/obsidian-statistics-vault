@@ -36,9 +36,11 @@ Onde 'a' é o primeiro termo e 'r' é a razão da série. A convergência de uma
 Uma série geométrica pode convergir ou divergir dependendo do valor da razão r:
 
 - **Quando |r| < 1:** A série converge para a soma:
+
 $$
  \sum_{n=0}^{\infty} ar^n = \frac{a}{1-r} 
 $$
+
 - **Quando |r| ≥ 1:** A série diverge (não tem soma definida)
 
 Exemplo: Para a série geométrica com a = 2 e r = 1/2:

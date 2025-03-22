@@ -137,7 +137,7 @@
       "no-bare-uris": false
     },
     "ordered-list-style": {
-      "enabled": false,
+      "enabled": true,
       "number-style": "ascending",
       "list-end-style": "."
     },
@@ -210,7 +210,7 @@
       "enabled": true
     },
     "move-math-block-indicators-to-their-own-line": {
-      "enabled": true
+      "enabled": false
     },
     "paragraph-blank-lines": {
       "enabled": true
@@ -280,18 +280,7 @@
   "filesToIgnore": [],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
-  "lintCommands": [
-    {
-      "id": null,
-      "name": "",
-      "enabled": true
-    },
-    {
-      "id": null,
-      "name": "",
-      "enabled": true
-    }
-  ],
+  "lintCommands": [],
   "customRegexes": [
     {
       "label": "Replace invalid inline LaTeX",
@@ -305,7 +294,7 @@
       "find": "(?:\\\\t)?\\\\\\[([\\s\\S]*?)(?:\\\\t)?\\\\\\]",
       "replace": "$$$$1$$$$",
       "flags": "gm",
-      "enabled": true
+      "enabled": false
     }
   ],
   "commonStyles": {

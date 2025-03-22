@@ -41,11 +41,8 @@ Se a função $f(x)$ é diferenciável, sua derivada $f’(x)$ pode ser usada pa
 Podemos usar técnicas como o **método da bisseção**, que combina o Teorema de Bolzano com um processo iterativo para refinar um intervalo onde a raiz está localizada. Esse método consiste em:
 
 1. Escolher um intervalo inicial $[a, b]$ onde $f(a) \cdot f(b) < 0$.
-
 2. Calcular o ponto médio $c = \frac{a + b}{2}$.
-
 3. Verificar o sinal de $f(c)$ e reduzir o intervalo de busca mantendo um subintervalo onde $f(x)$ muda de sinal.
-
 4. Repetir o processo até alcançar uma precisão desejada.
 
 #### Exemplo
@@ -60,7 +57,7 @@ $$
 
 Como $f(0) \cdot f(2) < 0$, existe pelo menos uma raiz em $(0,2)$.
 
-2. **Uso da Derivada para Análise Adicional**:
+1. **Uso da Derivada para Análise Adicional**:
 
 Derivamos $f(x)$:
 
@@ -78,6 +75,6 @@ Como $x = 1.15$ está dentro de $(0,2)$, podemos verificar que a função tem um
 
 Essas técnicas refinam nossa análise do Teorema de Bolzano, garantindo a existência da raiz e fornecendo ferramentas para localizá-la de forma mais precisa.
 
-3. **Uso de Zeros de Funções para Cálculo de Erro em Redes Neurais**
+1. **Uso de Zeros de Funções para Cálculo de Erro em Redes Neurais**
 
 Em redes neurais, encontrar os zeros de uma função é essencial para minimizar o erro do modelo. Durante o treinamento, buscamos os pontos onde a derivada da função de erro é zero, indicando um possível mínimo. Métodos numéricos, como a descida do gradiente, são usados para ajustar os pesos da rede e reduzir esse erro progressivamente, tornando as previsões mais precisas.

@@ -7,9 +7,7 @@ As sequências são estruturas fundamentais na matemática e desempenham um pape
 Existem vários tipos de sequências com propriedades e comportamentos distintos:
 
 - **Sequências Aritméticas**: Essas sequências têm uma diferença constante entre seus termos consecutivos. Por exemplo, a sequência $1, 3, 5, 7, \ldots$ é aritmética, com uma razão de 2.
-
 - **Sequências Geométricas**: Aqui, cada termo é obtido multiplicando o termo anterior por um número constante chamado razão. Por exemplo, a sequência $2, 6, 18, 54, \ldots$ é geométrica, com uma razão de 3.
-
 - **Sequências Recursivas**: Essas sequências são definidas em termos dos próprios termos anteriores. Por exemplo, a sequência de Fibonacci $0, 1, 1, 2, 3, 5, \ldots$ é definida por $F_n = F_{n-1} + F_{n-2}$ para $n > 1$, com $F_0 = 0$ e $F_1 = 1$.
 
 ### Aplicações Das Sequências
@@ -17,15 +15,12 @@ Existem vários tipos de sequências com propriedades e comportamentos distintos
 Sequências têm inúmeras aplicações no cálculo e em outras áreas da matemática:
 
 - **Séries Infinitas**: As séries infinitas são somas de termos de uma sequência. Por exemplo, a série geométrica $\sum_{n=0}^{\infty} x^n$ converge para $\frac{1}{1-x}$ quando $|x| < 1$.
-
 - **Convergência e Divergência**: Determinar se uma sequência converge ou diverge é crucial. Uma sequência convergente tem um limite finito, enquanto uma divergente não tem esse limite.
 
 ### Exemplos De Sequências
 
 - **Sequência Aritmética**: $a_n = 2n - 1$ (exemplo: 1, 3, 5, 7, …)
-
 - **Sequência Geométrica**: $b_n = 3^n$ (exemplo: 3, 9, 27, 81, …)
-
 - **Sequência Recursiva**: $c_n = c_{n-1} + n$, com $c_0 = 0$ (exemplo: 0, 1, 3, 6, 10, …)
 
 Estas sequências ilustram a diversidade e importância das sequências no cálculo.

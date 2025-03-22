@@ -10,13 +10,13 @@ $$
  c = \frac{a + b}{2}
 $$
 
-2. **Verificar a raiz**:  
+1. **Verificar a raiz**:  
 
    - Se $f(c) = 0$, então $c$ é a raiz da equação.  
    - Se $f(a) \cdot f(c) < 0$, então a raiz está no intervalo $[a, c]$, e atualizamos $b = c$.  
    - Caso contrário, a raiz está no intervalo $[c, b]$, e atualizamos $a = c$.  
 
-2. **Repetir o processo** até que a diferença entre $a$ e $b$ seja menor que um critério de tolerância $\varepsilon$.  
+1. **Repetir o processo** até que a diferença entre $a$ e $b$ seja menor que um critério de tolerância $\varepsilon$.  
 
 O método converge de forma garantida, pois a cada iteração o intervalo que contém a raiz é reduzido pela metade.  
 
@@ -71,7 +71,7 @@ print(f"Raiz aproximada: {raiz:.6f}")
 
 ```
 
-## Erros No Método Da Bisseção
+## Erros no Método Da Bisseção
 
 O método da bisseção, apesar de ser um método robusto e garantido para encontrar raízes de funções contínuas, apresenta algumas limitações e fontes de erro que devem ser consideradas.  
 
