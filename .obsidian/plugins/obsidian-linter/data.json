@@ -122,7 +122,7 @@
       "style": "space"
     },
     "convert-bullet-list-markers": {
-      "enabled": false
+      "enabled": true
     },
     "default-language-for-code-fences": {
       "enabled": false,
@@ -172,7 +172,7 @@
       "line-break-indicator": "  "
     },
     "unordered-list-style": {
-      "enabled": false,
+      "enabled": true,
       "list-style": "consistent"
     },
     "compact-yaml": {
@@ -277,10 +277,27 @@
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [],
-  "filesToIgnore": [],
+  "filesToIgnore": [
+    {
+      "label": "Canvas",
+      "match": "\\.canvas$",
+      "flags": "i"
+    },
+    {
+      "label": "Excalidraw",
+      "match": "\\.excalidraw.md$",
+      "flags": "i"
+    }
+  ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
-  "lintCommands": [],
+  "lintCommands": [
+    {
+      "id": "copilot:apply-custom-prompt",
+      "name": "Copilot: Apply custom prompt",
+      "enabled": true
+    }
+  ],
   "customRegexes": [
     {
       "label": "Replace invalid inline LaTeX",

@@ -1,13 +1,5 @@
 {
   "editor:insert-link": [],
-  "obsidian-minimal-settings:toggle-minimal-focus-mode": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "K"
-    }
-  ],
   "obsidian-linter:lint-file": [
     {
       "modifiers": [
@@ -33,6 +25,34 @@
         "Shift"
       ],
       "key": "I"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "obsidian-minimal-settings:toggle-minimal-focus-mode": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"25bfbc8991157ed5","x":-127,"y":-151,"width":400,"height":400,"type":"file","file":"Controle Estatístico do Processo/Apostila - Professor Fernando.pdf"},
+		{"id":"fcdc450b0649159b","x":-332,"y":39,"width":400,"height":400,"type":"file","file":"Controle Estatístico do Processo/Ferramentas de Qualidade.md"},
+		{"id":"f54cdc620927cb95","x":-434,"y":-128,"width":250,"height":60,"color":"1","type":"text","text":"# Controle Estatístico do Processo"}
+	],
+	"edges":[]
+}

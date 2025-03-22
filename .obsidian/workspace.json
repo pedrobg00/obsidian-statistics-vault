@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e21922d5fbed519b",
+        "id": "e0534dadd2883a89",
         "type": "tabs",
         "children": [
           {
-            "id": "a5455a19080e8794",
+            "id": "120910e9903ffcba",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "excalidraw",
               "state": {
-                "aFile": ".obsidian/plugins/copilot/data.json",
-                "bFile": ".obsidian/plugins/copilot/data.json",
-                "aRef": ""
+                "file": "Controle Estatístico do Processo/Fluxograma do Processo - Discos Gheno.md"
               },
-              "icon": "diff",
-              "title": "Diff: data.json"
+              "icon": "excalidraw-icon",
+              "title": "Fluxograma do Processo - Discos Gheno"
             }
           }
         ]
@@ -53,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".obsidian/plugins/copilot/data.json",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +72,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 338.5
   },
   "right": {
     "id": "aebed1efef8e762b",
@@ -95,12 +92,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Controle Estatístico do Processo/Fluxograma do Processo - Discos Gheno.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Fluxograma do Processo - Discos Gheno"
             }
           },
           {
@@ -176,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 431.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,53 +189,53 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "f484ef16a1b33e94",
+  "active": "242b1795385ff8c3",
   "lastOpenFiles": [
-    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
     "Cálculo/Integrais/Integrais.md",
     "Cálculo/Derivadas/Derivadas.md",
+    "Copilot Custom Prompts/Generate Index.md",
+    "Copilot Custom Prompts",
+    "copilot-custom-prompts/Generate Index.md",
+    "Limites.pdf",
+    "Probabilidade/Probabilidade.canvas",
+    "Cálculo/Cálculo.canvas",
+    "Métodos Numéricos/Métodos Numéricos.canvas",
+    "Métodos Numéricos/Verificação Da Existência De Zeros.md",
+    "Controle Estatístico do Processo/Ferramentas de Qualidade.md",
+    "Controle Estatístico do Processo/Controle Estatístico do Processo.canvas",
+    "Controle Estatístico do Processo/Apostila - Professor Fernando.pdf",
+    "Introdução Ao Controle Estatístico De Processos (CEP).md",
+    "Controle Estatístico do Processo/Fluxograma do Processo - Discos Gheno.md",
+    "Apostila CEQ - Professor Fernando - 4a edicao 2021.pdf",
+    "Controle Estatístico do Processo/Fluxograma do Processo - Discos Gheno.excalidraw.md",
+    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
     "Cálculo/Séries Infinitas/Séries Infinitas.md",
     "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
-    "Cálculo/Cálculo.canvas",
     "copilot-custom-prompts/Integrais.md",
     "Cálculo/Limites/Limites.md",
     "copilot-custom-prompts",
     "Cálculo/Séries Infinitas/Sequências.md",
     "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
-    "Métodos Numéricos/Verificação Da Existência De Zeros.md",
     "Métodos Numéricos/Método da Bisseção.md",
     "Probabilidade/Variável Aleatória/Variável Aleatória Discreta.md",
     "Probabilidade/Variável Aleatória/Variável Aleatória Contínua.md",
     "Probabilidade/Variável Aleatória/Variável Aleatória.md",
-    "Probabilidade/Probabilidade.canvas",
     "Probabilidade/Leis de Morgan.md",
     "Probabilidade/Sigma-Álgebra de Borel.md",
     "Probabilidade/Sigma-Álgebra.md",
     "Cálculo/Séries Infinitas/Estimativa Para a Soma de uma Série.md",
-    "Controle Estatístico do Processo/Ferramentas de Qualidade.md",
     "Probabilidade/Variável Aleatória/Espaço de Probabilidade Produzido por Variável Aleatória.md",
-    "Controle Estatístico do Processo/Fluxograma do Processo - Discos Gheno.excalidraw.md",
-    "Limites.pdf",
     "Latex Examples.md",
-    "Métodos Numéricos/Métodos Numéricos.canvas",
-    "Métodos Numéricos/Verificação da Existência De Zeros.md",
-    "Métodos Numéricos/Zeros de Funções.md",
-    "Cálculo/Séries Infinitas/Untitled.md",
-    "README.md",
     "Álgebra Linear",
     "Cálculo/Integrais",
     "Cálculo/Derivadas",
     "Cálculo/Limites",
     "Probabilidade/Variável Aleatória",
-    "Controle Estatístico do Processo",
-    "Cálculo/Séries Infinitas",
     "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
-    "Statistics Synced Notes/Probabilidade",
     "Statistics Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
     "Statistics Synced Notes/Cálculo/Cálculo.canvas",
     "Synced Notes/Probabilidade/Probabilidade.canvas",
     "Synced Notes/Cálculo/Cálculo.canvas",
-    "Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
-    "Untitled.canvas"
+    "Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas"
   ]
 }
