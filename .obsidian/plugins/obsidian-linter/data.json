@@ -291,13 +291,7 @@
   ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
-  "lintCommands": [
-    {
-      "id": "copilot:apply-custom-prompt",
-      "name": "Copilot: Apply custom prompt",
-      "enabled": true
-    }
-  ],
+  "lintCommands": [],
   "customRegexes": [
     {
       "label": "Replace invalid inline LaTeX",

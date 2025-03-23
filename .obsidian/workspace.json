@@ -11,6 +11,92 @@
             "id": "74fef00675e087f6",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Disco em Roda Traseira.webp"
+              },
+              "icon": "lucide-image",
+              "title": "Disco em Roda Traseira"
+            }
+          },
+          {
+            "id": "303eae09e210ef21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ferramentas da Qualidade - Discos Gheno"
+            }
+          },
+          {
+            "id": "270dab8e637e9f0b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Fluxograma do Processo.excalidraw"
+            }
+          },
+          {
+            "id": "b7ee8dc9676e0a68",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Fluxograma do Processo.excalidraw"
+            }
+          },
+          {
+            "id": "356492b881815d0c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Fluxograma do Processo.excalidraw"
+            }
+          },
+          {
+            "id": "aa73e8503c1d1a25",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Fluxograma do Processo.excalidraw"
+            }
+          },
+          {
+            "id": "663d6832cb527e09",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Fluxograma do Processo.excalidraw"
+            }
+          },
+          {
+            "id": "8459c3cae322b1a4",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
@@ -21,7 +107,8 @@
               "title": "Ferramentas da Qualidade - Discos Gheno"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,6 +239,16 @@
             }
           },
           {
+            "id": "5ba83d0d3f1fc599",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
             "id": "242b1795385ff8c3",
             "type": "leaf",
             "state": {
@@ -172,7 +269,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -189,21 +286,33 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Chat": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e02bdf9d12782ca4",
+  "active": "303eae09e210ef21",
   "lastOpenFiles": [
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Fluxograma do Processo.excalidraw.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Diagrama de Causa e Efeito.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 2 - Compra do Material.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 1 - Projeto.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Diagrama de Causa e Efeito.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 6 - Marketing, Vendas e Pós-venda.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-23 00.02.07.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 5 - Produção.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 4 - Teste do Protótipo.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 3 - Prototipação.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawing 2025-03-22 23.52.03.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Untitled.canvas",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Disco em Roda Traseira.webp",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Catálogo GHENOrtrs.webp",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawing 2025-03-22 23.29.51.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Diagrama de Causa e Efeito.canvas",
     "Controle Estatístico do Processo/Apostila - Professor Fernando.pdf",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Desenho Disco .DXF.png",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images",
     "EliteII.DXF",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Catálogo GHENOrtrs.webp",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Disco em Roda Traseira.webp",
     "Latex Examples.md",
     "README.md",
     "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg",
@@ -230,25 +339,13 @@
     "Cálculo/Derivadas/Derivadas.md",
     "Copilot Custom Prompts/Generate Index.md",
     "Copilot Custom Prompts",
-    "copilot-custom-prompts/Generate Index.md",
     "Limites.pdf",
     "Probabilidade/Probabilidade.canvas",
     "Cálculo/Cálculo.canvas",
     "Métodos Numéricos/Métodos Numéricos.canvas",
-    "Métodos Numéricos/Verificação Da Existência De Zeros.md",
-    "Introdução Ao Controle Estatístico De Processos (CEP).md",
-    "Apostila CEQ - Professor Fernando - 4a edicao 2021.pdf",
-    "Controle Estatístico do Processo/Fluxograma do Processo - Discos Gheno.excalidraw.md",
-    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
-    "Cálculo/Séries Infinitas/Séries Infinitas.md",
-    "Cálculo/Séries Infinitas/Soma de Séries por Sequências Parciais.md",
-    "copilot-custom-prompts/Integrais.md",
-    "Cálculo/Limites/Limites.md",
-    "Cálculo/Séries Infinitas/Sequências.md",
     "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
     "Statistics Synced Notes/Cálculo/Cálculo.canvas",
-    "Synced Notes/Probabilidade/Probabilidade.canvas",
-    "Synced Notes/Cálculo/Cálculo.canvas"
+    "Synced Notes/Probabilidade/Probabilidade.canvas"
   ]
 }

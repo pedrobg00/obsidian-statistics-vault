@@ -12,5 +12,8 @@
   "obsidian-kanban",
   "image-converter",
   "obsidian-image-layouts",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "table-editor-obsidian",
+  "automatic-table-of-contents",
+  "better-export-pdf"
 ]
