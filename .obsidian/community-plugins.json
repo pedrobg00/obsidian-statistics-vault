@@ -7,5 +7,10 @@
   "obsidian-minimal-settings",
   "colored-text",
   "obsidian-linter",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-icon-folder",
+  "obsidian-kanban",
+  "image-converter",
+  "obsidian-image-layouts",
+  "obsidian-image-auto-upload-plugin"
 ]

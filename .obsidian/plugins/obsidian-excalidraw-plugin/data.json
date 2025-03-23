@@ -110,7 +110,90 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
-  "scriptEngineSettings": {},
+  "scriptEngineSettings": {
+    "Downloaded/Connect elements": {
+      "Starting arrowhead": {
+        "value": "none",
+        "valueset": [
+          "none",
+          "arrow",
+          "triangle",
+          "bar",
+          "dot"
+        ]
+      },
+      "Ending arrowhead": {
+        "value": "triangle",
+        "valueset": [
+          "none",
+          "arrow",
+          "triangle",
+          "bar",
+          "dot"
+        ]
+      },
+      "Line points": {
+        "value": 1,
+        "description": "Number of line points between start and end"
+      }
+    },
+    "Downloaded/Mindmap format": {
+      "MindMap Format": {
+        "value": "Excalidraw/MindMap Format",
+        "description": "This is prepared for the namespace of MindMap Format and does not need to be modified"
+      },
+      "default gap": {
+        "value": 10,
+        "description": "Interval size of element"
+      },
+      "curve length": {
+        "value": 40,
+        "description": "The length of the curve part in the mind map line"
+      },
+      "length between element and line": {
+        "value": 50,
+        "description": "The distance between the tail of the connection and the connecting elements of the mind map"
+      }
+    },
+    "Downloaded/Normalize Selected Arrows": {
+      "Gap": {
+        "value": 8,
+        "description": "The value of the gap between the connection line and the element, which must be greater than 0. If you want the connector to be next to the element, set it to 1."
+      }
+    },
+    "Downloaded/Convert selected text elements to sticky notes": {
+      "Border color": {
+        "value": "#000000",
+        "description": "Any legal HTML color (#000000, rgb, color-name, etc.). Set to 'transparent' for transparent color."
+      },
+      "Background color": {
+        "value": "transparent",
+        "description": "Background color of the sticky note. Set to 'transparent' for transparent color."
+      },
+      "Background fill style": {
+        "value": "solid",
+        "description": "Fill style of the sticky note",
+        "valueset": [
+          "hachure",
+          "cross-hatch",
+          "solid"
+        ]
+      },
+      "Max sticky note width": {
+        "value": "600",
+        "description": "Maximum width of new sticky note. If text is longer, it will be wrapped",
+        "valueset": [
+          "400",
+          "600",
+          "800",
+          "1000",
+          "1200",
+          "1400",
+          "2000"
+        ]
+      }
+    }
+  },
   "defaultTrayMode": true,
   "previousRelease": "2.9.2",
   "showReleaseNotes": true,
@@ -119,7 +202,9 @@
   "latexPreambleLocation": "preamble.sty",
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
-  "pinnedScripts": [],
+  "pinnedScripts": [
+    "Excalidraw/Scripts/Downloaded/Mindmap format.md"
+  ],
   "customPens": [
     {
       "type": "default",
