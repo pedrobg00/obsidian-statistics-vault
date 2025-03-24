@@ -11,12 +11,14 @@
             "id": "8459c3cae322b1a4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md"
+                "file": "Métodos Numéricos/Método da Bisseção.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Fluxograma do Processo.excalidraw"
+              "icon": "lucide-file",
+              "title": "Método da Bisseção"
             }
           }
         ]
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md",
-                "followCursor": false,
+                "file": "Métodos Numéricos/Método da Bisseção.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fluxograma do Processo.excalidraw"
+              "title": "Outline of Método da Bisseção"
             }
           },
           {
@@ -150,16 +152,6 @@
             }
           },
           {
-            "id": "f5f8d301619f4a99",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
             "id": "865c79e8deb3b151",
             "type": "leaf",
             "state": {
@@ -167,6 +159,16 @@
               "state": {},
               "icon": "spreadsheet",
               "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "f5f8d301619f4a99",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -203,33 +205,34 @@
   },
   "active": "e02bdf9d12782ca4",
   "lastOpenFiles": [
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Diagrama de Causa e Efeito.excalidraw.md",
     "Métodos Numéricos/Métodos Numéricos.canvas",
-    "Métodos Numéricos/Zeros de Funções.md",
     "Métodos Numéricos/Verificação da Existência de Zeros.md",
-    "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
-    "Cálculo/Séries Infinitas/Séries Alternadas.md",
-    "Cálculo/Séries Infinitas/Séries Infinitas.md",
-    "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
-    "Cálculo/Cálculo.canvas",
-    "Cálculo/Séries Infinitas/Sequências.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
-    "Controle Estatístico do Processo/Controle Estatístico do Processo.canvas",
-    "Controle Estatístico do Processo/Apostila - Professor Fernando.pdf",
-    "Controle Estatístico do Processo/Controle Estatístico do Processo.md",
-    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
-    "Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md",
-    "Untitled Kanban.md",
-    "Untitled Kanban 1.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 2 - Compra do Material.excalidraw.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 1 - Projeto.excalidraw.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings",
+    "Métodos Numéricos/Zeros de Funções.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 6 - Marketing, Vendas e Pós-venda.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-23 00.02.07.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 5 - Produção.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 4 - Teste do Protótipo.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 3 - Prototipação.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 2 - Compra do Material.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 1 - Projeto.excalidraw.md",
+    "Métodos Numéricos/Método da Bisseção.md",
+    "Controle Estatístico do Processo/Controle Estatístico do Processo.md",
+    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
+    "Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
+    "Cálculo/Séries Infinitas/Sequências.md",
+    "Cálculo/Séries Infinitas/Séries Alternadas.md",
+    "Cálculo/Séries Infinitas/Séries Infinitas.md",
+    "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
+    "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
+    "Cálculo/Cálculo.canvas",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Diagrama de Causa e Efeito.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
+    "Controle Estatístico do Processo/Controle Estatístico do Processo.canvas",
+    "Controle Estatístico do Processo/Apostila - Professor Fernando.pdf",
+    "Untitled Kanban.md",
+    "Untitled Kanban 1.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings",
+    "Excalidraw/Drawing 2025-03-23 00.02.07.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawing 2025-03-22 23.52.03.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Untitled.canvas",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Disco em Roda Traseira.webp",
@@ -239,7 +242,6 @@
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Desenho Disco .DXF.png",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images",
     "EliteII.DXF",
-    "Latex Examples.md",
     "Excalidraw/Scripts/Downloaded/Convert selected text elements to sticky notes.svg",
     "Excalidraw/Scripts/Downloaded/Reverse arrows.svg",
     "Excalidraw/Scripts/Downloaded/Connect elements.svg",

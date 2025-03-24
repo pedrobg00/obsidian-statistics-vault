@@ -303,9 +303,9 @@
     {
       "label": "Replace invalid multiline LaTeX",
       "find": "(?:\\\\t)?\\\\\\[([\\s\\S]*?)(?:\\\\t)?\\\\\\]",
-      "replace": "$$$$1$$$$",
-      "flags": "gm",
-      "enabled": false
+      "replace": "$$$\\n$1\\n$$$",
+      "flags": "i",
+      "enabled": true
     }
   ],
   "commonStyles": {

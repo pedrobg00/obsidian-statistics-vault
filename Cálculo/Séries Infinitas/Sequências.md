@@ -37,7 +37,3 @@ Uma sequência pode ser:
 
 - **Convergente:** Possui um limite finito
 - **Divergente:** Não possui limite ou tende ao infinito
-
-## Séries Infinitas
-
-[[Séries Infinitas]]
