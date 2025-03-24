@@ -88,13 +88,3 @@ $$
 
 $$
 Essas medidas são essenciais para entender e quantificar a tendência central e a dispersão dos dados associados às variáveis aleatórias.
-
-## Espaço De Probabilidade Produzido Por Variável Aleatória
-
-[[Espaço De Probabilidade Produzido Por Variável Aleatória]]
-
-## Tipos De Variáveis Aleatórias
-
-### Variável Aleatória Discreta
- [[Variável Aleatória Discreta]]
- 

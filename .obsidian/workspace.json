@@ -11,14 +11,10 @@
             "id": "8459c3cae322b1a4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Métodos Numéricos/Método da Bisseção.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Método da Bisseção"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,13 +90,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Métodos Numéricos/Método da Bisseção.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Método da Bisseção"
+              "title": "Outline"
             }
           },
           {
@@ -203,18 +198,25 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e02bdf9d12782ca4",
+  "active": "54b2e3228777db04",
   "lastOpenFiles": [
     "Métodos Numéricos/Métodos Numéricos.canvas",
-    "Métodos Numéricos/Verificação da Existência de Zeros.md",
     "Métodos Numéricos/Zeros de Funções.md",
+    "Probabilidade/Sigma-Álgebra de Borel.md",
+    "Probabilidade/Leis de Morgan.md",
+    "Probabilidade/Sigma-Álgebra.md",
+    "Probabilidade/Variável Aleatória/Espaço de Probabilidade Produzido por Variável Aleatória.md",
+    "Probabilidade/Variável Aleatória/Variável Aleatória.md",
+    "Probabilidade/Variável Aleatória/Variável Aleatória Discreta.md",
+    "Probabilidade/Variável Aleatória/Variável Aleatória Contínua.md",
+    "Métodos Numéricos/Método da Bisseção.md",
+    "Métodos Numéricos/Verificação da Existência de Zeros.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 6 - Marketing, Vendas e Pós-venda.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 5 - Produção.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 4 - Teste do Protótipo.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 3 - Prototipação.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 2 - Compra do Material.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 1 - Projeto.excalidraw.md",
-    "Métodos Numéricos/Método da Bisseção.md",
     "Controle Estatístico do Processo/Controle Estatístico do Processo.md",
     "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
     "Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
@@ -225,19 +227,12 @@
     "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
     "Cálculo/Cálculo.canvas",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Diagrama de Causa e Efeito.excalidraw.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
     "Controle Estatístico do Processo/Controle Estatístico do Processo.canvas",
     "Controle Estatístico do Processo/Apostila - Professor Fernando.pdf",
-    "Untitled Kanban.md",
-    "Untitled Kanban 1.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings",
-    "Excalidraw/Drawing 2025-03-23 00.02.07.excalidraw.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawing 2025-03-22 23.52.03.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Untitled.canvas",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Disco em Roda Traseira.webp",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Catálogo GHENOrtrs.webp",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawing 2025-03-22 23.29.51.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Diagrama de Causa e Efeito.canvas",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images/Desenho Disco .DXF.png",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Images",

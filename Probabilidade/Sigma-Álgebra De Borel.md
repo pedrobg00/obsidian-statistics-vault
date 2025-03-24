@@ -29,8 +29,6 @@ Por exemplo, em uma distribuição normal $\mathcal{N}(\mu, \sigma^2)$, os conju
 
 ## Variável Aleatória
 
-[[Variável Aleatória]]
-
 A escolha da σ-algebra de Borel é crucial para garantir que as variáveis aleatórias sejam bem definidas. Isso ocorre porque a σ-algebra de Borel permite que todas as operações comuns em conjuntos reais, como interseções e uniões contáveis, sejam tratadas adequadamente.
 
 ### Exemplo

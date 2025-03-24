@@ -35,11 +35,3 @@ Em probabilidade, as sigma álgebras são usadas para definir eventos e suas pro
 ### Importância Na Matemática
 
 As sigma álgebras fornecem a estrutura necessária para definir medidas e integrais em espaços mais gerais do que os conjuntos finitos ou contáveis. Elas são fundamentais no desenvolvimento de teorias como a teoria da medida, probabilidade e análise funcional.
-
-### Conclusão
-
-A compreensão das sigma álgebras é crucial para muitos campos da matemática avançada, especialmente na teoria da medida e probabilidade. Elas fornecem uma estrutura rigorosa que permite o estudo de conjuntos complexos e a definição de operações sobre eles.
-
-## Sigma-álgebra De Borel
-
-[[Sigma-Álgebra de Borel]]
