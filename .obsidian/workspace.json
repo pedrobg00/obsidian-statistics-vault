@@ -11,10 +11,14 @@
             "id": "8459c3cae322b1a4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Copilot Custom Prompts/Expand Topic.md",
+                "bFile": "Copilot Custom Prompts/Expand Topic.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Expand Topic"
             }
           }
         ]
@@ -104,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics Synced Notes/Probabilidade/Leis de Morgan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Leis de Morgan"
+              "title": "Backlinks"
             }
           },
           {
@@ -123,12 +126,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics Synced Notes/Probabilidade/Leis de Morgan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Leis de Morgan"
+              "title": "Outgoing links"
             }
           },
           {
@@ -198,8 +200,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "54b2e3228777db04",
+  "active": "8459c3cae322b1a4",
   "lastOpenFiles": [
+    "Cálculo/Séries Infinitas/Séries Alternadas.md",
+    "Copilot Custom Prompts/Expand Topic.md",
+    "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
+    "Cálculo/Séries Infinitas/Untitled.canvas",
+    "Cálculo/Séries Infinitas/Séries Infinitas.md",
+    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
+    "Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
+    "Cálculo/Séries Infinitas/Sequências.md",
+    "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
     "Métodos Numéricos/Métodos Numéricos.canvas",
     "Métodos Numéricos/Zeros de Funções.md",
     "Probabilidade/Sigma-Álgebra de Borel.md",
@@ -218,13 +229,6 @@
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 2 - Compra do Material.excalidraw.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 1 - Projeto.excalidraw.md",
     "Controle Estatístico do Processo/Controle Estatístico do Processo.md",
-    "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
-    "Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
-    "Cálculo/Séries Infinitas/Sequências.md",
-    "Cálculo/Séries Infinitas/Séries Alternadas.md",
-    "Cálculo/Séries Infinitas/Séries Infinitas.md",
-    "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
-    "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
     "Cálculo/Cálculo.canvas",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Fluxograma do Processo.excalidraw.md",
     "Controle Estatístico do Processo/Controle Estatístico do Processo.canvas",
@@ -253,7 +257,6 @@
     "Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
-    "Statistics Synced Notes/Cálculo/Cálculo.canvas",
-    "Synced Notes/Probabilidade/Probabilidade.canvas"
+    "Statistics Synced Notes/Cálculo/Cálculo.canvas"
   ]
 }

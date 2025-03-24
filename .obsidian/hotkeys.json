@@ -54,5 +54,14 @@
       ],
       "key": "J"
     }
+  ],
+  "copilot:apply-adhoc-prompt": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "U"
+    }
   ]
 }

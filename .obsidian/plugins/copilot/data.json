@@ -216,7 +216,7 @@
     },
     {
       "name": "Expand topic",
-      "prompt": "<instruction>Expand the topic below by: \n1. Adding relevant details and examples to enhance clarity.\n2. Elaborating on key points while maintaining conciseness.\n3. Formatting the content properly while preserving logical structure and indentation.\nIMPORTANT:\nMathematical expressions must always use MathJax notation for Markdown (`$...$` for inline and `$$...$$` for math block expressions). DO NOT use `\\[ ... \\]` neither `\\( ... \\)`. Use ONLY `$...$` for inline expressions and ONLY `$$...$$` for block expressions.\nReturn ONLY the expanded content WITHOUT any introduction or conclusion. Stay strictly on topic - DO NOT add unnecessary or unrelated information. Keep the response concise and focused.</instruction>  \n\n<text>{copilot-selection}</text> ",
+      "prompt": "<instruction>Expand the topic below by: \n1. Adding relevant details and examples to enhance clarity.\n2. Elaborating on key points while maintaining conciseness.\n3. Formatting the content properly while preserving logical structure and indentation.\nIMPORTANT:\nMathematical expressions must always use MathJax notation for Markdown (`$...$` for inline and `$$...$$` for math block expressions). DO NOT use `\\[ ... \\]` neither `\\( ... \\)`. Use ONLY `$...$` for inline expressions and ONLY `$$...$$` for block expressions.\nReturn ONLY the expanded content WITHOUT any introduction or conclusion. Stay strictly on topic - DO NOT add unnecessary or unrelated information. Keep the response concise and focused.</instruction>\n\n<text>{copilot-selection}</text> ",
       "showInContextMenu": true
     },
     {
