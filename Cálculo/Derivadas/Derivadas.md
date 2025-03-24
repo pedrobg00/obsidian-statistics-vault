@@ -1,10 +1,7 @@
-## Index
-- [[#Derivadas]]
-  - [[#Exemplos De Derivadas]]
-    - [[#Derivada de uma função polinomial]]
-    - [[#Derivada de uma função exponencial]]
-    - [[#Derivada de uma função logarítmica]]
-  - [[#Aplicações Práticas]]
+%% Begin Waypoint %%
+- [[Derivadas]]
+
+%% End Waypoint %%
 
 Derivadas são um conceito fundamental do cálculo que permite analisar a taxa de mudança instantânea de uma função em qualquer ponto. Elas são essenciais para entender comportamentos dinâmicos e variáveis em diversas áreas, como física, economia, engenharia, e biologia.
 

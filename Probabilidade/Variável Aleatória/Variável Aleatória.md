@@ -1,3 +1,10 @@
+%% Begin Waypoint %%
+- [[Espaço de Probabilidade Produzido por Variável Aleatória]]
+- [[Variável Aleatória Contínua]]
+- [[Variável Aleatória Discreta]]
+- [[Variável Aleatória]]
+
+%% End Waypoint %%
 ## Introdução Às Variáveis Aleatórias
 
 As variáveis aleatórias são fundamentais na teoria da probabilidade e estatística, servindo como a ponte entre o mundo dos números determinísticos e o dos eventos incertos. Elas permitem modelar situações onde os resultados não são conhecidos com certeza antes de ocorrerem.

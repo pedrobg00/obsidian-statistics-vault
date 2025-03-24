@@ -1,10 +1,7 @@
+%% Begin Waypoint %%
+- [[Integrais]]
 
-## Index
-- [[#Integrais Indefinidas]]
-- [[#Integrais Definidas]]
-- [[#Regras De Integração]]
-- [[#Aplicações Práticas]]
-- [[#Exemplo Prático]]
+%% End Waypoint %%
 
 Integrais são um conceito fundamental na matemática e no cálculo, essencial para a modelagem de fenômenos físicos, econômicos e biológicos. Existem dois tipos principais de integrais: as integrais definidas e as indefinidas.
 

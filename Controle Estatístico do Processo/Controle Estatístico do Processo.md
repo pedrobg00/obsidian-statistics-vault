@@ -1,3 +1,8 @@
+%% Begin Waypoint %%
+- [[Controle Estatístico do Processo]]
+- **[[Ferramentas da Qualidade - Discos Gheno]]**
+
+%% End Waypoint %%
 ## Introdução Ao Controle Estatístico De Processos (CEP)
 
 O **Controle Estatístico de Processos** (CEP) é um conjunto de técnicas e métodos estatísticos utilizados para monitorar, controlar e melhorar a qualidade de processos industriais. Este método permite identificar anomalias ou variações nos processos que podem afetar a qualidade do produto final.

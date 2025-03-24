@@ -1,3 +1,14 @@
+%% Begin Waypoint %%
+- [[Critério da Integral para Convergência de Séries]]
+- [[Estimativa para a Soma de uma Série]]
+- [[Sequências]]
+- [[Séries Alternadas]]
+- [[Séries Infinitas]]
+- [[Soma de Séries por Somas Parciais]]
+- [[Testes de Comparação para Convergência de Soma de Séries]]
+
+%% End Waypoint %%
+
 As séries são uma parte fundamental do cálculo que nos permitem estudar somas infinitas de termos. Elas são ferramentas matemáticas poderosas que aparecem em diversos contextos, desde problemas práticos até aplicações teóricas avançadas.
 
 ## O Que São Séries?
