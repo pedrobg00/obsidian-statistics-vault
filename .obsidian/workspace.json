@@ -11,10 +11,12 @@
             "id": "3cf5a092da9b2d19",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "excalidraw",
+              "state": {
+                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Fluxograma do Processo/Fluxograma do Processo.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Fluxograma do Processo.excalidraw"
             }
           }
         ]
@@ -196,8 +198,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3cf5a092da9b2d19",
+  "active": "e02bdf9d12782ca4",
   "lastOpenFiles": [
+    "Cálculo/Cálculo.canvas",
+    "Cálculo/Cálculo.md",
     "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
     "Métodos Numéricos/Método da Bisseção.md",
     "Métodos Numéricos/Métodos Numéricos.md",
@@ -207,13 +211,11 @@
     "Controle Estatístico do Processo/Controle Estatístico do Processo.md",
     "Métodos Numéricos/Tipos de",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings/Parte 1 - Projeto.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Fluxograma do Processo/Parte 1 - Projeto.excalidraw.md",
     "Probabilidade/Probabilidade.md",
     "Probabilidade/Variável Aleatória/Variável Aleatória.md",
     "Cálculo/Séries Infinitas/Séries Infinitas.md",
     "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
-    "Cálculo/Cálculo.md",
-    "Cálculo/Cálculo.canvas",
     "Cálculo/Limites/Limites.md",
     "Cálculo/Integrais/Integrais.md",
     "Cálculo/Derivadas/Derivadas.md",
@@ -227,10 +229,9 @@
     "Probabilidade/Sigma-Álgebra de Borel.md",
     "Probabilidade/Leis de Morgan.md",
     "Probabilidade/Sigma-Álgebra.md",
-    "Probabilidade/Variável Aleatória/Espaço de Probabilidade Produzido por Variável Aleatória.md",
     "Controle Estatístico do Processo/Controle Estatístico do Processo.canvas",
     "Controle Estatístico do Processo/Apostila - Professor Fernando.pdf",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Drawnings",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Fluxograma do Processo",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Untitled.canvas",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/_attachments/Disco em Roda Traseira.webp",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/_attachments/Catálogo GHENOrtrs.webp",

@@ -6,3 +6,5 @@
 - **[[Séries Infinitas]]**
 
 %% End Waypoint %%
+
+![[Cálculo.canvas]]
