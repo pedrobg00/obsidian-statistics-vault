@@ -3,7 +3,7 @@
 		{"id":"0336fd59be84fd97","type":"file","file":"Métodos Numéricos/Método da Bisseção.md","x":-402,"y":578,"width":400,"height":400},
 		{"id":"02f62bc25d571631","type":"file","file":"Métodos Numéricos/Zeros de Funções.md","x":-120,"y":-20,"width":400,"height":400},
 		{"id":"f2ad30ecd742028f","type":"text","text":"# Métodos Numéricos","x":-680,"y":396,"width":322,"height":62,"color":"1"},
-		{"id":"876237f08bca2b7e","type":"file","file":"Métodos Numéricos/Verificação da Existência De Zeros.md","x":100,"y":480,"width":400,"height":455}
+		{"id":"876237f08bca2b7e","type":"file","file":"Métodos Numéricos/Verificação da Existência de Zeros.md","x":100,"y":480,"width":400,"height":455}
 	],
 	"edges":[
 		{"id":"8ed98a8cc8bd18c3","fromNode":"f2ad30ecd742028f","fromSide":"top","toNode":"02f62bc25d571631","toSide":"bottom"},

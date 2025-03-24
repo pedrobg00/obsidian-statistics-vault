@@ -1,6 +1,6 @@
 ## Verificação Da Existência De Zeros
 
-[[Verificação da Existência De Zeros]]
+[[Verificação da Existência de Zeros]]
 
 Antes de aplicar métodos numéricos para determinar os zeros de uma função, é essencial verificar se há pelo menos uma raiz no intervalo considerado. Duas abordagens comuns para essa verificação são o **método gráfico** e o **Teorema de Bolzano**.
 

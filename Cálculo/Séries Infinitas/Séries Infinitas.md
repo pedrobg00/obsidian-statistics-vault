@@ -68,4 +68,4 @@ $$
 
 ## Soma De Séries Por Sequências Parciais
 
-[[Soma de Séries por Sequências Parciais]]
+[[Soma de Séries por Somas Parciais]]

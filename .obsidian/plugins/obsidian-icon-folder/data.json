@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPenTool",
+      "LiExcalidrawIcon",
       "🔢",
       "LiArrowUpRight",
-      "LiChartSpline",
-      "LiTextSelection",
-      "LiPercent"
+      "LiChartSpline"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,6 @@
   "Copilot Custom Prompts": "LiTextSelection",
   "Cálculo": "LiChartSpline",
   "Álgebra Linear": "LiArrowUpRight",
-  "Métodos Numéricos": "🔢"
+  "Métodos Numéricos": "🔢",
+  "Excalidraw": "LiPenTool"
 }
