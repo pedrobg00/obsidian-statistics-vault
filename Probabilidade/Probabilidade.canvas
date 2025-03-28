@@ -1,14 +1,16 @@
 {
 	"nodes":[
-		{"id":"8d9311dc4dd4fc28","type":"group","x":-2160,"y":-360,"width":1400,"height":1180,"label":"Variáveis Aleatórias"},
+		{"id":"8d9311dc4dd4fc28","type":"group","x":-2120,"y":-200,"width":1520,"height":2080,"label":"Variáveis Aleatórias"},
 		{"id":"d539ad623344abfd","type":"text","text":"# Probabilidade","x":-1685,"y":-980,"width":250,"height":60,"color":"1"},
-		{"id":"fabe00f138f9e2d9","type":"file","file":"Probabilidade/Variável Aleatória/Variável Aleatória.md","x":-1840,"y":-340,"width":400,"height":440},
-		{"id":"83c9553fd454b0be","type":"file","file":"Probabilidade/Variável Aleatória/Espaço de Probabilidade Produzido por Variável Aleatória.md","x":-1240,"y":-100,"width":400,"height":400},
-		{"id":"9ff31e68ab4cb7f5","x":-1992,"y":371,"width":400,"height":400,"type":"file","file":"Probabilidade/Variável Aleatória/Variável Aleatória Contínua.md"},
-		{"id":"b58fd77c1645fb0d","type":"file","file":"Probabilidade/Variável Aleatória/Variável Aleatória Discreta.md","x":-1560,"y":371,"width":400,"height":400},
-		{"id":"7990142874b911ea","type":"file","file":"Probabilidade/Sigma-Álgebra de Borel.md","x":-600,"y":-640,"width":400,"height":400},
 		{"id":"da73b68226588eed","type":"file","file":"Probabilidade/Sigma-Álgebra.md","x":-200,"y":-1120,"width":400,"height":400},
-		{"id":"85b9bafaab101eff","type":"file","file":"Probabilidade/Leis de Morgan.md","x":-1000,"y":-1440,"width":400,"height":400}
+		{"id":"85b9bafaab101eff","type":"file","file":"Probabilidade/Leis de Morgan.md","x":-1000,"y":-1440,"width":400,"height":400},
+		{"id":"7990142874b911ea","type":"file","file":"Probabilidade/Sigma-Álgebra de Borel.md","x":-400,"y":-540,"width":400,"height":400},
+		{"id":"fabe00f138f9e2d9","type":"file","file":"Probabilidade/Variável Aleatória/Variável Aleatória.md","x":-1800,"y":-180,"width":400,"height":440},
+		{"id":"9ff31e68ab4cb7f5","type":"file","file":"Probabilidade/Variável Aleatória/Variável Aleatória Contínua.md","x":-1952,"y":531,"width":400,"height":400},
+		{"id":"b58fd77c1645fb0d","type":"file","file":"Probabilidade/Variável Aleatória/Variável Aleatória Discreta.md","x":-1400,"y":531,"width":400,"height":400},
+		{"id":"7dc4a4180755e814","x":-1680,"y":1080,"width":400,"height":400,"type":"file","file":"Probabilidade/Variável Aleatória/Funções de Variáveis Aleatórias.md"},
+		{"id":"83c9553fd454b0be","type":"file","file":"Probabilidade/Variável Aleatória/Espaço de Probabilidade Produzido por Variável Aleatória.md","x":-1160,"y":40,"width":400,"height":400},
+		{"id":"0b9ffd6da0dffa87","x":-1160,"y":1400,"width":400,"height":383,"type":"file","file":"Probabilidade/Variável Aleatória/Esperança de uma Variável Aleatória.md"}
 	],
 	"edges":[
 		{"id":"94ab4c2adeae78ce","fromNode":"85b9bafaab101eff","fromSide":"right","toNode":"da73b68226588eed","toSide":"top"},
@@ -17,6 +19,9 @@
 		{"id":"203e273e9d31d629","fromNode":"7990142874b911ea","fromSide":"left","toNode":"fabe00f138f9e2d9","toSide":"top"},
 		{"id":"9e1969bcdc599acd","fromNode":"fabe00f138f9e2d9","fromSide":"bottom","toNode":"b58fd77c1645fb0d","toSide":"top"},
 		{"id":"096af6524ac91079","fromNode":"fabe00f138f9e2d9","fromSide":"bottom","toNode":"9ff31e68ab4cb7f5","toSide":"top"},
-		{"id":"9e82f2481e2947d7","fromNode":"d539ad623344abfd","fromSide":"top","toNode":"85b9bafaab101eff","toSide":"left"}
+		{"id":"9e82f2481e2947d7","fromNode":"d539ad623344abfd","fromSide":"top","toNode":"85b9bafaab101eff","toSide":"left"},
+		{"id":"55c0cd6c32c29ec2","fromNode":"9ff31e68ab4cb7f5","fromSide":"bottom","toNode":"7dc4a4180755e814","toSide":"left"},
+		{"id":"317e88fa1d043eb2","fromNode":"b58fd77c1645fb0d","fromSide":"bottom","toNode":"7dc4a4180755e814","toSide":"right"},
+		{"id":"7de4ba6ff92db457","fromNode":"7dc4a4180755e814","fromSide":"bottom","toNode":"0b9ffd6da0dffa87","toSide":"left"}
 	]
 }

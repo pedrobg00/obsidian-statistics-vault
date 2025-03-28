@@ -11,12 +11,14 @@
             "id": "3cf5a092da9b2d19",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Fluxograma do Processo/Fluxograma do Processo.excalidraw.md"
+                "file": "Probabilidade/Variável Aleatória/Esperança de uma Variável Aleatória.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Fluxograma do Processo.excalidraw"
+              "icon": "lucide-file",
+              "title": "Esperança de uma Variável Aleatória"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5024719238281
+    "width": 444.5
   },
   "right": {
     "id": "aebed1efef8e762b",
@@ -181,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 431.5
+    "width": 363.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,38 +200,40 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e02bdf9d12782ca4",
+  "active": "54b2e3228777db04",
   "lastOpenFiles": [
+    "Probabilidade/Variável Aleatória/Variável Aleatória Contínua.md",
+    "Probabilidade/Variável Aleatória/Variável Aleatória.md",
+    "Probabilidade/Variável Aleatória/Variável Aleatória Discreta.md",
+    "Latex Examples.md",
+    "Probabilidade/Variável Aleatória/Esperança de uma Variável Aleatória.md",
+    "Probabilidade/Variável Aleatória/Funções de Variáveis Aleatórias.md",
+    "Probabilidade/Variável Aleatória/Variável Aleatória Mista.md",
+    "Probabilidade/Probabilidade.canvas",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Fluxograma do Processo/Fluxograma do Processo.excalidraw.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
+    "Métodos Numéricos/Método de Newton-Raphson.md",
+    "Métodos Numéricos/Método das Secantes.md",
+    "Métodos Numéricos/Método da Falsa Posição.md",
+    "Probabilidade/Variável Aleatória/Ex.md",
+    "Probabilidade/Variável Aleatória/Espaço de Probabilidade Produzido por Variável Aleatória.md",
+    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Fluxograma do Processo/Diagrama de Causa e Efeito.excalidraw.md",
+    "Probabilidade/Leis de Morgan.md",
+    "Probabilidade/Probabilidade.md",
+    "Métodos Numéricos/Métodos Numéricos.md",
+    "Controle Estatístico do Processo/Controle Estatístico do Processo.canvas",
+    "Métodos Numéricos/Zeros de Funções.md",
+    "Controle Estatístico do Processo/Controle Estatístico do Processo.md",
     "Cálculo/Cálculo.canvas",
     "Cálculo/Cálculo.md",
     "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
     "Métodos Numéricos/Método da Bisseção.md",
-    "Métodos Numéricos/Métodos Numéricos.md",
-    "Métodos Numéricos/Zeros de Funções.md",
     "Métodos Numéricos/Verificação da Existência de Zeros.md",
     "Métodos Numéricos/Métodos Numéricos.canvas",
-    "Controle Estatístico do Processo/Controle Estatístico do Processo.md",
     "Métodos Numéricos/Tipos de",
-    "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Fluxograma do Processo/Parte 1 - Projeto.excalidraw.md",
-    "Probabilidade/Probabilidade.md",
-    "Probabilidade/Variável Aleatória/Variável Aleatória.md",
     "Cálculo/Séries Infinitas/Séries Infinitas.md",
-    "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
-    "Cálculo/Limites/Limites.md",
-    "Cálculo/Integrais/Integrais.md",
-    "Cálculo/Derivadas/Derivadas.md",
-    "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
-    "Cálculo/Folder Note.md",
-    "Cálculo/Séries Infinitas/Séries Alternadas.md",
-    "Copilot Custom Prompts/Expand Topic.md",
     "Cálculo/Séries Infinitas/Untitled.canvas",
-    "Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
-    "Cálculo/Séries Infinitas/Sequências.md",
-    "Probabilidade/Sigma-Álgebra de Borel.md",
-    "Probabilidade/Leis de Morgan.md",
-    "Probabilidade/Sigma-Álgebra.md",
-    "Controle Estatístico do Processo/Controle Estatístico do Processo.canvas",
     "Controle Estatístico do Processo/Apostila - Professor Fernando.pdf",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Fluxograma do Processo",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Untitled.canvas",
@@ -251,7 +255,6 @@
     "Controle Estatístico do Processo/Fluxograma do Processo - Discos Gheno/GHENOrtrs-1.png",
     "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno",
     "Copilot Custom Prompts",
-    "Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Probabilidade/Probabilidade.canvas",
     "Statistics Synced Notes/Métodos Numéricos/Métodos Numéricos.canvas",
     "Statistics Synced Notes/Cálculo/Cálculo.canvas"

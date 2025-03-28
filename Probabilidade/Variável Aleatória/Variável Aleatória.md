@@ -1,7 +1,10 @@
 %% Begin Waypoint %%
 - [[Espaço de Probabilidade Produzido por Variável Aleatória]]
+- [[Esperança de uma Variável Aleatória]]
+- [[Funções de Variáveis Aleatórias]]
 - [[Variável Aleatória Contínua]]
 - [[Variável Aleatória Discreta]]
+- [[Variável Aleatória Mista]]
 - [[Variável Aleatória]]
 
 %% End Waypoint %%

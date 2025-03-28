@@ -1,8 +1,6 @@
-## Variáveis Aleatórias Contínuas
-
 Seja $X$ uma variável aleatória com função de distribuição acumulada (FDA) $F_X(x)$ absolutamente contínua. Dizemos que $X$ é uma variável aleatória contínua.  
 
-### Definição
+## Definição
 
 Se $X$ é uma variável aleatória contínua, então existe uma função não negativa $f$, chamada **função densidade de probabilidade (PDF - Probability Density Function)**, tal que:  
 
@@ -12,7 +10,7 @@ $$
 
 Essa relação garante que a FDA pode ser obtida a partir da integral da densidade $f(x)$.  
 
-### Probabilidades Para Intervalos
+## Probabilidades Para Intervalos
 
 Seja $X$ uma variável aleatória contínua com função de densidade $f_X(x)$. Para quaisquer $a, b \in \mathbb{R}$, com $a \leq b$, a probabilidade de $X$ assumir valores no intervalo $[a, b]$ é dada por:
 

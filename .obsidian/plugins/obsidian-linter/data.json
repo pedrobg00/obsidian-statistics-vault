@@ -295,7 +295,7 @@
   "customRegexes": [
     {
       "label": "Replace invalid inline LaTeX",
-      "find": "\\\\\\(\\s+(.*?)\\s+\\\\\\)",
+      "find": "\\\\\\(\\s*(.*?)\\s*\\\\\\)",
       "replace": "$$$1$$",
       "flags": "g",
       "enabled": true
@@ -304,7 +304,7 @@
       "label": "Replace invalid multiline LaTeX",
       "find": "(?:\\\\t)?\\\\\\[([\\s\\S]*?)(?:\\\\t)?\\\\\\]",
       "replace": "$$$\\n$1\\n$$$",
-      "flags": "i",
+      "flags": "g",
       "enabled": true
     }
   ],
