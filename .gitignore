@@ -1,1 +1,7 @@
+.obsidian/*
+!.obsidian/plugins
+!.obsidian/app.json
+!.obsidian/canvas.json
+!.obsidian/core-plugins.json
 .obsidian/plugins/copilot/data.json
+
