@@ -1,3 +1,14 @@
+%% Begin Waypoint %%
+- [[Método da Bisseção]]
+- [[Método da Falsa Posição]]
+- [[Método das Secantes]]
+- [[Método de Newton-Raphson]]
+- [[Método Gráfico]]
+- [[Verificação da Existência de Zeros]]
+- [[Zeros de Funções]]
+
+%% End Waypoint %%
+
 ## Verificação Da Existência De Zeros
 
 Antes de aplicar métodos numéricos para determinar os zeros de uma função, é essencial verificar se há pelo menos uma raiz no intervalo considerado. Duas abordagens comuns para essa verificação são o **método gráfico** e o **Teorema de Bolzano**.

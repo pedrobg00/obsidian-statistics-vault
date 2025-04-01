@@ -2,6 +2,7 @@
 - [[Espaço de Probabilidade Produzido por Variável Aleatória]]
 - [[Esperança de uma Variável Aleatória]]
 - [[Funções de Variáveis Aleatórias]]
+- [[Variância]]
 - [[Variável Aleatória Contínua]]
 - [[Variável Aleatória Discreta]]
 - [[Variável Aleatória Mista]]
