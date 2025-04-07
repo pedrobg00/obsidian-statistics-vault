@@ -1,14 +1,17 @@
 {
 	"nodes":[
-		{"id":"eb7183589fce371c","type":"group","x":-680,"y":-20,"width":2160,"height":2140,"label":"Séries Infinitas"},
+		{"id":"eb7183589fce371c","type":"group","x":-680,"y":-20,"width":2440,"height":2340,"label":"Séries Infinitas"},
 		{"id":"2cc69d78d833b576","type":"text","text":"# Cálculo","x":-6,"y":-320,"width":175,"height":50,"color":"1"},
-		{"id":"0d0aeff9b45fa9fd","type":"file","file":"Cálculo/Séries Infinitas/Séries Alternadas.md","x":-401,"y":1200,"width":400,"height":400},
-		{"id":"9af9135e4763ba38","type":"file","file":"Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md","x":660,"y":920,"width":400,"height":400},
-		{"id":"eecd7dd1958cce57","type":"file","file":"Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md","x":460,"y":420,"width":400,"height":400},
 		{"id":"d0be5e4058686e16","type":"file","file":"Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md","x":-520,"y":680,"width":400,"height":385},
 		{"id":"300d177e1bf7a912","type":"file","file":"Cálculo/Séries Infinitas/Sequências.md","x":-640,"y":20,"width":400,"height":534},
 		{"id":"aec36fcb8863e9f5","type":"file","file":"Cálculo/Séries Infinitas/Séries Infinitas.md","x":-80,"y":220,"width":400,"height":400},
-		{"id":"ed0b606b8b0f30c7","type":"file","file":"Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md","x":200,"y":1065,"width":400,"height":400}
+		{"id":"0d0aeff9b45fa9fd","type":"file","file":"Cálculo/Séries Infinitas/Séries Alternadas.md","x":-480,"y":1200,"width":400,"height":400},
+		{"id":"eecd7dd1958cce57","type":"file","file":"Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md","x":720,"y":420,"width":400,"height":400},
+		{"id":"20e200faad2de9cc","type":"file","file":"Cálculo/Séries Infinitas/Série de Taylor.md","x":-400,"y":1720,"width":400,"height":400},
+		{"id":"1ee027db7fe9995f","type":"file","file":"Cálculo/Séries Infinitas/Série de Maclaurin.md","x":400,"y":1720,"width":400,"height":400},
+		{"id":"ed0b606b8b0f30c7","type":"file","file":"Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md","x":800,"y":1120,"width":400,"height":400},
+		{"id":"9af9135e4763ba38","type":"file","file":"Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md","x":320,"y":920,"width":400,"height":400},
+		{"id":"d6b62fcf61668144","type":"file","file":"Cálculo/Séries Infinitas/Critério da Razão para Convergência de Séries Infinitas.md","x":1280,"y":1240,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"7caf4c9d693b4c71","fromNode":"300d177e1bf7a912","fromSide":"right","toNode":"aec36fcb8863e9f5","toSide":"left"},
@@ -17,6 +20,9 @@
 		{"id":"f8ede8915dfe3dd3","fromNode":"aec36fcb8863e9f5","fromSide":"right","toNode":"eecd7dd1958cce57","toSide":"left"},
 		{"id":"a2a0c9d77325d4bf","fromNode":"eecd7dd1958cce57","fromSide":"bottom","toNode":"9af9135e4763ba38","toSide":"top"},
 		{"id":"fe0138d9c703866d","fromNode":"eecd7dd1958cce57","fromSide":"bottom","toNode":"ed0b606b8b0f30c7","toSide":"top"},
-		{"id":"32dee8e3282541ab","fromNode":"aec36fcb8863e9f5","fromSide":"bottom","toNode":"0d0aeff9b45fa9fd","toSide":"right"}
+		{"id":"32dee8e3282541ab","fromNode":"aec36fcb8863e9f5","fromSide":"bottom","toNode":"0d0aeff9b45fa9fd","toSide":"right"},
+		{"id":"e8daea2072e13a44","fromNode":"eecd7dd1958cce57","fromSide":"bottom","toNode":"d6b62fcf61668144","toSide":"top"},
+		{"id":"1b50ee83340b7a8d","fromNode":"aec36fcb8863e9f5","fromSide":"bottom","toNode":"20e200faad2de9cc","toSide":"right"},
+		{"id":"029f187b5d61dbef","fromNode":"aec36fcb8863e9f5","fromSide":"bottom","toNode":"1ee027db7fe9995f","toSide":"left"}
 	]
 }

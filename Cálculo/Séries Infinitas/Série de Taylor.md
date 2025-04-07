@@ -108,3 +108,61 @@ $$
 $$
 
 Portanto, o raio de convergência é $R = \infty$, o que significa que a série converge para toda $x$.
+
+## Desigualdade De Taylor
+
+A desigualdade de Taylor fornece um limite superior para o erro cometido ao aproximar uma função por sua série de Taylor. É uma ferramenta fundamental na análise de convergência e no estudo da precisão das aproximações polinomiais.
+
+### Formulando a Desigualdade
+
+Considere a função $f(x)$ que é $(n+1)$-vezes diferenciável em um intervalo contendo o ponto $a$ e $x$. A desigualdade de Taylor pode ser expressa como:
+
+$$
+| f(x) - P_n(x) | \leq \frac{M}{(n+1)!} | x-a |^{n+1}
+$$
+
+onde:
+
+- $P_n(x)$ é o polinômio de Taylor de grau $n$ de $f(x)$ em torno de $a$.
+- $M$ é uma constante tal que $| f^{(n+1)}(t) | \leq M$ para algum $t$ entre $a$ e $x$.
+
+### Aplicação Da Desigualdade
+
+A desigualdade de Taylor é útil em várias situações, como:
+
+- **Estimativa do Erro**: Para quantificar a precisão de uma aproximação polinomial.
+- **Convergência de Séries**: Verificar se uma série converge para a função original.
+
+### Exemplos
+
+#### Exemplo 1: Função Cosseno $\cos(x)$
+
+Para a função $\cos(x)$, temos:
+
+$$
+\cos(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!}
+$$
+
+A desigualdade de Taylor para o erro cometido ao aproximar $\cos(x)$ por seu polinômio de Taylor de grau $n$ é:
+
+$$
+| \cos(x) - P_n(x) | \leq \frac{M}{(n+1)!} | x-a |^{n+1}
+$$
+
+Para encontrar uma constante $M$, notamos que a derivada $(2n+1)$-ésima de $\cos(x)$ é sempre limitada por 1. Portanto, podemos escolher $M = 1$.
+
+#### Exemplo 2: Função Seno $\sin(x)$
+
+Para a função $\sin(x)$, temos:
+
+$$
+\sin(x) = \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!}
+$$
+
+A desigualdade de Taylor para o erro cometido ao aproximar $\sin(x)$ por seu polinômio de Taylor de grau $n$ é:
+
+$$
+| \sin(x) - P_n(x) | \leq \frac{M}{(n+1)!} | x-a |^{n+1}
+$$
+
+Similarmente, a derivada $(2n+2)$-ésima de $\sin(x)$ é sempre limitada por 1. Portanto, podemos escolher $M = 1$.
