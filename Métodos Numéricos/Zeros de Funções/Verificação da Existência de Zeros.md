@@ -1,6 +1,6 @@
 ## Método Gráfico
 
-O método gráfico consiste em esboçar o gráfico da função e observar os pontos onde ela cruza o eixo $x$. Se a curva intercepta o eixo $x$ em algum ponto, isso indica a presença de uma raiz. Esse método é útil para ter uma noção inicial sobre a existência e localização dos zeros, mas não fornece uma resposta precisa, apenas uma estimativa visual.
+O [[Método Gráfico]] consiste em esboçar o gráfico da função e observar os pontos onde ela cruza o eixo $x$. Se a curva intercepta o eixo $x$ em algum ponto, isso indica a presença de uma raiz. Esse método é útil para ter uma noção inicial sobre a existência e localização dos zeros, mas não fornece uma resposta precisa, apenas uma estimativa visual.
 
 ## Teorema De Bolzano
 

@@ -19,4 +19,7 @@ Determinar os zeros de uma função é um problema fundamental em matemática ap
 
 ### Tipos De Métodos Numéricos
 
-Os métodos numéricos para determinação de zeros de funções são técnicas utilizadas para encontrar aproximações das raízes de uma equação quando não é possível resolvê-la analiticamente. Entre os principais métodos estão o **método da bisseção**, que utiliza o Teorema de Bolzano para dividir sucessivamente um intervalo onde há mudança de sinal, o **método de Newton-Raphson**, que usa a derivada para iterar em direção à raiz, e o **método da secante**, que aproxima a derivada por diferenças finitas. Esses métodos são amplamente aplicados em diversas áreas da ciência e engenharia para resolver equações complexas de forma eficiente.
+Os métodos numéricos para determinação de zeros de funções são técnicas utilizadas para encontrar aproximações das raízes de uma equação quando não é possível resolvê-la analiticamente. Entre os principais métodos estão:
+- Método da bisseção: utiliza o Teorema de Bolzano para dividir sucessivamente um intervalo onde há mudança de sinal
+- Método de Newton-Raphson: usa a derivada para iterar em direção à raiz
+- Método da secante: aproxima a derivada por diferenças finitas

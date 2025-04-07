@@ -1,7 +1,10 @@
 %% Begin Waypoint %%
 - [[Critério da Integral para Convergência de Séries]]
+- [[Critério da Razão para Convergência de Séries Infinitas]]
 - [[Estimativa para a Soma de uma Série]]
 - [[Sequências]]
+- [[Série de Maclaurin]]
+- [[Série de Taylor]]
 - [[Séries Alternadas]]
 - [[Séries Infinitas]]
 - [[Soma de Séries por Somas Parciais]]

@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"da639897a32330a3","x":-1400,"y":700,"width":1336,"height":1160,"type":"group","label":"Zeros de Funções"},
+		{"id":"da639897a32330a3","type":"group","x":-1400,"y":700,"width":1336,"height":1640,"label":"Zeros de Funções"},
 		{"id":"f2ad30ecd742028f","type":"text","text":"# Métodos Numéricos","x":-680,"y":396,"width":322,"height":62,"color":"1"},
 		{"id":"02f62bc25d571631","type":"file","file":"Métodos Numéricos/Zeros de Funções/Zeros de Funções.md","x":-1300,"y":800,"width":400,"height":400},
 		{"id":"0336fd59be84fd97","type":"file","file":"Métodos Numéricos/Zeros de Funções/Método da Bisseção.md","x":-979,"y":1340,"width":400,"height":400},

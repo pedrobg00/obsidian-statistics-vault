@@ -6,7 +6,7 @@ Considere uma função $f(x)$ contínua, não-negativa e decrescente para $x \ge
 
 ## Exemplos
 
-### Exemplo 1: Série De P
+### Exemplo 1: Série De Potência
 
 Considere a série geométrica generalizada $\sum_{n=1}^{\infty} \frac{1}{n^p}$, onde $p > 0$. Aqui, $f(x) = \frac{1}{x^p}$.
 
@@ -26,7 +26,7 @@ $$
 
 - Para $p \leq 1$, a integral diverge.
 
-#### Exemplo 2: Série De Termos Positivos
+### Exemplo 2: Série De Termos Positivos
 
 Considere a série $\sum_{n=1}^{\infty} \frac{1}{\sqrt{n}}$.
 
