@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiPenTool",
-      "LiExcalidrawIcon",
-      "🔢",
-      "LiArrowUpRight",
-      "LiChartSpline"
+      "LiDatabaseZap",
+      "LiDice6",
+      "LiAxis3d",
+      "LiAreaChart",
+      "LiPenTool"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,7 +38,9 @@
   "Probabilidade": "LiPercent",
   "Copilot Custom Prompts": "LiTextSelection",
   "Cálculo": "LiChartSpline",
-  "Álgebra Linear": "LiArrowUpRight",
+  "Álgebra Linear": "LiAxis3d",
   "Métodos Numéricos": "🔢",
-  "Excalidraw": "LiPenTool"
+  "Excalidraw": "LiPenTool",
+  "Estatística Básica": "LiAreaChart",
+  "Análise de Dados": "LiDatabaseZap"
 }

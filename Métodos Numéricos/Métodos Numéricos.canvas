@@ -2,13 +2,15 @@
 	"nodes":[
 		{"id":"da639897a32330a3","type":"group","x":-1400,"y":700,"width":1336,"height":1640,"label":"Zeros de Funções"},
 		{"id":"f2ad30ecd742028f","type":"text","text":"# Métodos Numéricos","x":-680,"y":396,"width":322,"height":62,"color":"1"},
-		{"id":"02f62bc25d571631","type":"file","file":"Métodos Numéricos/Zeros de Funções/Zeros de Funções.md","x":-1300,"y":800,"width":400,"height":400},
-		{"id":"0336fd59be84fd97","type":"file","file":"Métodos Numéricos/Zeros de Funções/Método da Bisseção.md","x":-979,"y":1340,"width":400,"height":400},
-		{"id":"876237f08bca2b7e","type":"file","file":"Métodos Numéricos/Zeros de Funções/Verificação da Existência de Zeros.md","x":-700,"y":800,"width":400,"height":455}
+		{"id":"02f62bc25d571631","type":"file","file":"Métodos Numéricos/Zeros de Funções/Zeros de Funções.md","x":-1300,"y":800,"width":400,"height":455},
+		{"id":"876237f08bca2b7e","type":"file","file":"Métodos Numéricos/Zeros de Funções/Teorema De Bolzano.md","x":-700,"y":800,"width":400,"height":455},
+		{"id":"2fbbaa04639a35f2","x":-1360,"y":1520,"width":400,"height":400,"type":"file","file":"Métodos Numéricos/Zeros de Funções/Método Gráfico.md"},
+		{"id":"0336fd59be84fd97","type":"file","file":"Métodos Numéricos/Zeros de Funções/Método da Bisseção.md","x":-640,"y":1440,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"f77b4f71cb7a1387","fromNode":"02f62bc25d571631","fromSide":"bottom","toNode":"0336fd59be84fd97","toSide":"left"},
 		{"id":"9f0b0c3813c62505","fromNode":"02f62bc25d571631","fromSide":"right","toNode":"876237f08bca2b7e","toSide":"left"},
-		{"id":"45296b8bc17aa227","fromNode":"f2ad30ecd742028f","fromSide":"bottom","toNode":"da639897a32330a3","toSide":"top"}
+		{"id":"45296b8bc17aa227","fromNode":"f2ad30ecd742028f","fromSide":"bottom","toNode":"da639897a32330a3","toSide":"top"},
+		{"id":"c2391604c9cc9293","fromNode":"02f62bc25d571631","fromSide":"bottom","toNode":"2fbbaa04639a35f2","toSide":"top"}
 	]
 }

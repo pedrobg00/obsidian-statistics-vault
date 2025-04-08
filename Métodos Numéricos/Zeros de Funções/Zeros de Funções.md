@@ -4,7 +4,7 @@
 - [[Método das Secantes]]
 - [[Método de Newton-Raphson]]
 - [[Método Gráfico]]
-- [[Verificação da Existência de Zeros]]
+- [[Teorema De Bolzano]]
 - [[Zeros de Funções]]
 
 %% End Waypoint %%
@@ -20,6 +20,7 @@ Determinar os zeros de uma função é um problema fundamental em matemática ap
 ### Tipos De Métodos Numéricos
 
 Os métodos numéricos para determinação de zeros de funções são técnicas utilizadas para encontrar aproximações das raízes de uma equação quando não é possível resolvê-la analiticamente. Entre os principais métodos estão:
+
 - Método da bisseção: utiliza o Teorema de Bolzano para dividir sucessivamente um intervalo onde há mudança de sinal
 - Método de Newton-Raphson: usa a derivada para iterar em direção à raiz
 - Método da secante: aproxima a derivada por diferenças finitas
