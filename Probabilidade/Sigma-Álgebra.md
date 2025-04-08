@@ -1,26 +1,22 @@
-## Introdução à Sigma Álgebra
-
-### Definição E Importância
-
 Uma **sigma álgebra** (ou $\sigma$-álgebra) é um conceito fundamental na teoria da medida e probabilidade. Formalmente, uma sigma álgebra sobre um conjunto $X$ é uma coleção de subconjuntos de $X$, denotada por $\mathcal{F}$, que satisfaz as seguintes propriedades:
 
 1. **$\emptyset \in \mathcal{F}$**: O conjunto vazio pertence à sigma álgebra.
 2. **Se $A \in \mathcal{F}$, então $X \setminus A \in \mathcal{F}$**: Se um subconjunto estiver na sigma álgebra, seu complemento também deve estar presente.
 3. **Se $\{A_n\}_{n=1}^{\infty}$ for uma sequência contável de elementos em $\mathcal{F}$, então $\bigcup_{n=1}^{\infty} A_n \in \mathcal{F}$**: A união contável de subconjuntos na sigma álgebra também deve estar presente.
 
-### Exemplos
+## Exemplos
 
-#### Exemplo 1: Espaço Métrico
+### Exemplo 1: Espaço Métrico
 
 Considere o conjunto $X = [0, 1]$. Uma sigma álgebra sobre este conjunto pode ser a coleção de todos os subintervalos fechados e abertos em $[0, 1]$.
 
-#### Exemplo 2: Conjunto Finito
+### Exemplo 2: Conjunto Finito
 
 Seja $X = \{a, b, c\}$. A maior sigma álgebra possível é $\mathcal{P}(X) = \{\emptyset, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a, b, c\}\}$.
 
-### Aplicações
+## Aplicações
 
-#### Teoria Da Medida
+### Teoria Da Medida
 
 As sigma álgebras são essenciais na definição de medidas. Uma medida $\mu$ é uma função que associa a cada conjunto em uma sigma álgebra um valor não negativo ou infinito, representado por:
 
@@ -28,10 +24,6 @@ $$
 \mu: \mathcal{F} \to [0, +\infty]
 $$
 
-#### Probabilidade
+### Probabilidade
 
 Em probabilidade, as sigma álgebras são usadas para definir eventos e suas probabilidades. Se $\Omega$ é o espaço amostral de um experimento aleatório, uma sigma álgebra sobre $\Omega$ define os eventos que podem ocorrer.
-
-### Importância Na Matemática
-
-As sigma álgebras fornecem a estrutura necessária para definir medidas e integrais em espaços mais gerais do que os conjuntos finitos ou contáveis. Elas são fundamentais no desenvolvimento de teorias como a teoria da medida, probabilidade e análise funcional.

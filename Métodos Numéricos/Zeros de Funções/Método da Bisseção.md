@@ -5,9 +5,11 @@ O **método da bisseção** é um método numérico para encontrar uma raiz de u
 Seja $f: \mathbb{R} \to \mathbb{R}$ uma função contínua no intervalo $[a, b]$ tal que $f(a) \cdot f(b) < 0$. O método da bisseção segue os seguintes passos iterativos:  
 
 1. **Calcular o ponto médio** do intervalo:
+
 	$$
 	 c = \frac{a + b}{2}
 	$$
+
 2. **Verificar a raiz**:
 	- Se $f(c) = 0$, então $c$ é a raiz da equação.  
 	- Se $f(a) \cdot f(c) < 0$, então a raiz está no intervalo $[a, c]$, e atualizamos $b = c$.  
@@ -26,45 +28,40 @@ A implementação do método da bisseção pode ser feita da seguinte maneira: �
 ```python
 
 def bissecao(f, a, b, tol=1e-6, max_iter=100):
-    """
-    Método da Bisseção para encontrar um zero de f(x) no intervalo [a, b].
-    
-    Parâmetros:
-    f        -- Função contínua f(x)
+     """
+     Método da Bisseção para encontrar um zero de f(x) no intervalo [a, b].
 
-    a, b     -- Intervalo inicial [a, b] tal que f(a) * f(b) < 0
+     Parâmetros:
+     f -- Função contínua f(x)
+     a, b -- Intervalo inicial [a, b] tal que f(a) * f(b) < 0
+     tol -- Critério de parada (erro máximo permitido)
+     max_iter -- Número máximo de iterações
 
-    tol      -- Critério de parada (erro máximo permitido)
+     Retorna:
+     Raiz aproximada de f(x)
+     """
 
-    max_iter -- Número máximo de iterações
+     if f(a) * f(b) >= 0:
+       raise ValueError("O Teorema de Bolzano não é garantido: f(a) e f(b) devem ter sinais opostos.")
 
-    Retorna:
+     for _ in range(max_iter):
+       c = (a + b) / 2 # Ponto médio
+       if abs(f(c)) < tol or (b - a) / 2 < tol:
+         return c
 
-    Raiz aproximada de f(x)
+       elif f(a) * f(c) < 0:
+         b = c # Raiz está em [a, c]
+       else:
+         a = c # Raiz está em [c, b]
 
-    """
-
-    if f(a) * f(b) >= 0:
-        raise ValueError("O Teorema de Bolzano não é garantido: f(a) e f(b) devem ter sinais opostos.")
-
-    for _ in range(max_iter):
-        c = (a + b) / 2  # Ponto médio
-        if abs(f(c)) < tol or (b - a) / 2 < tol:  # Critério de convergência
-            return c
-
-        elif f(a) * f(c) < 0:
-            b = c  # Raiz está em [a, c]
-        else:
-            a = c  # Raiz está em [c, b]
-
-    return (a + b) / 2  # Aproximação final da raiz
+     return (a + b) / 2 # Aproximação final da raiz
 
 # Exemplo de uso
-f = lambda x: x**3 - 4*x + 1  # Definição da função
+f = lambda x: x**3 + x**2 - 10 # Definição da função
 
-raiz = bissecao(f, 0, 2)  # Chamada do método
+raiz = bissecao(f, 0, 2, 1e-8)
 
-print(f"Raiz aproximada: {raiz:.6f}")
+print(f"Raiz aproximada: {raiz:.10f}")
 
 ```
 
