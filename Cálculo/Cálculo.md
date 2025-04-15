@@ -1,9 +1,12 @@
 %% Begin Waypoint %%
-- [[Cálculo]]
-- **[[Derivadas]]**
-- **[[Integrais]]**
-- **[[Limites]]**
-- **[[Séries Infinitas]]**
+- **[[Cálculo]]**
+	- [[Cálculo.canvas]]
+	- [[Cálculo]]
+	- **[[Derivadas]]**
+	- **Funções de Mais de uma Variável**
+	- **[[Integrais]]**
+	- **[[Limites]]**
+	- **[[Séries Infinitas]]**
 
 %% End Waypoint %%
 

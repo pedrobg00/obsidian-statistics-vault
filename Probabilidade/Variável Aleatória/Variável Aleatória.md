@@ -1,12 +1,14 @@
 %% Begin Waypoint %%
-- [[Espaço de Probabilidade Produzido por Variável Aleatória]]
-- [[Esperança de uma Variável Aleatória]]
-- [[Funções de Variáveis Aleatórias]]
-- [[Variância de uma Variável Aleatória]]
-- [[Variável Aleatória Contínua]]
-- [[Variável Aleatória Discreta]]
-- [[Variável Aleatória Mista]]
-- [[Variável Aleatória]]
+- **[[Variável Aleatória]]**
+	- [[Espaço de Probabilidade Produzido por Variável Aleatória]]
+	- [[Esperança de uma Variável Aleatória]]
+	- [[Funções de Variáveis Aleatórias]]
+	- [[Funções Geradoras de Momento]]
+	- [[Variância de uma Variável Aleatória]]
+	- [[Variável Aleatória Contínua]]
+	- [[Variável Aleatória Discreta]]
+	- [[Variável Aleatória Mista]]
+	- [[Variável Aleatória]]
 
 %% End Waypoint %%
 ## Introdução Às Variáveis Aleatórias

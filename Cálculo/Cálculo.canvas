@@ -1,30 +1,250 @@
 {
-	"nodes":[
-		{"id":"eb7183589fce371c","type":"group","x":-680,"y":-20,"width":2280,"height":2620,"label":"Séries Infinitas"},
-		{"id":"2cc69d78d833b576","type":"text","text":"# Cálculo","x":-6,"y":-320,"width":175,"height":50,"color":"1"},
-		{"id":"300d177e1bf7a912","type":"file","file":"Cálculo/Séries Infinitas/Sequências.md","x":-623,"y":40,"width":434,"height":540},
-		{"id":"aec36fcb8863e9f5","type":"file","file":"Cálculo/Séries Infinitas/Séries Infinitas.md","x":-31,"y":280,"width":400,"height":400},
-		{"id":"0d0aeff9b45fa9fd","type":"file","file":"Cálculo/Séries Infinitas/Séries Alternadas.md","x":-549,"y":1260,"width":400,"height":400},
-		{"id":"20e200faad2de9cc","type":"file","file":"Cálculo/Séries Infinitas/Série de Taylor.md","x":-500,"y":1740,"width":400,"height":400},
-		{"id":"d0be5e4058686e16","type":"file","file":"Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md","x":-589,"y":780,"width":400,"height":385},
-		{"id":"9af9135e4763ba38","type":"file","file":"Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md","x":169,"y":973,"width":400,"height":400},
-		{"id":"ed0b606b8b0f30c7","type":"file","file":"Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md","x":649,"y":1173,"width":400,"height":400},
-		{"id":"d6b62fcf61668144","type":"file","file":"Cálculo/Séries Infinitas/Critério da Razão para Convergência de Séries Infinitas.md","x":1129,"y":1293,"width":400,"height":400},
-		{"id":"eecd7dd1958cce57","type":"file","file":"Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md","x":569,"y":433,"width":400,"height":400},
-		{"id":"1ee027db7fe9995f","type":"file","file":"Cálculo/Séries Infinitas/Série de Maclaurin.md","x":-6,"y":2000,"width":400,"height":400},
-		{"id":"9dffa8167b0aede7","type":"file","file":"Cálculo/Séries Infinitas/Série Binomial.md","x":520,"y":2140,"width":400,"height":400}
-	],
-	"edges":[
-		{"id":"7caf4c9d693b4c71","fromNode":"300d177e1bf7a912","fromSide":"right","toNode":"aec36fcb8863e9f5","toSide":"left"},
-		{"id":"4bdd5982804bcca2","fromNode":"aec36fcb8863e9f5","fromSide":"bottom","toNode":"d0be5e4058686e16","toSide":"top"},
-		{"id":"d4ba39fb3811763d","fromNode":"2cc69d78d833b576","fromSide":"bottom","toNode":"eb7183589fce371c","toSide":"top"},
-		{"id":"f8ede8915dfe3dd3","fromNode":"aec36fcb8863e9f5","fromSide":"right","toNode":"eecd7dd1958cce57","toSide":"left"},
-		{"id":"a2a0c9d77325d4bf","fromNode":"eecd7dd1958cce57","fromSide":"bottom","toNode":"9af9135e4763ba38","toSide":"top"},
-		{"id":"fe0138d9c703866d","fromNode":"eecd7dd1958cce57","fromSide":"bottom","toNode":"ed0b606b8b0f30c7","toSide":"top"},
-		{"id":"32dee8e3282541ab","fromNode":"aec36fcb8863e9f5","fromSide":"bottom","toNode":"0d0aeff9b45fa9fd","toSide":"top"},
-		{"id":"e8daea2072e13a44","fromNode":"eecd7dd1958cce57","fromSide":"bottom","toNode":"d6b62fcf61668144","toSide":"top"},
-		{"id":"1b50ee83340b7a8d","fromNode":"aec36fcb8863e9f5","fromSide":"bottom","toNode":"20e200faad2de9cc","toSide":"top"},
-		{"id":"f8a541b2f0894a4d","fromNode":"20e200faad2de9cc","fromSide":"right","toNode":"1ee027db7fe9995f","toSide":"top"},
-		{"id":"163e4e9bb99f655b","fromNode":"1ee027db7fe9995f","fromSide":"right","toNode":"9dffa8167b0aede7","toSide":"left"}
-	]
+  "edges": [
+    {
+      "fromNode": "47566952600788bb",
+      "fromSide": "bottom",
+      "id": "5c59ec12e82b046e",
+      "styleAttributes": {
+      },
+      "toNode": "83b5a2386996f1fc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "300d177e1bf7a912",
+      "fromSide": "right",
+      "id": "7caf4c9d693b4c71",
+      "toNode": "aec36fcb8863e9f5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aec36fcb8863e9f5",
+      "fromSide": "bottom",
+      "id": "4bdd5982804bcca2",
+      "toNode": "d0be5e4058686e16",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "aec36fcb8863e9f5",
+      "fromSide": "right",
+      "id": "f8ede8915dfe3dd3",
+      "toNode": "eecd7dd1958cce57",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "eecd7dd1958cce57",
+      "fromSide": "bottom",
+      "id": "a2a0c9d77325d4bf",
+      "toNode": "9af9135e4763ba38",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "eecd7dd1958cce57",
+      "fromSide": "bottom",
+      "id": "fe0138d9c703866d",
+      "toNode": "ed0b606b8b0f30c7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "aec36fcb8863e9f5",
+      "fromSide": "bottom",
+      "id": "32dee8e3282541ab",
+      "toNode": "0d0aeff9b45fa9fd",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "eecd7dd1958cce57",
+      "fromSide": "bottom",
+      "id": "e8daea2072e13a44",
+      "toNode": "d6b62fcf61668144",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "aec36fcb8863e9f5",
+      "fromSide": "bottom",
+      "id": "1b50ee83340b7a8d",
+      "toNode": "20e200faad2de9cc",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "20e200faad2de9cc",
+      "fromSide": "right",
+      "id": "f8a541b2f0894a4d",
+      "toNode": "1ee027db7fe9995f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1ee027db7fe9995f",
+      "fromSide": "right",
+      "id": "163e4e9bb99f655b",
+      "toNode": "9dffa8167b0aede7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0d0aeff9b45fa9fd",
+      "fromSide": "left",
+      "id": "0ef148d73efa18b1",
+      "toNode": "bbf745f3bef978a7",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 2540,
+      "id": "83b5a2386996f1fc",
+      "label": "Séries Infinitas",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2863,
+      "x": -800,
+      "y": 80
+    },
+    {
+      "color": "1",
+      "height": 50,
+      "id": "47566952600788bb",
+      "styleAttributes": {
+        "border": null,
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "text": "Cálculo",
+      "type": "text",
+      "width": 126,
+      "x": -412,
+      "y": -320
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série de Taylor.md",
+      "height": 400,
+      "id": "20e200faad2de9cc",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -257,
+      "y": 1800
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Séries de Potências.md",
+      "height": 400,
+      "id": "bbf745f3bef978a7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -780,
+      "y": 1753
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Sequências.md",
+      "height": 540,
+      "id": "300d177e1bf7a912",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 434,
+      "x": -380,
+      "y": 100
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Séries Infinitas.md",
+      "height": 400,
+      "id": "aec36fcb8863e9f5",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 212,
+      "y": 340
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Critério da Integral para Convergência de Séries.md",
+      "height": 400,
+      "id": "9af9135e4763ba38",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 683,
+      "y": 1033
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
+      "height": 385,
+      "id": "d0be5e4058686e16",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -563,
+      "y": 841
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Séries Alternadas.md",
+      "height": 400,
+      "id": "0d0aeff9b45fa9fd",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -306,
+      "y": 1320
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série de Maclaurin.md",
+      "height": 400,
+      "id": "1ee027db7fe9995f",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 237,
+      "y": 2060
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
+      "height": 400,
+      "id": "eecd7dd1958cce57",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1083,
+      "y": 493
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Testes de Comparação para Convergência de Soma de Séries.md",
+      "height": 400,
+      "id": "ed0b606b8b0f30c7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1163,
+      "y": 1233
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série Binomial.md",
+      "height": 400,
+      "id": "9dffa8167b0aede7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 763,
+      "y": 2200
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Critério da Razão para Convergência de Séries Infinitas.md",
+      "height": 400,
+      "id": "d6b62fcf61668144",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1643,
+      "y": 1353
+    }
+  ]
 }

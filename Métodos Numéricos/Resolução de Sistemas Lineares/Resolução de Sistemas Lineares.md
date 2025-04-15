@@ -1,7 +1,10 @@
 %% Begin Waypoint %%
-- [[Método de Eliminação de Gauss]]
-- [[Métodos Diretos - Sistema Triangular]]
-- [[Resolução de Sistemas Lineares]]
+- **[[Resolução de Sistemas Lineares]]**
+	- [[Fatoração LU]]
+	- [[Método de Eliminação de Gauss]]
+	- [[Métodos Diretos - Sistema Triangular]]
+	- [[Métodos Iterativos]]
+	- [[Resolução de Sistemas Lineares]]
 
 %% End Waypoint %%
 

@@ -1,15 +1,17 @@
 %% Begin Waypoint %%
-- [[Critério da Integral para Convergência de Séries]]
-- [[Critério da Razão para Convergência de Séries Infinitas]]
-- [[Estimativa para a Soma de uma Série]]
-- [[Sequências]]
-- [[Série Binomial]]
-- [[Série de Maclaurin]]
-- [[Série de Taylor]]
-- [[Séries Alternadas]]
-- [[Séries Infinitas]]
-- [[Soma de Séries por Somas Parciais]]
-- [[Testes de Comparação para Convergência de Soma de Séries]]
+- **[[Séries Infinitas]]**
+	- [[Critério da Integral para Convergência de Séries]]
+	- [[Critério da Razão para Convergência de Séries Infinitas]]
+	- [[Estimativa para a Soma de uma Série]]
+	- [[Sequências]]
+	- [[Série Binomial]]
+	- [[Série de Maclaurin]]
+	- [[Série de Taylor]]
+	- [[Séries Alternadas]]
+	- [[Séries de Potências]]
+	- [[Séries Infinitas]]
+	- [[Soma de Séries por Somas Parciais]]
+	- [[Testes de Comparação para Convergência de Soma de Séries]]
 
 %% End Waypoint %%
 

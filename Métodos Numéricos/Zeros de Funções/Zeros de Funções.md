@@ -1,11 +1,13 @@
 %% Begin Waypoint %%
-- [[Método da Bisseção]]
-- [[Método da Falsa Posição]]
-- [[Método das Secantes]]
-- [[Método de Newton-Raphson]]
-- [[Método Gráfico]]
-- [[Teorema De Bolzano]]
-- [[Zeros de Funções]]
+- **[[Zeros de Funções]]**
+	- [[Método da Bisseção]]
+	- [[Método da Falsa Posição]]
+	- [[Método das Secantes]]
+	- [[Método de Newton-Raphson]]
+	- [[Método Falsa Posição.pdf]]
+	- [[Método Gráfico]]
+	- [[Teorema De Bolzano]]
+	- [[Zeros de Funções]]
 
 %% End Waypoint %%
 
