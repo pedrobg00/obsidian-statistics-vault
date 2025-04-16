@@ -1,6 +1,6 @@
 O **Critério da Razão** (ou Teste da Razão) é um método útil para determinar a convergência absoluta de uma série infinita. Este critério é particularmente eficaz quando os termos da série são expressos em função de números positivos e crescentes.
 
-## Formulção Do Critério
+## Formulação Do Critério
 
 Considere uma série infinita $\sum_{n=1}^{\infty} a_n$, onde $a_n > 0$ para todo $n$. O critério da razão é aplicado ao calcular o limite:
 

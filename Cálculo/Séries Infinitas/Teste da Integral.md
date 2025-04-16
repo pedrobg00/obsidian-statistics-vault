@@ -1,5 +1,4 @@
-Para entender o critério da integral para a convergência de séries, é importante primeiro definir as condições e aplicar o método corretamente. Este critério é útil para determinar se uma série infinita converge ou diverge.
-
+Para entender o critério da integral para a convergência de séries, é importante primeiro definir as condições e aplicar o método corretamente.
 ## Definição Do Critério Da Integral
 
 Considere uma função $f(x)$ contínua, não-negativa e decrescente para $x \geq 1$. A série $\sum_{n=1}^{\infty} f(n)$ converge se e somente se a integral $\int_{1}^{\infty} f(x) \, dx$ convergir.

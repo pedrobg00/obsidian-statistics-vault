@@ -1,5 +1,7 @@
 %% Begin Waypoint %%
-- [[Limites]]
+- **[[Limites]]**
+	- [[Limites]]
+	- [[Teorema do Confronto]]
 
 %% End Waypoint %%
 ## Introdução Aos Limites no Cálculo
