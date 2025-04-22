@@ -1,7 +1,3 @@
-Os métodos iterativos são técnicas eficazes utilizadas na resolução de grandes sistemas lineares, especialmente quando o número de equações é muito alto. Esses métodos são alternativas apropriadas às técnicas diretas, como a eliminação gaussiana, que podem ser computacionalmente caras para sistemas com muitas variáveis.
-
-O método que você mencionou, $x = Cx + g$, é um formato genérico usado para descrever vários métodos iterativos. Vamos explorar esse formato e como ele se relaciona com os exemplos de métodos iterativos que você listou.
-
 ## Formato Geral: $x^{(k+1)} = Cx^{(k)} + g$
 
 Neste formato, $x^{(k)}$ representa a solução aproximada no $k$-ésimo passo da iteração. A matriz $C$ e o vetor $g$ são parâmetros do método iterativo que podem variar dependendo do problema específico.

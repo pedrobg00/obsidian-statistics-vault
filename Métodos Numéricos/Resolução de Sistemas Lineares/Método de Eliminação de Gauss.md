@@ -1,8 +1,6 @@
-## Introdução Ao Método De Eliminação De Gauss
-
 O Método de Eliminação de Gauss é uma técnica fundamental utilizada para resolver sistemas lineares de equações. Este método consiste em transformar um sistema linear em uma forma triangular superior, facilitando a resolução do mesmo através da substituição retroativa.
 
-### Passos Básicos Do Método
+## Passos Básicos Do Método
 
 1. **Forma Triangular Superior:**
    - O objetivo é transformar o sistema linear original em uma matriz triangular superior.
@@ -21,9 +19,9 @@ O Método de Eliminação de Gauss é uma técnica fundamental utilizada para re
    - Após obter a forma triangular superior, o sistema pode ser resolvido facilmente através da substituição retroativa.
    - Começa pela última equação e resolve para a última variável, depois usa esse valor na penúltima equação, e assim por diante.
 
-### Exemplo
+### Exemplo De Aplicação Do Método De Eliminação De Gauss
 
-Considere o seguinte sistema linear:
+Considere o seguinte sistema linear de equações:
 
 $$
 
@@ -32,82 +30,176 @@ $$
 
 2x + 3y - z = 1 \\
 
--3x - 5y + 2z = -1 \\
+4x - y + 2z = 7 \\
 
-5x + y - 9z = 6
+-2x + 2y + 5z = 0
 
 \end{cases}
 
 
 $$
 
-**Passo 1: Eliminação**
-- Transformar o sistema em uma matriz:
-  $$
+#### Passos Básicos Do Método
 
-  \left[\begin{array}{ccc|c}
-  2 & 3 & -1 & 1 \\
-  -3 & -5 & 2 & -1 \\
-  5 & 1 & -9 & 6
-  \end{array}\right]
-  
+1. **Forma Triangular Superior:**
+
+   Primeiro, transformamos o sistema em uma matriz aumentada:
+
+   $$
+
+
+   \left[\begin{array}{ccc|c}
+
+   2 & 3 & -1 & 1 \\
+
+   4 & -1 & 2 & 7 \\
+
+   -2 & 2 & 5 & 0
+
+   \end{array}\right]
+
+   
 $$
 
-- Eliminar $x$ da segunda e terceira equações:
-  $$
+   **Etapa de Eliminação:**
 
-  R_2 = R_2 + \frac{3}{2}R_1, \quad R_3 = R_3 - \frac{5}{2}R_1
+   - **Eliminando $x$ na segunda linha:**
+     Multiplicamos a primeira linha por 2 e subtraímos da segunda linha:
 
-$$
-  Resultando em:
-  $$
+     $$
 
-  \left[\begin{array}{ccc|c}
-  2 & 3 & -1 & 1 \\
-  0 & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} \\
-  0 & -\frac{13}{2} & -\frac{13}{2} & \frac{7}{2}
-  \end{array}\right]
 
+     R_2 = R_2 - 2R_1
+
+     
 $$
 
-- Eliminar $y$ da terceira equação:
-  $$
+     Resultado:
 
-  R_3 = R_3 + 13R_2
+     $$
 
-$$
-  Resultando em:
-  $$
 
-  \left[\begin{array}{ccc|c}
-  2 & 3 & -1 & 1 \\
-  0 & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} \\
-  0 & 0 & -6 & 7
-  \end{array}\right]
+     \left[\begin{array}{ccc|c}
 
-$$
+     2 & 3 & -1 & 1 \\
 
-**Passo 2: Substituição Retroativa**
-- Resolvendo a última equação:
-  $$
+     0 & -7 & 4 & 5 \\
 
-  -6z = 7 \implies z = -\frac{7}{6}
+     -2 & 2 & 5 & 0
 
+     \end{array}\right]
+
+     
 $$
 
-- Usando $z$ na segunda equação:
-  $$
+   - **Eliminando $x$ na terceira linha:**
+     Multiplicamos a primeira linha por 1 e somamos à terceira linha:
 
-  \frac{1}{2}y + \frac{1}{2}\left(-\frac{7}{6}\right) = \frac{1}{2} \implies y - \frac{7}{12} = \frac{1}{2} \implies y = \frac{5}{6}
+     $$
+
+
+     R_3 = R_3 + R_1
+
+     
+$$
+
+     Resultado:
+
+     $$
+
+
+     \left[\begin{array}{ccc|c}
+
+     2 & 3 & -1 & 1 \\
+
+     0 & -7 & 4 & 5 \\
+
+     0 & 5 & 4 & 1
+
+     \end{array}\right]
+
+     
+$$
+
+   - **Eliminando $y$ na terceira linha:**
+     Multiplicamos a segunda linha por $\frac{5}{7}$ e subtraímos da terceira linha:
+
+     $$
+
+
+     R_3 = R_3 - \frac{5}{7}R_2
+
+     
+$$
+
+     Resultado:
+
+     $$
+
+
+     \left[\begin{array}{ccc|c}
+
+     2 & 3 & -1 & 1 \\
+
+     0 & -7 & 4 & 5 \\
+
+     0 & 0 & \frac{8}{7} & -\frac{18}{7}
+
+     \end{array}\right]
+
+     
+$$
+
+   Agora, temos a matriz triangular superior:
+
+   $$
+
+   \left[\begin{array}{ccc|c}
+
+   2 & 3 & -1 & 1 \\
+
+   0 & -7 & 4 & 5 \\
+
+   0 & 0 & \frac{8}{7} & -\frac{18}{7}
+
+   \end{array}\right]
 
 $$
 
-- Usando $y$ e $z$ na primeira equação:
-  $$
+2. **Etapa de Substituição Retroativa:**
 
-  2x + 3\left(\frac{5}{6}\right) - \left(-\frac{7}{6}\right) = 1 \implies 2x + \frac{15}{6} + \frac{7}{6} = 1 \implies 2x + 4 = 1 \implies x = -\frac{3}{2}
+   - **Resolvendo a última equação:**
+     $$
 
+     \frac{8}{7}z = -\frac{18}{7} \implies z = -\frac{18}{7} \cdot \frac{7}{8} = -\frac{9}{4}
+     
 $$
 
-Portanto, a solução é $x = -\frac{3}{2}$, $y = \frac{5}{6}$, e $z = -\frac{7}{6}$.
+   - **Resolvendo a segunda equação:**
+     Substituindo $z$ na segunda equação:
+     $$
 
+     -7y + 4\left(-\frac{9}{4}\right) = 5 \implies -7y - 9 = 5 \implies -7y = 14 \implies y = -2
+     
+$$
+
+   - **Resolvendo a primeira equação:**
+     Substituindo $y$ e $z$ na primeira equação:
+     $$
+
+     2x + 3(-2) - \left(-\frac{9}{4}\right) = 1 \implies 2x - 6 + \frac{9}{4} = 1 \implies 2x - \frac{24}{4} + \frac{9}{4} = 1 \implies 2x - \frac{15}{4} = 1
+     
+$$
+     $$
+
+     2x = 1 + \frac{15}{4} \implies 2x = \frac{4}{4} + \frac{15}{4} \implies 2x = \frac{19}{4} \implies x = \frac{19}{8}
+     
+$$
+
+   Portanto, a solução do sistema é:
+
+   $$
+
+   x = \frac{19}{8}, \quad y = -2, \quad z = -\frac{9}{4}
+
+$$

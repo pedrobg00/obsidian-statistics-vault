@@ -54,5 +54,5 @@ f = lambda x: x**2 - 2
 df = lambda x: 2*x
 
 raiz = newton_raphson(f, df, x0=1.0)
-print(f"A raiz aproximada é: {raiz}")
+	print(f"A raiz aproximada é: {raiz}")
 ```
