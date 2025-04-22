@@ -1,6 +1,6 @@
 {
   "downloadTimestamp": 1744375717614,
-  "askedForDonation": false,
+  "askedForDonation": true,
   "nodeTypeOnDoubleClick": "text",
   "alignNewNodesToGrid": true,
   "defaultTextNodeWidth": 260,
@@ -10,7 +10,7 @@
   "minNodeSize": 60,
   "maxNodeWidth": -1,
   "disableFontSizeRelativeToZoom": false,
-  "canvasMetadataCompatibilityEnabled": true,
+  "canvasMetadataCompatibilityEnabled": false,
   "treatFileNodeEdgesAsLinks": true,
   "combineCustomStylesInDropdown": false,
   "nodeStylingFeatureEnabled": true,

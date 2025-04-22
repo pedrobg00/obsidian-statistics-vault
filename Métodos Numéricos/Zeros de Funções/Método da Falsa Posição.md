@@ -14,7 +14,7 @@ $$
 
 onde $a_{n-1}$ e $b_{n-1}$ são os valores dos extremos do intervalo atual, e $x_n$ é a nova aproximação.
 
-## Exemplo De Aplicação
+### Exemplo De Aplicação
 
 Considere a função $f(x) = x^3 - 2x - 5$. Sejam as aproximações iniciais $a_0 = 1$ e $b_0 = 2$, pois $f(1) < 0$ e $f(2) > 0$.
 
@@ -47,3 +47,50 @@ $$
   x_2 = \frac{1 \cdot (-4.87) - 1.056 \cdot (-2)}{-4.87 - (-2)} = \frac{-4.87 + 2.112}{-4.87 + 2} = \frac{-2.758}{-2.87} \approx 0.963
 
 $$
+### Exemplo Em Python
+```python
+def falsa_posicao(f, a, b, tol=1e-6, max_iter=100):
+    if f(a) * f(b) >= 0:
+        raise ValueError("A função deve mudar de sinal no intervalo [a, b]")
+    
+    iter_count = 0
+    fa = f(a)
+    fb = f(b)
+    erro = tol + 1
+    c_anterior = None
+    
+    while erro > tol and iter_count < max_iter:
+        c = (a * fb - b * fa) / (fb - fa)
+        fc = f(c)
+        
+        if c_anterior is not None:
+            erro = abs(c - c_anterior)
+
+        if abs(fc) < tol:
+            break
+        
+        if fa * fc < 0:
+            b = c
+            fb = fc
+        else:
+            a = c
+            fa = fc
+        
+        c_anterior = c
+        iter_count += 1
+    
+    return {
+        "raiz": c,
+        "valor_funcao": fc,
+        "iteracoes": iter_count,
+        "convergiu": iter_count < max_iter,
+    }
+
+def exercicio1(x):
+    return x + 3*math.cos(x) - math.exp(x)
+
+resultado = falsa_posicao(exercicio1, 0, 3, tol=0.001)
+print(f"Raiz aproximada: {resultado['raiz']}")
+print(f"Valor da função na raiz: {resultado['valor_funcao']}")
+print(f"Número de iterações: {resultado['iteracoes']}")
+```

@@ -1,5 +1,6 @@
 %% Begin Waypoint %%
 - **[[Probabilidade]]**
+	- **[[Distribuições]]**
 	- [[Leis de Morgan]]
 	- [[Notas de Probabilidade - Professor Cleber.pdf]]
 	- [[Probabilidade.canvas]]

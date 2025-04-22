@@ -203,17 +203,6 @@
       "y": 195
     },
     {
-      "file": "Cálculo/Séries Infinitas/Série Geométrica.md",
-      "height": 400,
-      "id": "bbbff21fe033ca25",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 808,
-      "y": 865
-    },
-    {
       "file": "Cálculo/Séries Infinitas/Série P.md",
       "height": 400,
       "id": "b41fc8ade42b60d6",
@@ -245,6 +234,39 @@
       "width": 400,
       "x": -686,
       "y": 1159
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Teste da Integral.md",
+      "height": 400,
+      "id": "9af9135e4763ba38",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1560,
+      "y": 680
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série de Taylor.md",
+      "height": 400,
+      "id": "20e200faad2de9cc",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 54,
+      "y": 2119
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série Geométrica.md",
+      "height": 400,
+      "id": "bbbff21fe033ca25",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 808,
+      "y": 865
     },
     {
       "file": "Cálculo/Séries Infinitas/Séries de Potências.md",
@@ -280,17 +302,6 @@
       "y": 2400
     },
     {
-      "file": "Cálculo/Séries Infinitas/Teste da Integral.md",
-      "height": 400,
-      "id": "9af9135e4763ba38",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 1560,
-      "y": 680
-    },
-    {
       "file": "Cálculo/Séries Infinitas/Teste da Razão.md",
       "height": 400,
       "id": "d6b62fcf61668144",
@@ -322,17 +333,6 @@
       "width": 400,
       "x": 1560,
       "y": 2192
-    },
-    {
-      "file": "Cálculo/Séries Infinitas/Série de Taylor.md",
-      "height": 400,
-      "id": "20e200faad2de9cc",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 54,
-      "y": 2119
     },
     {
       "file": "Cálculo/Séries Infinitas/Série Harmônica.md",
