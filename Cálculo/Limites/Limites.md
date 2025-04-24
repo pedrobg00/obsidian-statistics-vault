@@ -1,5 +1,6 @@
 %% Begin Waypoint %%
 - **[[Limites]]**
+	- [[Limites e Continuidade de Funções de 2 Variáveis]]
 	- [[Limites]]
 	- [[Teorema do Confronto]]
 
