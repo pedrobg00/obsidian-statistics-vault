@@ -1,5 +1,7 @@
 %% Begin Waypoint %%
-- [[Derivadas]]
+- **[[Derivadas]]**
+	- [[Derivadas Parciais]]
+	- [[Derivadas]]
 
 %% End Waypoint %%
 
@@ -58,5 +60,3 @@ Se essa limit existir, a função $f(x)$ é diferenciável no ponto $a$. Esta de
 
 - **Física:** A derivada de uma função que descreve a posição de um objeto com o tempo pode ser usada para encontrar a velocidade do objeto.
 - **Economia:** Derivadas podem ser utilizadas para analisar a elasticidade de demanda ou a margem de lucro em funções de custo e receita.
-
-Derivadas são ferramentas poderosas que permitem uma análise detalhada da natureza das mudanças em sistemas matemáticos, fornecendo insights valiosos para diversos campos de estudo.
