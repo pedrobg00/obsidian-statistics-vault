@@ -6,6 +6,7 @@
 	- [[Métodos Diretos - Sistema Triangular]]
 	- [[Métodos Iterativos]]
 	- [[Resolução de Sistemas Lineares]]
+	- [[Teorema Condição Suficiente de Converência do Método de Gauss-Jacobi]]
 
 %% End Waypoint %%
 

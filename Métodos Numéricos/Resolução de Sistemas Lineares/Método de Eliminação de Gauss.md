@@ -58,8 +58,9 @@ $$
 
    \end{array}\right]
 
-   
+
 $$
+
 
    **Etapa de Eliminação:**
 
@@ -90,6 +91,7 @@ $$
      \end{array}\right]
 
      
+
 $$
 
    - **Eliminando $x$ na terceira linha:**
@@ -119,6 +121,7 @@ $$
      \end{array}\right]
 
      
+
 $$
 
    - **Eliminando $y$ na terceira linha:**
@@ -148,6 +151,7 @@ $$
      \end{array}\right]
 
      
+
 $$
 
    Agora, temos a matriz triangular superior:
@@ -177,11 +181,14 @@ $$
 
    - **Resolvendo a segunda equação:**
      Substituindo $z$ na segunda equação:
+
      $$
 
      -7y + 4\left(-\frac{9}{4}\right) = 5 \implies -7y - 9 = 5 \implies -7y = 14 \implies y = -2
-     
+
+
 $$
+
 
    - **Resolvendo a primeira equação:**
      Substituindo $y$ e $z$ na primeira equação:
@@ -190,10 +197,12 @@ $$
      2x + 3(-2) - \left(-\frac{9}{4}\right) = 1 \implies 2x - 6 + \frac{9}{4} = 1 \implies 2x - \frac{24}{4} + \frac{9}{4} = 1 \implies 2x - \frac{15}{4} = 1
      
 $$
+
      $$
 
      2x = 1 + \frac{15}{4} \implies 2x = \frac{4}{4} + \frac{15}{4} \implies 2x = \frac{19}{4} \implies x = \frac{19}{8}
      
+
 $$
 
    Portanto, a solução do sistema é:

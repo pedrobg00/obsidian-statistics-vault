@@ -236,6 +236,28 @@
       "y": 1159
     },
     {
+      "file": "Cálculo/Séries Infinitas/Séries de Potências.md",
+      "height": 400,
+      "id": "bbf745f3bef978a7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -412,
+      "y": 1919
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Séries Alternadas.md",
+      "height": 400,
+      "id": "0d0aeff9b45fa9fd",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 54,
+      "y": 1392
+    },
+    {
       "file": "Cálculo/Séries Infinitas/Teste da Integral.md",
       "height": 400,
       "id": "9af9135e4763ba38",
@@ -267,17 +289,6 @@
       "width": 400,
       "x": 808,
       "y": 865
-    },
-    {
-      "file": "Cálculo/Séries Infinitas/Séries de Potências.md",
-      "height": 400,
-      "id": "bbf745f3bef978a7",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -412,
-      "y": 1919
     },
     {
       "file": "Cálculo/Séries Infinitas/Série de Maclaurin.md",
@@ -344,17 +355,6 @@
       "width": 400,
       "x": 531,
       "y": 1465
-    },
-    {
-      "file": "Cálculo/Séries Infinitas/Séries Alternadas.md",
-      "height": 400,
-      "id": "0d0aeff9b45fa9fd",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 54,
-      "y": 1392
     }
   ]
 }

@@ -63,8 +63,43 @@ x_1^{(k+1)} = \frac{1}{2}(8 - x_2^{(k)}) \\
 x_2^{(k+1)} = \frac{1}{3}(10 - x_1^{(k)})
 $$
 
-## Convergência E Considerações Finais
+### Criterio De Parada Do Método De Gauss-jacobi
 
-A convergência do método de Gauss-Jacobi depende das propriedades da matriz $A$. Especificamente, o método converge se a matriz $A$ for diagonalmente dominante ou se todas as entradas abaixo da diagonal principal forem negativas.
+O método de Gauss-Jacobi é uma técnica iterativa utilizada para resolver sistemas lineares. O critério de parada desse método é fundamental para determinar quando a solução atinge um nível aceitável de precisão. Este critério pode ser estabelecido considerando as seguintes condições:
 
-Embora eficiente em muitos casos, o método de Gauss-Jacobi pode ser mais lento que outros métodos iterativos como o de Gauss-Seidel. No entanto, sua simplicidade e facilidade de implementação tornam-no uma ferramenta valiosa em diversas aplicações práticas.
+1. **Erro Absoluto**:
+
+   $$\epsilon = \max_{i} |x_i^{(k+1)} - x_i^{(k)}| < \varepsilon$$
+
+   Aqui, $x_i^{(k+1)}$ e $x_i^{(k)}$ representam os valores das variáveis no $(k+1)$-ésimo e $k$-ésimo iterações, respectivamente. $\varepsilon$ é um valor pequeno definido pelo usuário que serve como a tolerância de erro.
+
+2. **Erro Relativo**:
+
+   $$\epsilon = \frac{\max_{i} |x_i^{(k+1)} - x_i^{(k)}|}{\max_{i} |x_i^{(k+1)}|} < \varepsilon$$
+
+   Este critério é útil quando as soluções são de ordens de grandeza diferentes.
+
+3. **Número Máximo de Iterações**:
+   O método pode ser interrompido após um número máximo de iterações, $K_{\text{max}}$, seja atingido.
+
+   $$k \geq K_{\text{max}}$$
+
+4. **Convergência Garantida**:
+   Para garantir a convergência do método de Gauss-Jacobi, é necessário que o sistema linear seja diagonalmente dominante ou que as matrizes associadas sejam simétricas e definidas positivas.
+
+### Exemplos
+
+Considere um sistema linear $Ax = b$ com matriz $A$ diagonalmente dominante. Suponha que a tolerância de erro $\varepsilon = 10^{-6}$, o número máximo de iterações seja $K_{\text{max}} = 50$, e os valores iniciais sejam $x^{(0)} = [0, 0, \ldots, 0]^T$.
+
+- **Erro Absoluto**:
+
+  $$|x_i^{(k+1)} - x_i^{(k)}| < 10^{-6}$$
+
+- **Erro Relativo**:
+
+  $$\frac{|x_i^{(k+1)} - x_i^{(k)}|}{|x_i^{(k+1)}|} < 10^{-6}$$
+
+### Observações Importantes
+
+- O critério de parada baseado no erro relativo é mais robusto, pois considera a escala dos valores das variáveis.
+- A escolha do critério de parada deve levar em conta o problema específico e as características do sistema linear.
