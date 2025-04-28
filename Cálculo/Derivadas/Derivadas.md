@@ -1,7 +1,11 @@
 %% Begin Waypoint %%
 - **[[Derivadas]]**
+	- [[Derivada Implícita]]
+	- [[Derivadas de Ordem Superior]]
 	- [[Derivadas Parciais]]
 	- [[Derivadas]]
+	- [[Plano Tangente]]
+	- [[Teorema de Clairaut]]
 
 %% End Waypoint %%
 
