@@ -94,3 +94,7 @@ print(f"Raiz aproximada: {resultado['raiz']}")
 print(f"Valor da função na raiz: {resultado['valor_funcao']}")
 print(f"Número de iterações: {resultado['iteracoes']}")
 ```
+
+## Arquivo Adicional
+
+![[Método Falsa Posição.pdf]]

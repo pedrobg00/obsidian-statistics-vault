@@ -3,6 +3,7 @@
 	- [[Fatoração LU]]
 	- [[Método de Eliminação de Gauss]]
 	- [[Método de Gauss-Jacobi]]
+	- [[Método de Gauss-Seide]]
 	- [[Métodos Diretos - Sistema Triangular]]
 	- [[Métodos Iterativos]]
 	- [[Resolução de Sistemas Lineares]]

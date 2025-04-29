@@ -4,7 +4,6 @@
 	- [[Método da Falsa Posição]]
 	- [[Método das Secantes]]
 	- [[Método de Newton-Raphson]]
-	- [[Método Falsa Posição.pdf]]
 	- [[Método Gráfico]]
 	- [[Teorema De Bolzano]]
 	- [[Zeros de Funções]]
