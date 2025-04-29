@@ -6,6 +6,7 @@
 	- [[Distribuição de Bernoulli]]
 	- [[Distribuição Geométrica]]
 	- [[Distribuição Hipergeométrica]]
+	- [[Distribuição Poisson]]
 	- [[Distribuição Uniforme]]
 	- [[Distribuições]]
 	- [[Esperança a Partir da Função Geradora de Momentos]]

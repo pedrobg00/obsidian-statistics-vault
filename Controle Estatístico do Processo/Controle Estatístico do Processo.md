@@ -1,6 +1,10 @@
 %% Begin Waypoint %%
-- [[Controle Estatístico do Processo]]
-- **[[Ferramentas da Qualidade - Discos Gheno]]**
+- **[[Controle Estatístico do Processo]]**
+	- [[Apostila - Professor Fernando.pdf]]
+	- [[Controle Estatístico do Processo.canvas]]
+	- [[Controle Estatístico do Processo]]
+	- **[[Ferramentas da Qualidade - Discos Gheno]]**
+	- [[Prova 1]]
 
 %% End Waypoint %%
 ## Introdução Ao Controle Estatístico De Processos (CEP)
