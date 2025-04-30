@@ -4,6 +4,8 @@
 	- [[Derivadas de Ordem Superior]]
 	- [[Derivadas Parciais]]
 	- [[Derivadas]]
+	- [[Diferenciabilidade de uma  Função]]
+	- [[Diferencial de Uma Função]]
 	- [[Plano Tangente]]
 	- [[Teorema de Clairaut]]
 

@@ -214,17 +214,6 @@
       "y": 1792
     },
     {
-      "file": "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
-      "height": 385,
-      "id": "d0be5e4058686e16",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -195,
-      "y": 880
-    },
-    {
       "file": "Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
       "height": 400,
       "id": "eecd7dd1958cce57",
@@ -256,6 +245,28 @@
       "width": 400,
       "x": 54,
       "y": 1392
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série Binomial.md",
+      "height": 400,
+      "id": "9dffa8167b0aede7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1008,
+      "y": 2400
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
+      "height": 385,
+      "id": "d0be5e4058686e16",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -195,
+      "y": 880
     },
     {
       "file": "Cálculo/Séries Infinitas/Teste da Integral.md",
@@ -300,17 +311,6 @@
       "width": 400,
       "x": 531,
       "y": 2319
-    },
-    {
-      "file": "Cálculo/Séries Infinitas/Série Binomial.md",
-      "height": 400,
-      "id": "9dffa8167b0aede7",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 1008,
-      "y": 2400
     },
     {
       "file": "Cálculo/Séries Infinitas/Teste da Razão.md",
