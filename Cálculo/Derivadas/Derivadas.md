@@ -7,6 +7,7 @@
 	- [[Diferenciabilidade de uma  Função]]
 	- [[Diferencial de Uma Função]]
 	- [[Plano Tangente]]
+	- [[Regras da Cadeia]]
 	- [[Teorema de Clairaut]]
 
 %% End Waypoint %%
