@@ -212,3 +212,62 @@ $$
    x = \frac{19}{8}, \quad y = -2, \quad z = -\frac{9}{4}
 
 $$
+
+## Algoritmo Em Python
+
+```python
+def print_matrix(a, b):
+    n = len(b)
+    for i in range(n):
+        row = "  ".join(f"{a[i][j]:8.4f}" for j in range(n))
+        print(f"[ {row} ] | {b[i]:8.4f}")
+    print()
+
+def gauss_elimination_verbose(a, b):
+    n = len(b)
+
+    print("Initial augmented matrix:")
+    print_matrix(a, b)
+
+# Forward Elimination
+    for i in range(n):
+        max_row = i + max(range(n - i), key=lambda k: abs(a[i + k][i]))
+        if abs(a[max_row][i]) < 1e-12:
+            raise ValueError("Matrix is singular or nearly singular")
+
+# Swap Rows if Needed
+        if max_row != i:
+            a[i], a[max_row] = a[max_row], a[i]
+            b[i], b[max_row] = b[max_row], b[i]
+            print(f"Swapped row {i} with row {max_row}")
+            print_matrix(a, b)
+
+# Eliminate Entries below the Pivot
+        for j in range(i + 1, n):
+            factor = a[j][i] / a[i][i]
+            for k in range(i, n):
+                a[j][k] -= factor * a[i][k]
+            b[j] -= factor * b[i]
+            print(f"Eliminated row {j} using row {i} with factor {factor:.4f}")
+            print_matrix(a, b)
+
+# Back Substitution
+    x = [0 for _ in range(n)]
+    print("Back substitution:")
+    for i in reversed(range(n)):
+        s = sum(a[i][j] * x[j] for j in range(i + 1, n))
+        x[i] = (b[i] - s) / a[i][i]
+        print(f"x[{i}] = {x[i]:.4f}")
+
+    return x
+
+A = [
+    [2.0, 1.0, -1.0],
+    [-3.0, -1.0, 2.0],
+    [-2.0, 1.0, 2.0]
+]
+B = [8.0, -11.0, -3.0]
+
+solution = gauss_elimination_verbose([row[:] for row in A], B[:])
+print("Final solution:", solution)
+```
