@@ -108,6 +108,24 @@
       },
       "toNode": "4c71ed321533712d",
       "toSide": "left"
+    },
+    {
+      "fromNode": "13220f31bcbc606a",
+      "fromSide": "bottom",
+      "id": "d2d9f6be409131a0",
+      "styleAttributes": {
+      },
+      "toNode": "dfc388abcda55e1f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4c71ed321533712d",
+      "fromSide": "right",
+      "id": "f9ef30af3c09108f",
+      "styleAttributes": {
+      },
+      "toNode": "c41d1b342a0b809f",
+      "toSide": "top"
     }
   ],
   "nodes": [
@@ -118,7 +136,7 @@
       "styleAttributes": {
       },
       "type": "group",
-      "width": 1880,
+      "width": 1840,
       "x": 440,
       "y": 700
     },
@@ -256,6 +274,17 @@
       "y": 1440
     },
     {
+      "file": "Métodos Numéricos/Resolução de Sistemas Lineares/Método de Gauss-Seidel.md",
+      "height": 400,
+      "id": "dfc388abcda55e1f",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 520,
+      "y": 1900
+    },
+    {
       "file": "Métodos Numéricos/Resolução de Sistemas Lineares/Método de Eliminação de Gauss.md",
       "height": 400,
       "id": "2f35d34fc9b05718",
@@ -264,7 +293,7 @@
       "type": "file",
       "width": 400,
       "x": 1000,
-      "y": 1500
+      "y": 1440
     },
     {
       "file": "Métodos Numéricos/Resolução de Sistemas Lineares/Método de Gauss-Jacobi.md",
@@ -275,7 +304,7 @@
       "type": "file",
       "width": 400,
       "x": 1480,
-      "y": 1560
+      "y": 1440
     },
     {
       "file": "Métodos Numéricos/Resolução de Sistemas Lineares/Fatoração LU.md",
@@ -285,8 +314,17 @@
       },
       "type": "file",
       "width": 400,
-      "x": 1800,
-      "y": 1100
+      "x": 1840,
+      "y": 1000
+    },
+    {
+      "file": "Métodos Numéricos/Resolução de Sistemas Lineares/Teorema Condição Suficiente de Converência do Método de Gauss-Jacobi.md",
+      "height": 400,
+      "id": "c41d1b342a0b809f",
+      "type": "file",
+      "width": 400,
+      "x": 1840,
+      "y": 1900
     }
   ]
 }
