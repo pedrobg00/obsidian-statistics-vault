@@ -1,7 +1,9 @@
 %% Begin Waypoint %%
 - **[[Controle Estatístico do Processo]]**
+	- [[Apostila - Professor Fernando.pdf]]
 	- [[Controle Estatístico do Processo.canvas]]
 	- [[Controle Estatístico do Processo]]
+	- [[Exercícios Xbar e R - Repetir os exercícios usando Xbar e s.xls]]
 	- **[[Ferramentas da Qualidade - Discos Gheno]]**
 	- [[Prova 1]]
 

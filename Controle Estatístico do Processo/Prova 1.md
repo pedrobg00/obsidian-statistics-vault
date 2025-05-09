@@ -22,7 +22,7 @@
 
 ## O Que É Cep
 
-CEP pode ser definido como a junção dos significados da palavra que compoem seu nome, Controle, Estatística e Processo
+CEP pode ser definido como a junção dos significados da palavra que compõem seu nome, Controle, Estatística e Processo
 
 Controle: manter algo dentro dos limites (padrões) ou fazer algo se comportar de forma adequada.
 
@@ -117,3 +117,5 @@ votada deve ser considerada primeiro para discussão e depois as seguintes.
 ...
 
 ## Gráficos de Controle (Carta de Controle)
+
+### Causas comuns X Causas Especiais

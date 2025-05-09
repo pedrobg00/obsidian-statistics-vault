@@ -1,14 +1,15 @@
 %% Begin Waypoint %%
-- [[Ferramentas da Qualidade - Discos Gheno]]
-- **Fluxograma do Processo**
-	- [[Diagrama de Causa e Efeito.excalidraw]]
-	- [[Fluxograma do Processo.excalidraw]]
-	- [[Parte 1 - Projeto.excalidraw]]
-	- [[Parte 2 - Compra do Material.excalidraw]]
-	- [[Parte 3 - Prototipação.excalidraw]]
-	- [[Parte 4 - Teste do Protótipo.excalidraw]]
-	- [[Parte 5 - Produção.excalidraw]]
-	- [[Parte 6 - Marketing, Vendas e Pós-venda.excalidraw]]
+- **[[Ferramentas da Qualidade - Discos Gheno]]**
+	- [[Ferramentas da Qualidade - Discos Gheno]]
+	- **Fluxograma do Processo**
+		- [[Diagrama de Causa e Efeito.excalidraw]]
+		- [[Fluxograma do Processo.excalidraw]]
+		- [[Parte 1 - Projeto.excalidraw]]
+		- [[Parte 2 - Compra do Material.excalidraw]]
+		- [[Parte 3 - Prototipação.excalidraw]]
+		- [[Parte 4 - Teste do Protótipo.excalidraw]]
+		- [[Parte 5 - Produção.excalidraw]]
+		- [[Parte 6 - Marketing, Vendas e Pós-venda.excalidraw]]
 
 %% End Waypoint %%
 

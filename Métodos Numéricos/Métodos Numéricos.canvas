@@ -321,6 +321,8 @@
       "file": "Métodos Numéricos/Resolução de Sistemas Lineares/Teorema Condição Suficiente de Converência do Método de Gauss-Jacobi.md",
       "height": 400,
       "id": "c41d1b342a0b809f",
+      "styleAttributes": {
+      },
       "type": "file",
       "width": 400,
       "x": 1840,
