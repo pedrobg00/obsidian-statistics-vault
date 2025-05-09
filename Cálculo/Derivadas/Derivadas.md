@@ -1,6 +1,6 @@
 %% Begin Waypoint %%
 - **[[Derivadas]]**
-	- [[Derivada Direcional]]
+	- **[[Derivada Direcional]]**
 	- [[Derivada Implícita]]
 	- [[Derivadas de Ordem Superior]]
 	- [[Derivadas Parciais]]
