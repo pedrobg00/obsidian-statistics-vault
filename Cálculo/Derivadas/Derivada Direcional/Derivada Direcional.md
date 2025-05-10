@@ -1,5 +1,4 @@
 %% Begin Waypoint %%
-
 - **[[Derivada Direcional]]**
 	- [[Derivada Direcional]]
 	- [[Taxa Máxima da Derivada Direcional]]
