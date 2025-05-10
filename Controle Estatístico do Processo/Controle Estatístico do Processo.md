@@ -1,10 +1,13 @@
 %% Begin Waypoint %%
 - **[[Controle Estatístico do Processo]]**
 	- [[Apostila - Professor Fernando.pdf]]
+	- [[Constantes CEP.pdf]]
 	- [[Controle Estatístico do Processo.canvas]]
 	- [[Controle Estatístico do Processo]]
 	- **[[Ferramentas da Qualidade - Discos Gheno]]**
 	- [[Prova 1]]
+	- [[Tabela Z parte 1 - triola.pdf]]
+	- [[Tabela Z parte 2 - triola.pdf]]
 
 %% End Waypoint %%
 ## Introdução Ao Controle Estatístico De Processos (CEP)

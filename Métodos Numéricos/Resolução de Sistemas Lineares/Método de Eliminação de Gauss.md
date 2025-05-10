@@ -271,3 +271,8 @@ B = [8.0, -11.0, -3.0]
 solution = gauss_elimination_verbose([row[:] for row in A], B[:])
 print("Final solution:", solution)
 ```
+
+
+## Extra
+
+![[Escalonamento.pdf]]]()
