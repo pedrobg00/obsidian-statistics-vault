@@ -115,7 +115,3 @@ votada deve ser considerada primeiro para discussão e depois as seguintes.
 ### Histograma
 
 ...
-
-## Gráficos de Controle (Carta de Controle)
-
-### Causas comuns X Causas Especiais

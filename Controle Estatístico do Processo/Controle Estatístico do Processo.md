@@ -1,6 +1,11 @@
 %% Begin Waypoint %%
 - **[[Controle Estatístico do Processo]]**
 	- [[Apostila - Professor Fernando.pdf]]
+	- **Cartas de Controle**
+		- [[Média e Amplitude]]
+		- [[Média e Desvio Padrão]]
+		- [[Proporção de Não-Conformes]]
+		- [[Valores Individuais e Amplitude Móvel]]
 	- [[Constantes CEP.pdf]]
 	- [[Controle Estatístico do Processo.canvas]]
 	- [[Controle Estatístico do Processo]]
