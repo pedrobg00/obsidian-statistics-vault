@@ -229,12 +229,12 @@ def gauss_elimination_verbose(a, b):
     print("Initial augmented matrix:")
     print_matrix(a, b)
 
-# Forward Elimination
+#### Forward Elimination
     for i in range(n):
         max_row = i + max(range(n - i), key=lambda k: abs(a[i + k][i]))
         if abs(a[max_row][i]) < 1e-12:
             raise ValueError("Matrix is singular or nearly singular")
-
+            
 # Swap Rows if Needed
         if max_row != i:
             a[i], a[max_row] = a[max_row], a[i]
@@ -272,7 +272,6 @@ solution = gauss_elimination_verbose([row[:] for row in A], B[:])
 print("Final solution:", solution)
 ```
 
-
 ## Extra
 
-![[Escalonamento.pdf]]]()
+![[Escalonamento.pdf]]

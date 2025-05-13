@@ -1,112 +1,251 @@
-A **fatoração LU** (lower-upper) é um método matemático utilizado para decompor uma matriz quadrada $A$ em duas matrizes, uma triangular inferior $L$ e uma triangular superior $U$, tal que:
+## Fatoração Lu (Lower-Upper)
 
-$$ A = L U $$
+A **fatoração LU** é um método que decompõe uma matriz quadrada $A$ como o produto de duas matrizes triangulares:
 
-## Exemplos De Matrizes Triangulares Inferior E Superior
+$$
+A = LU
+$$
 
-- **Matriz Triangular Inferior $L$:**
+onde:
 
-  $$ L = \begin{pmatrix}
-  l_{11} & 0 & 0 \\
-  l_{21} & l_{22} & 0 \\
-  l_{31} & l_{32} & l_{33}
-  \end{pmatrix} $$
-  
+- $L$ é uma **matriz triangular inferior** com 1s na diagonal principal.
+- $U$ é uma **matriz triangular superior**.
 
-- **Matriz Triangular Superior $U$:**
+---
 
-  $$ U = \begin{pmatrix}
-  u_{11} & u_{12} & u_{13} \\
-  0 & u_{22} & u_{23} \\
-  0 & 0 & u_{33}
-  \end{pmatrix} $$
+### Passo a Passo Da Fatoração Lu (sem pivoteamento)
 
+Seja $A$ uma matriz quadrada de ordem $n$.
 
+#### **1. Inicialização**
 
-## Exemplo De Decomposição Lu
+- Crie uma matriz identidade $L$ de ordem $n$.
+- Faça uma cópia da matriz $A$ e chame-a de $U$.
+
+#### **2. Eliminação De Gauss Para Formar $U$ E Preencher $L$**
+
+Para cada linha $i = 0$ até $n - 1$:
+
+- Para cada linha $j = i + 1$ até $n - 1$:
+  1. Calcule o **fator multiplicador**:
+
+     $$
+     m = \frac{U[j, i]}{U[i, i]}
+     $$
+
+  2. Subtraia $m$ vezes a linha $i$ da linha $j$ em $U$:
+
+     $$
+     U[j] \leftarrow U[j] - m \cdot U[i]
+     $$
+
+  3. Atribua esse multiplicador à posição $L[j, i]$:
+
+     $$
+     L[j, i] = m
+     $$
+
+---
+
+### Exemplo Numérico
 
 Considere a matriz $A$:
 
-$$ A = \begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9
-\end{pmatrix} $$
+$$
+A = \begin{pmatrix}
+2 & 3 & 1 \\
+4 & 7 & 7 \\
+6 & 18 & 22
+\end{pmatrix}
+$$
 
-A decomposição LU resulta em:
+#### **Passo 1: Inicialização**
 
-- **Matriz Triangular Inferior $L$:**
-  $$ L = \begin{pmatrix}
-  1 & 0 & 0 \\
-  4 & 1 & 0 \\
-  7 & -2 & 1
-  \end{pmatrix} $$
+- $L = I_3$ (matriz identidade 3×3)
+- $U = A$
 
-- **Matriz Triangular Superior $U$:**
-  $$ U = \begin{pmatrix}
-  1 & 2 & 3 \\
-  0 & -3 & -6 \\
-  0 & 0 & 0
-  \end{pmatrix} $$
+#### **Passo 2: Eliminação**
 
-### Utilizações Da Fatoração Lu Para Resolução De Sistemas Lineares
+##### Iteração $i = 0$
 
-A fatoração LU é especialmente útil na resolução de sistemas lineares, pois:
+- $m_{10} = 4/2 = 2$
+- Linha 1: $U[1] = U[1] - 2 \cdot U[0]$
+- $L[1, 0] = 2$
+- $m_{20} = 6/2 = 3$
+- Linha 2: $U[2] = U[2] - 3 \cdot U[0]$
+- $L[2, 0] = 3$
 
-1. **Resolução do Sistema $Ax = b$:**
-   - Decomponha a matriz $A$ em $L$ e $U$.
-   - Resolva o sistema triangular inferior $Ly = b$ para obter $y$.
-   - Resolva o sistema triangular superior $Ux = y$ para obter $x$.
+##### Iteração $i = 1$
 
-2. **Eficiência Computacional:**
-   - A decomposição LU é computacionalmente eficiente, especialmente quando a matriz $A$ é grande e estática (não muda frequentemente).
-   - O tempo de resolução do sistema linear após a decomposição é proporcional ao número de operações necessárias para resolver os sistemas triangulares.
+- $m_{21} = (U[2, 1]) / (U[1, 1]) = 9 / 1 = 9$
+- Linha 2: $U[2] = U[2] - 9 \cdot U[1]$
+- $L[2, 1] = 9$
 
-3. **Aplicações em Engenharia e Ciência:**
-   - Solução de problemas de equilíbrio estrutural.
-   - Simulação de fluidos.
-   - Modelagem de sistemas dinâmicos.
+#### **Resultado Final**
 
-4. **Estabilidade Numérica:**
-   - A fatoração LU pode ser estabilizada com pivoteamento parcial para evitar divisões por zero e minimizar erros numéricos.
+- $$L = \begin{pmatrix}
 
-### Exemplo De Resolução De Um Sistema Linear
+1 & 0 & 0 \\
 
-Considere o sistema linear:
+2 & 1 & 0 \\
 
-$$ \begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9
-\end{pmatrix} x = \begin{pmatrix}
-10 \\
-11 \\
-12
-\end{pmatrix} $$
+3 & 9 & 1
 
-Após a decomposição LU, resolvemos os sistemas triangulares:
+\end{pmatrix}$$
 
-- **Resolução de $Ly = b$:**
-  $$ L = \begin{pmatrix}
-  1 & 0 & 0 \\
-  4 & 1 & 0 \\
-  7 & -2 & 1
-  \end{pmatrix}, \quad y = \begin{pmatrix}
-  10 \\
-  6 \\
-  3
-  \end{pmatrix} $$
+- $$U = \begin{pmatrix}
 
-- **Resolução de $Ux = y$:**
-  $$ U = \begin{pmatrix}
-  1 & 2 & 3 \\
-  0 & -3 & -6 \\
-  0 & 0 & 0
-  \end{pmatrix}, \quad x = \begin{pmatrix}
-  1 \\
-  -1 \\
-  0
-  \end{pmatrix} $$
+2 & 3 & 1 \\
 
-Portanto, a solução do sistema é $x = \begin{pmatrix} 1 \\ -1 \\ 0 \end{pmatrix}$.
+0 & 1 & 5 \\
 
+0 & 0 & 2
+
+\end{pmatrix}$$
+
+---
+
+### Código Python Do Algoritmo
+
+```python
+import numpy as np
+
+def lu_decomposition(A):
+    n = A.shape[0]
+    L = np.eye(n)
+    U = A.copy().astype(float)
+    
+    for i in range(n):
+        for j in range(i+1, n):
+            if U[i, i] == 0:
+                raise ZeroDivisionError("Pivoteamento necessário!")
+            m = U[j, i] / U[i, i]
+            L[j, i] = m
+            U[j] = U[j] - m * U[i]
+    
+    return L, U
+
+# Exemplo de uso
+A = np.array([
+    [2, 3, 1],
+    [4, 7, 7],
+    [6, 18, 22]
+], dtype=float)
+
+L, U = lu_decomposition(A)
+
+print("L =\n", L)
+print("\nU =\n", U)
+
+```
+
+## Pivoteamento Parcial Na Fatoração Lu
+
+O **pivoteamento parcial** é uma técnica utilizada na fatoração LU para **evitar divisões por zero** e **minimizar erros numéricos** causados por pivôs pequenos. Ele consiste em **trocar linhas da matriz** $A$ (e consequentemente de $L$ e $b$, se estiver resolvendo $Ax = b$) de modo que o maior valor absoluto na coluna corrente seja usado como pivô.
+
+---
+
+### Passo a Passo Com Pivoteamento Parcial
+
+Dado $A \in \mathbb{R}^{n \times n}$, o algoritmo com pivoteamento parcial segue:
+
+#### **1. Inicialização**
+
+- Crie $L = I_n$ (matriz identidade), $U = A.copy()$, e $P = I_n$ (matriz de permutação).
+
+#### **2. Para Cada Coluna $i$ De $0$ Até $n-1$:**
+
+1. **Escolha do Pivô:**
+
+   - Encontre o índice da linha com o maior valor absoluto na coluna $i$, a partir da linha $i$:
+
+     $$
+
+     p = \arg\max_{k \geq i} |U[k, i]|
+
+     $$
+
+1. **Troque as linhas $i$ e $p$ de $U$ e $P$:**
+
+   - $U[[i, p], :] \leftarrow U[[p, i], :]$
+
+   - $P[[i, p], :] \leftarrow P[[p, i], :]$
+
+   - Se $i > 0$, troque as linhas anteriores de $L$ também:
+
+     - $L[[i, p], :i] \leftarrow L[[p, i], :i]$
+
+1. **Eliminação de Gauss como antes:**
+
+   - Para cada linha $j > i$:
+
+     - $m = U[j, i] / U[i, i]$
+
+     - $U[j] = U[j] - m \cdot U[i]$
+
+     - $L[j, i] = m$
+
+---
+
+### Forma Final Da Decomposição Com Pivoteamento
+
+A fatoração LU com pivoteamento parcial produz:
+
+$$
+
+PA = LU
+
+$$
+
+- $P$ é a **matriz de permutação** que representa as trocas de linha.
+- $L$ é a matriz triangular inferior com 1s na diagonal.
+- $U$ é a matriz triangular superior.
+
+---
+
+### Exemplo Em Python Com Pivoteamento
+
+```python
+import numpy as np
+
+def lu_decomposition_pivot(A):
+    n = A.shape[0]
+    L = np.eye(n)
+    U = A.copy().astype(float)
+    P = np.eye(n)
+
+    for i in range(n):
+        # Encontra índice da linha com o maior valor absoluto na coluna i
+        pivot = np.argmax(np.abs(U[i:, i])) + i
+        if U[pivot, i] == 0:
+            raise ValueError("Matriz singular.")
+        
+		# Troca linhas em U
+        U[[i, pivot]] = U[[pivot, i]]
+        # Troca linhas em P
+        P[[i, pivot]] = P[[pivot, i]]
+        # Troca linhas em L (colunas anteriores)
+        if i > 0:
+            L[[i, pivot], :i] = L[[pivot, i], :i]
+
+        # Eliminação
+        for j in range(i+1, n):
+            m = U[j, i] / U[i, i]
+            L[j, i] = m
+            U[j] = U[j] - m * U[i]
+
+    return P, L, U
+
+# Exemplo de uso
+A = np.array([
+    [0, 3, 1],
+    [4, 7, 7],
+    [6, 18, 22]
+], dtype=float)
+
+P, L, U = lu_decomposition_pivot(A)
+
+print("P =\n", P)
+print("\nL =\n", L)
+print("\nU =\n", U)
+```
