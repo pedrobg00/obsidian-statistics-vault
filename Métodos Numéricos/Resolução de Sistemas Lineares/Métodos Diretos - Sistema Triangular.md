@@ -1,6 +1,7 @@
 ---
 dg-publish: true
 ---
+
 Os métodos diretos têm por objetivo transformar a matriz A (coeficiente) numa matriz triangular (superior ou inferior), dessa forma a obtenção do vetor-solução dar-se-á de forma trivial. Esses métodos são fundamentais na resolução eficiente de sistemas lineares, pois permitem encontrar as soluções através de operações elementares que simplificam o sistema.
 
 ## Triangularização Da Matriz a

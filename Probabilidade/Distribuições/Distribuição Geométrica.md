@@ -1,6 +1,7 @@
 ---
 dg-publish: true
 ---
+
 Considere que vamos realizar ensaios independentes de Bernoulli até a ocorrência do primeiro sucesso. Cada ensaio é um experimento binomial, onde há apenas dois possíveis resultados: sucesso ou fracasso. A probabilidade de sucesso em cada ensaio é denotada por $p$, e consequentemente, a probabilidade de fracasso é $1 - p = q$.
 
 ## Distribuição Geométrica
@@ -134,4 +135,3 @@ $$
     $$
 
 - Essa propriedade a torna especialmente útil em processos de **espera** e em **modelagens com tempo até o primeiro evento**, principalmente quando os eventos são independentes e ocorrem com a mesma probabilidade.
-

@@ -1,6 +1,7 @@
 ---
 dg-publish: true
 ---
+
 ## Definição
 
 Uma série de Taylor de uma função $f(x)$ em torno de um ponto $x = a$ é dada por:

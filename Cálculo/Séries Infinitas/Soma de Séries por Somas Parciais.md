@@ -1,6 +1,7 @@
 ---
 dg-publish: true
 ---
+
 Para entender melhor como uma série converge para sua soma, podemos analisar suas somas parciais. Uma soma parcial é a soma dos n primeiros termos de uma série.
 
 ## Definição De Soma Parcial

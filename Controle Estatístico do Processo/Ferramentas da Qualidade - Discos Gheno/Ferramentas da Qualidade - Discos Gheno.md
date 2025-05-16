@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+
 - **[[Ferramentas da Qualidade - Discos Gheno]]**
 	- [[Ferramentas da Qualidade - Discos Gheno]]
 	- **Fluxograma do Processo**

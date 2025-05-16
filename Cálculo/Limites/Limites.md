@@ -2,6 +2,7 @@
 dg-publish: true
 dg-show-local-graph: true
 ---
+
 %% Begin Waypoint %%
 
 - **[[Limites]]**

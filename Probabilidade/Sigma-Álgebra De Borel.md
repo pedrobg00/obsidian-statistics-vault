@@ -1,6 +1,7 @@
 ---
 dg-publish: true
 ---
+
 ## Introdução à Sigma Álgebra De Borel
 
 A **sigma álgebra de Borel** é um conceito fundamental na teoria da medida e na probabilidade. Ela é construída a partir dos conjuntos abertos em um espaço topológico, particularmente no espaço real $\mathbb{R}$. A sigma álgebra de Borel é denotada por $\mathcal{B}$.

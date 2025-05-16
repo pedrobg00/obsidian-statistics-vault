@@ -2,7 +2,9 @@
 dg-publish: true
 dg-show-local-graph: true
 ---
+
 %% Begin Waypoint %%
+
 - **[[Derivadas]]**
 	- **[[Derivada Direcional]]**
 	- [[Derivada Implícita]]

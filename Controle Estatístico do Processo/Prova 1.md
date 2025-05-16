@@ -109,9 +109,11 @@ crescente, segundo o critério de cada um.
 mesma forma, se ao invés de problemas o que se pediu foi sugestões, idéias, a mais
 votada deve ser considerada primeiro para discussão e depois as seguintes.
 ![[tecnica-nominal-de-grupo.webp]]
-### Análise do Campo de Forças
+
+### Análise Do Campo De Forças
 
 ![[campo-de-forcas.webp]]
+
 ### Histograma
 
-...
+…

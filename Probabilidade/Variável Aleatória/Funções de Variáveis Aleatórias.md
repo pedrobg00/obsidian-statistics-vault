@@ -1,6 +1,7 @@
 ---
 dg-publish: true
 ---
+
 Se $X$ é uma variável aleatória (va) definida em um espaço de probabilidade $\left(\Omega, \mathcal{F}, P\right)$, e $g: \mathbb{R} \rightarrow \mathbb{R}$ é uma função real, então a transformação $Y = g(X)$ também será uma variável aleatória.
 
 ## Transformação De Variáveis Aleatórias

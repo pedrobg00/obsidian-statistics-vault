@@ -2,7 +2,9 @@
 dg-publish: true
 dg-show-local-graph:
 ---
+
 %% Begin Waypoint %%
+
 - **[[Cálculo]]**
 	- **[[Derivadas]]**
 	- **Funções de Mais de uma Variável**

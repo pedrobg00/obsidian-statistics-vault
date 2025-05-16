@@ -1,6 +1,7 @@
 ---
 dg-publish: true
 ---
+
 Uma **sigma álgebra** (ou $\sigma$-álgebra) é um conceito fundamental na teoria da medida e probabilidade. Formalmente, uma sigma álgebra sobre um conjunto $X$ é uma coleção de subconjuntos de $X$, denotada por $\mathcal{F}$, que satisfaz as seguintes propriedades:
 
 1. **$\emptyset \in \mathcal{F}$**: O conjunto vazio pertence à sigma álgebra.

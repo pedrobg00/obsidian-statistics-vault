@@ -28,7 +28,9 @@ A matriz Hessiana é simétrica, então podemos usar o determinante e a primeira
 
 1. **Determinante da Matriz Hessiana:**
 
-   $$ D = \det(H) = \left( \dfrac{\partial^2 f}{\partial x^2} \right) \left( \dfrac{\partial^2 f}{\partial y^2} \right) - \left( \dfrac{\partial^2 f}{\partial x \partial y} \right)^2 $$
+   $$
+ D = \det(H) = \left( \dfrac{\partial^2 f}{\partial x^2} \right) \left( \dfrac{\partial^2 f}{\partial y^2} \right) - \left( \dfrac{\partial^2 f}{\partial x \partial y} \right)^2
+$$
 
 2. **Classificação:**
    - Se $D > 0$ e $\dfrac{\partial^2 f}{\partial x^2} > 0$, então $(x_0, y_0)$ é um mínimo local.
@@ -40,28 +42,38 @@ A matriz Hessiana é simétrica, então podemos usar o determinante e a primeira
 
 Considere a função:
 
-$$ f(x, y) = x^2 + y^2 - 2x - 4y + 1 $$
+$$
+ f(x, y) = x^2 + y^2 - 2x - 4y + 1
+$$
 
 1. **Encontrar os pontos críticos:**
+
    $$
 
    \begin{cases}
    \dfrac{\partial f}{\partial x} = 2x - 2 = 0 \\
    \dfrac{\partial f}{\partial y} = 2y - 4 = 0
    \end{cases}
-   
+
 $$
+
    Resolvendo, obtemos $(1, 2)$.
 
 2. **Matriz Hessiana:**
    $$
 
    H = \begin{pmatrix}
+
    \dfrac{\partial^2 f}{\partial x^2} & \dfrac{\partial^2 f}{\partial x \partial y} \\
+
    \dfrac{\partial^2 f}{\partial y \partial x} & \dfrac{\partial^2 f}{\partial y^2}
+
    \end{pmatrix} = \begin{pmatrix}
+
    2 & 0 \\
+
    0 & 2
+
    \end{pmatrix}
 
 $$

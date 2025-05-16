@@ -87,7 +87,9 @@ $$
 
 #### **Resultado Final**
 
-- $$L = \begin{pmatrix}
+- $$
+
+L = \begin{pmatrix}
 
 1 & 0 & 0 \\
 
@@ -95,9 +97,12 @@ $$
 
 3 & 9 & 1
 
-\end{pmatrix}$$
+\end{pmatrix}
 
-- $$U = \begin{pmatrix}
+$$
+
+- $$
+U = \begin{pmatrix}
 
 2 & 3 & 1 \\
 
@@ -105,7 +110,8 @@ $$
 
 0 & 0 & 2
 
-\end{pmatrix}$$
+\end{pmatrix}
+$$
 
 ## Pivoteamento Parcial Na Fatoração Lu
 
