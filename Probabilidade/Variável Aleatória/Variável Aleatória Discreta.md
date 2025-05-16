@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Seja $X: \Omega \to \mathbb{R}$ uma variável aleatória definida em um espaço amostral $\Omega$ equipado com uma probabilidade $P$. A medida induzida por $X$ é denotada por $P_X$, e a função de distribuição acumulada (FDA) associada a $X$ é dada por $F_X(x)$.
 
 Dizemos que $X$ é uma variável aleatória discreta se sua função de distribuição acumulada $F_X(x)$ satisfaz as seguintes propriedades:

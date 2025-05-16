@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 Considere a equação $f(x) = 0$, onde $f$ é uma função derivável no intervalo de interesse. O método de Newton-Raphson busca aproximar as raízes dessa equação através da seguinte fórmula iterativa:
 
 $$
@@ -27,7 +31,7 @@ Aqui, $x_n$ é a estimativa atual e $x_{n+1}$ é a próxima estimativa. A funç�
 - **Convergência Local**: A convergência é rápida perto da raiz, mas pode ser lenta ou não ocorrer longe dela.
 - **Escolha Inicial**: A escolha inadequada do valor inicial pode levar à divergência.
 
-## Exemplo em Python
+## Exemplo Em Python
 
 ``` python
 def newton_raphson(f, df, x0, tol=1e-6, max_iter=100):

@@ -1,3 +1,7 @@
+---
+dg-publish: true
+dg-show-local-graph: true
+---
 %% Begin Waypoint %%
 - **[[Distribuições]]**
 	- [[Binômio de Newton]]
@@ -8,7 +12,6 @@
 	- [[Distribuição Hipergeométrica]]
 	- [[Distribuição Poisson]]
 	- [[Distribuição Uniforme]]
-	- [[Distribuições]]
 	- [[Esperança a Partir da Função Geradora de Momentos]]
 
 %% End Waypoint %%

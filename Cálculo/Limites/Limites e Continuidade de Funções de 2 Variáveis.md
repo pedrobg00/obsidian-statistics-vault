@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ## Definição De Limite
 
 O limite de uma função $f(x, y)$ em um ponto $(a, b)$ é o valor que a função se aproxima quando as variáveis $x$ e $y$ se aproximam do ponto $(a, b)$. Matematicamente, dizemos que:

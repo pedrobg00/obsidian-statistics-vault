@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 O método gráfico é uma técnica fundamental no cálculo numérico utilizado para localizar os zeros de uma função. Este método envolve a representação visual da função através do desenho de seu gráfico, permitindo identificar pontos onde a função corta o eixo das abscissas (eixo x).
 
 ## Passos Para Aplicar O Método Gráfico

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A **distribuição binomial** é um conceito fundamental na teoria das probabilidades, utilizado para modelar experimentos aleatórios com duas possíveis saídas: sucesso ou fracasso. Este modelo é amplamente aplicado em diversas áreas, como estatística, ciências sociais e engenharia.
 
 ## Definição Formal

@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 O método de Gauss-Jacobi é uma técnica iterativa utilizada para resolver sistemas lineares da forma:
 
 $$
@@ -8,14 +12,12 @@ $$
 
 onde $A$ é uma matriz quadrada de ordem $n$, $\mathbf{b}$ é o vetor dos termos independentes, e $\mathbf{x}$ é o vetor incógnita que queremos determinar.
 
-## Ideia Do método
+## Ideia Do Método
 
 A partir da decomposição da matriz $A$ em três componentes:
 
 - $D$: matriz diagonal de $A$
-
 - $L$: parte inferior (triangular) de $A$ com sinal negativo
-
 - $U$: parte superior (triangular) de $A$ com sinal negativo
 
 Podemos reescrever:
@@ -34,7 +36,7 @@ $$
 
 $$
 
-## Condição Suficiente De convergência
+## Condição Suficiente De Convergência
 
 Uma condição suficiente para garantir a convergência do método é que a matriz $A$ seja **diagonal dominante**, ou seja:
 
@@ -48,7 +50,7 @@ para todo $i = 1, 2, \dots, n$.
 
 Se essa condição for satisfeita, o método de Gauss-Jacobi converge para a solução do sistema, independentemente da escolha do vetor inicial $\mathbf{x}^{(0)}$.
 
-## Norma Matricial E Condição necessária
+## Norma Matricial E Condição Necessária
 
 Outra forma de analisar a convergência do método é usando a norma matricial. Seja:
 
@@ -131,9 +133,7 @@ $$
 Verificando a diagonal dominância:
 
 - $|2| > |1| + |-1| \Rightarrow 2 > 2$ (falso)
-
 - $|4| > |-1| + |1| \Rightarrow 4 > 2$ (verdadeiro)
-
 - $|6| > |1| + |-1| \Rightarrow 6 > 2$ (verdadeiro)
 
 A matriz não é estritamente diagonal dominante na primeira linha, mas o método pode ainda assim convergir dependendo do raio espectral de $T$.
@@ -224,7 +224,7 @@ $$
 
 Calculando $T = D^{-1}(L + U)$, é possível verificar se a norma é menor que 1 e garantir a convergência.
 
-## Critérios Práticos De parada
+## Critérios Práticos De Parada
 
 Na prática, a convergência do método é controlada por um critério de parada, como:
 

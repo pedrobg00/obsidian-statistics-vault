@@ -306,6 +306,13 @@
       "replace": "$$$\\n$1\\n$$$",
       "flags": "g",
       "enabled": true
+    },
+    {
+      "label": "Add line breaks to multiline LaTeX",
+      "find": "$$$\\n$1\\n$$$",
+      "replace": "$$$\\n$1\\n$$$",
+      "flags": "gm",
+      "enabled": true
     }
   ],
   "commonStyles": {

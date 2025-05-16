@@ -1,6 +1,12 @@
+---
+dg-publish: true
+dg-home: true
+dg-show-local-graph: true
+---
+
 ## Intro
 
-📊 This Obsidian vault stores statistics studies. It includes key concepts, formulas, practical examples, and insights. The notes are structured and interconnected to make learning and review easier.
+📊 This Obsidian vault stores statistics studies (in portuguese - Brazil). It includes key concepts, formulas, practical examples, and insights. The notes are structured and interconnected to make learning and review easier.
 
 ## Utils
 
@@ -16,13 +22,13 @@ To input mathematical expressions in Obsidian, you can use LaTeX notation enclos
 	$$
 	```
 
-For more info check [[Latex Examples]]
+For more info check [[Exemplos Latex (MathJax)]]
 
 ## Want to Contribute?
 
 ### Fork the Repository
 
-1. Go to the GitHub repository you want to fork.  
+1. Go to the [GitHub](https://github.com/luabagg/statistics-digital-garden) repository.  
 2. Click **"Fork"** in the top-right corner.  
 3. If prompted, verify your email.  
 4. GitHub creates a copy under your account with a new URL.  

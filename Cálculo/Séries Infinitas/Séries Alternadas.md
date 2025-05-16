@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ## Introdução Às Séries Alternadas
 
 Uma série alternada é um tipo especial de série numérica onde os termos são alternadamente positivos e negativos. Essas séries têm a forma geral:

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Seja $X$ uma variável aleatória discreta com função de probabilidade $P_X(x)$, a esperança (ou média, ou valor esperado) de $X$ é definida como
 
 $$

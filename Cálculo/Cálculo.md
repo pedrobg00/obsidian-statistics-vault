@@ -1,10 +1,14 @@
+---
+dg-publish: true
+dg-show-local-graph:
+---
 %% Begin Waypoint %%
 - **[[Cálculo]]**
-	- [[Cálculo.canvas]]
-	- [[Cálculo]]
 	- **[[Derivadas]]**
 	- **Funções de Mais de uma Variável**
 		- [[Coordenadas Polares]]
+		- [[Método dos Multiplicadores de Lagrange]]
+		- [[Valores de Máximo e Mínimo]]
 	- **[[Integrais]]**
 	- **[[Limites]]**
 	- **[[Séries Infinitas]]**

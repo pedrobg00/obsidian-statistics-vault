@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Uma série de potências é uma representação da forma:
 
 $$\sum_{n=0}^{\infty} a_n (x - c)^n,$$

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A variância é uma medida fundamental na teoria das probabilidades e estatística, usada para quantificar a dispersão ou variabilidade dos valores que uma variável aleatória pode assumir. Ela fornece informações sobre a "dispersão" dos dados em relação à média.
 
 ## Definição

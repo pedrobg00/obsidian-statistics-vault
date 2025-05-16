@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 O método iterativo de Gauss-Seidel é uma técnica utilizada para resolver sistemas lineares de equações do tipo $Ax = b$, onde $A$ é uma matriz quadrada, $x$ e $b$ são vetores. Este método é especialmente útil quando a matriz $A$ é grande e esparsa.
 
 ## Formulando O Método

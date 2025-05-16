@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ## Diferencial De Uma Função Para Uma Variável
 
 O diferencial de uma função $f(x)$ de uma variável é uma medida aproximada da mudança na função quando a variável independente sofre uma pequena variação. Matematicamente, o diferencial de $f$ em relação a $x$ é denotado por $df$ e está dado por:

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Série harmônica é um conceito matemático importante, frequentemente utilizado em física e engenharia. É a série infinita definida pela soma dos inversos das sequências de números naturais:
 
 $$\sum_{n=1}^{\infty} \frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots$$

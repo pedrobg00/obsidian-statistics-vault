@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 O método das secantes é uma técnica iterativa utilizada para encontrar as raízes de uma função não-linear $f(x)$. É semelhante ao método da secante geométrica, onde se traça uma reta que passa por dois pontos consecutivos na curva da função e usa essa reta para aproximar a solução.
 
 ## Formulação Do Método
@@ -34,6 +38,7 @@ onde:
      $$
 
      f(2) = 2^3 - 2\cdot2 - 5 = -1
+
 
 $$
  
@@ -93,7 +98,7 @@ def secant_method(f, x0, x1, tol=1e-6, max_iter=100):
     iteration = 0
     
     while iteration < max_iter:
-        # Check if the denominator is too close to zero
+# Check if the Denominator is Too close to Zero
         if abs(fx1 - fx0) < tol:
             return {
                 "root": x1,
@@ -102,16 +107,16 @@ def secant_method(f, x0, x1, tol=1e-6, max_iter=100):
                 "converged": abs(fx1) < tol
             }
         
-        # Secant method formula
+# Secant Method Formula
         x_new = x1 - fx1 * (x1 - x0) / (fx1 - fx0)
         
-        # Update values for next iteration
+# Update Values for next Iteration
         x0, x1 = x1, x_new
         fx0, fx1 = fx1, f(x_new)
         
         iteration += 1
         
-        # Check for convergence
+# Check for Convergence
         if abs(fx1) < tol or (iteration > 0 and abs(x1 - x0) < tol):
             break
     
@@ -122,7 +127,7 @@ def secant_method(f, x0, x1, tol=1e-6, max_iter=100):
         "converged": iteration < max_iter
     }
 
-# Example usage
+# Example Usage
 def example_function(x):
     return x**3 - 5*x + 3
 

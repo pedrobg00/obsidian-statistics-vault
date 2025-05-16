@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 O método da falsa posição, também conhecido como método dos segmentos ou método das retas secantes, é um algoritmo numérico utilizado para encontrar raízes aproximadas de uma função contínua. Este método combina a simplicidade do método das retas secantes com a eficiência do método da bisseção.
 
 ## Aplicação E Contexto

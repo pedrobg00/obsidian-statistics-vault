@@ -1,50 +1,72 @@
 {
-	"edges":[
-		{"fromNode":"f54cdc620927cb95","fromSide":"right","id":"a4559dfbcf83a566","toNode":"25bfbc8991157ed5","toSide":"left"},
-		{"fromNode":"f54cdc620927cb95","fromSide":"bottom","id":"f101b95b72a9192f","toNode":"3051e484653b4282","toSide":"top"},
-		{"fromNode":"3051e484653b4282","fromSide":"bottom","id":"556f04b8a39d9545","toNode":"e83570eb9f0dd46d","toSide":"top"}
-	],
-	"nodes":[
-		{
-			"file":"Controle Estatístico do Processo/Apostila - Professor Fernando.pdf",
-			"height":400,
-			"id":"25bfbc8991157ed5",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":60,
-			"y":-40
-		},
-		{
-			"file":"Controle Estatístico do Processo/Controle Estatístico do Processo.md",
-			"height":400,
-			"id":"3051e484653b4282",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":-860,
-			"y":60
-		},
-		{
-			"color":"1",
-			"height":60,
-			"id":"f54cdc620927cb95",
-			"styleAttributes":{},
-			"text":"# Controle Estatístico do Processo",
-			"type":"text",
-			"width":250,
-			"x":-460,
-			"y":-160
-		},
-		{
-			"file":"Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
-			"height":400,
-			"id":"e83570eb9f0dd46d",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":-535,
-			"y":580
-		}
-	]
+  "edges": [
+    {
+      "fromNode": "f54cdc620927cb95",
+      "fromSide": "right",
+      "id": "a4559dfbcf83a566",
+      "toNode": "25bfbc8991157ed5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f54cdc620927cb95",
+      "fromSide": "bottom",
+      "id": "f101b95b72a9192f",
+      "toNode": "3051e484653b4282",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3051e484653b4282",
+      "fromSide": "bottom",
+      "id": "556f04b8a39d9545",
+      "toNode": "e83570eb9f0dd46d",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "file": "Controle Estatístico do Processo/Apostila - Professor Fernando.pdf",
+      "height": 400,
+      "id": "25bfbc8991157ed5",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 60,
+      "y": -40
+    },
+    {
+      "file": "Controle Estatístico do Processo/Controle Estatístico do Processo.md",
+      "height": 400,
+      "id": "3051e484653b4282",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -860,
+      "y": 60
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "f54cdc620927cb95",
+      "styleAttributes": {
+      },
+      "text": "# Controle Estatístico do Processo",
+      "type": "text",
+      "width": 250,
+      "x": -460,
+      "y": -160
+    },
+    {
+      "file": "Controle Estatístico do Processo/Ferramentas da Qualidade - Discos Gheno/Ferramentas da Qualidade - Discos Gheno.md",
+      "height": 400,
+      "id": "e83570eb9f0dd46d",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -535,
+      "y": 580
+    }
+  ]
 }

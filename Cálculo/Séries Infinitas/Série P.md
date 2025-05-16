@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A série harmônica geral, conhecida como **p-série**, é uma série infinita da forma:
 
 $$\sum_{n=1}^{\infty} \frac{1}{n^p}$$

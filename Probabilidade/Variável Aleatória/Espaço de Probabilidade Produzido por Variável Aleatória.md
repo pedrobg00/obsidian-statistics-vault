@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ## Introdução
 
 Seja $(\Omega, \mathcal{F}, \mathcal{P})$ um modelo de probabilidade e considere $X: \Omega \to \mathbb{R}$ uma variável aleatória definida em $(\Omega, \mathcal{F})$. A medida de probabilidade induzida por $X$, denotada por $\mu_X$, é definida como:

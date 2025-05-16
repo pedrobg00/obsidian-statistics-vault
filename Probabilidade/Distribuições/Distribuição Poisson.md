@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A **distribuição Poisson** é uma importante distribuição de probabilidade discreta que descreve o número de eventos ocorridos em um intervalo de tempo ou espaço, dado que esses eventos ocorrem com uma taxa constante e independentemente do tempo desde o último evento. Esta distribuição é frequentemente utilizada para modelar fenômenos como a chegada de clientes em um estabelecimento comercial, a ocorrência de defeitos em um processo industrial, ou até mesmo a quantidade de chuva caindo em uma área durante um determinado período.
 
 ## Definição E Parâmetros

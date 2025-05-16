@@ -1,4 +1,10 @@
+---
+dg-publish: true
+dg-show-local-graph: true
+---
+
 %% Begin Waypoint %%
+
 - **[[Resolução de Sistemas Lineares]]**
 	- [[Fatoração LU]]
 	- [[Método de Eliminação de Gauss]]
@@ -6,7 +12,6 @@
 	- [[Método de Gauss-Seidel]]
 	- [[Métodos Diretos - Sistema Triangular]]
 	- [[Métodos Iterativos]]
-	- [[Resolução de Sistemas Lineares]]
 	- [[Teorema Condição Suficiente de Converência do Método de Gauss-Jacobi]]
 
 %% End Waypoint %%

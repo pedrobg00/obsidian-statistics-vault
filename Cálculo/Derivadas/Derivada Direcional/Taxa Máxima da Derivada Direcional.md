@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A **taxa máxima da derivada direcional** é a maior taxa de mudança que a função pode ter em qualquer direção no ponto considerado. Esta taxa é dada pelo módulo do gradiente $\nabla f(\mathbf{a})$.
 
 ## Definição Formal

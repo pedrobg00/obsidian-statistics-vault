@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 O Teorema de Clairaut, também conhecido como Teorema da Derivada Parcial Interna, é um resultado fundamental na teoria das funções de várias variáveis. Este teorema estabelece que, sob certas condições, as derivadas parciais mistas de uma função são iguais independentemente do caminho pela qual se deriva.
 
 Consideremos uma função $f(x,y)$ de duas variáveis. Se as derivadas parciais mistas $\frac{\partial^2 f}{\partial x \partial y}$ e $\frac{\partial^2 f}{\partial y \partial x}$ existem e são contínuas em um determinado ponto $(a,b)$, então essas derivadas são iguais no ponto:

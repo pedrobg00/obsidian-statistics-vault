@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Imagine que você tem uma função $z$, e ela depende de uma variável $x$. Só que, por sua vez, $x$ também depende de outra variável, que é $y$. Ou seja, $z$ é afetado por $x$, e $x$ é afetado por $y$ — logo, **$z$ também depende de $y$, mesmo que de forma indireta**.
 
 É aí que entra a **regra da cadeia**: ela nos ajuda a entender **como** uma mudança em $y$ influencia $z$, passando por $x$ no caminho. Esse tipo de raciocínio é comum quando lidamos com **funções compostas**, ou seja, funções dentro de funções.

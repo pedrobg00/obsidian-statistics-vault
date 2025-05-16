@@ -1,10 +1,15 @@
+---
+dg-publish: true
+dg-show-local-graph: true
+---
 %% Begin Waypoint %%
+
 - **[[Limites]]**
 	- [[Limites e Continuidade de Funções de 2 Variáveis]]
-	- [[Limites]]
 	- [[Teorema do Confronto]]
 
 %% End Waypoint %%
+
 ## Introdução Aos Limites no Cálculo
 
 Os **limites** são conceitos fundamentais na matemática, especialmente no cálculo. Eles desempenham um papel crucial na definição de derivadas e integrais, permitindo a análise do comportamento de funções em pontos próximos a certos valores.

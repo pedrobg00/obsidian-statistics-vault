@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Seja $X$ uma variável aleatória com função de distribuição acumulada (FDA) $F_X(x)$ absolutamente contínua. Dizemos que $X$ é uma variável aleatória contínua.  
 
 ## Definição

@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 Uma **variável aleatória mista** é um tipo especial de variável aleatória que combina características tanto das variáveis aleatórias discretas quanto contínuas. Mais precisamente, uma variável aleatória $X$ é considerada mista se ela pode ser expressa como a soma de uma variável aleatória discreta e uma variável aleatória contínua.
 
 ## Estrutura Matemática
@@ -81,6 +85,7 @@ Neste caso:
 - $$X_d = \begin{cases}
    5 & \text{com probabilidade } \frac{1}{3}, \\
    \infty & \text{com probabilidade } \frac{2}{3}.
+
 \end{cases}$$
 
 A variável aleatória contínua $X_c$ segue uma distribuição normal com média $\mu = 10$ e desvio padrão $\sigma = 2$. A f.d.p. de $X_c$ é:
@@ -137,6 +142,7 @@ Neste caso:
 - $$Y_d = \begin{cases}
    5 & \text{com probabilidade } \frac{1}{4}, \\
    \infty & \text{com probabilidade } \frac{3}{4}.
+
 \end{cases}$$
 
 A variável aleatória contínua $Y_c$ segue uma distribuição normal com média $\mu = 6$ e desvio padrão $\sigma = 0.5$. A f.d.p. de $Y_c$ é:
@@ -180,5 +186,3 @@ E[Y] = 5 \cdot \frac{1}{4} + 6 \cdot \frac{3}{4} = \frac{5}{4} + \frac{18}{4} = 
 
 
 $$
-
-

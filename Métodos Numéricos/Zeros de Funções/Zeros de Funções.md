@@ -1,4 +1,10 @@
+---
+dg-publish: true
+dg-show-local-graph: true
+---
+
 %% Begin Waypoint %%
+
 - **[[Zeros de Funções]]**
 	- [[Método da Bisseção]]
 	- [[Método da Falsa Posição]]
@@ -6,7 +12,6 @@
 	- [[Método de Newton-Raphson]]
 	- [[Método Gráfico]]
 	- [[Teorema De Bolzano]]
-	- [[Zeros de Funções]]
 
 %% End Waypoint %%
 

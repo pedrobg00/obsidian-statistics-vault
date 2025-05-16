@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 O Teorema do Confronto de Limites é um importante resultado no cálculo que permite determinar o limite de uma função ao compará-la com outra cujo limite já seja conhecido. Este teorema é útil para resolver problemas complexos de limites sem recorrer a métodos mais avançados.
 
 Sejam $f(x)$ e $g(x)$ duas funções definidas no entorno de um ponto $a$ (ou em todo o domínio real, se $a = \infty$), e suponha que $\lim_{x \to a} g(x) = L$, onde $L$ é um número real ou infinito. Então:

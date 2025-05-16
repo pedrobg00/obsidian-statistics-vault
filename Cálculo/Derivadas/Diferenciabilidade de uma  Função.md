@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A **diferenciabilidade** de uma função real de uma variável em um ponto $x_0$ é definida pela existência de um número real $L$ tal que:
 
 $$

@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 ## Fatoração Lu (Lower-Upper)
 
 A **fatoração LU** é um método que decompõe uma matriz quadrada $A$ como o produto de duas matrizes triangulares:
@@ -103,42 +107,6 @@ $$
 
 \end{pmatrix}$$
 
----
-
-### Código Python Do Algoritmo
-
-```python
-import numpy as np
-
-def lu_decomposition(A):
-    n = A.shape[0]
-    L = np.eye(n)
-    U = A.copy().astype(float)
-    
-    for i in range(n):
-        for j in range(i+1, n):
-            if U[i, i] == 0:
-                raise ZeroDivisionError("Pivoteamento necessário!")
-            m = U[j, i] / U[i, i]
-            L[j, i] = m
-            U[j] = U[j] - m * U[i]
-    
-    return L, U
-
-# Exemplo de uso
-A = np.array([
-    [2, 3, 1],
-    [4, 7, 7],
-    [6, 18, 22]
-], dtype=float)
-
-L, U = lu_decomposition(A)
-
-print("L =\n", L)
-print("\nU =\n", U)
-
-```
-
 ## Pivoteamento Parcial Na Fatoração Lu
 
 O **pivoteamento parcial** é uma técnica utilizada na fatoração LU para **evitar divisões por zero** e **minimizar erros numéricos** causados por pivôs pequenos. Ele consiste em **trocar linhas da matriz** $A$ (e consequentemente de $L$ e $b$, se estiver resolvendo $Ax = b$) de modo que o maior valor absoluto na coluna corrente seja usado como pivô.
@@ -215,20 +183,20 @@ def lu_decomposition_pivot(A):
     P = np.eye(n)
 
     for i in range(n):
-        # Encontra índice da linha com o maior valor absoluto na coluna i
+        # Find the index of the row with the largest absolute value in column i
         pivot = np.argmax(np.abs(U[i:, i])) + i
         if U[pivot, i] == 0:
-            raise ValueError("Matriz singular.")
+            raise ValueError("Singular matrix.")
         
-		# Troca linhas em U
+        # Swap rows in U
         U[[i, pivot]] = U[[pivot, i]]
-        # Troca linhas em P
+        # Swap rows in P
         P[[i, pivot]] = P[[pivot, i]]
-        # Troca linhas em L (colunas anteriores)
+        # Swap rows in L (only for previously computed columns)
         if i > 0:
             L[[i, pivot], :i] = L[[pivot, i], :i]
 
-        # Eliminação
+        # Elimination process
         for j in range(i+1, n):
             m = U[j, i] / U[i, i]
             L[j, i] = m
@@ -236,7 +204,7 @@ def lu_decomposition_pivot(A):
 
     return P, L, U
 
-# Exemplo de uso
+# Example usage
 A = np.array([
     [0, 3, 1],
     [4, 7, 7],
@@ -248,4 +216,6 @@ P, L, U = lu_decomposition_pivot(A)
 print("P =\n", P)
 print("\nL =\n", L)
 print("\nU =\n", U)
+print("\nVerification: P·A =\n", np.dot(P, A))
+print("\nL·U =\n", np.dot(L, U))
 ```

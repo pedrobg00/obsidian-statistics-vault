@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Derivadas de ordem superior são conceitos fundamentais na teoria dos cálculos diferenciais, representando a generalização das derivadas primárias. A derivada primeira de uma função $f(x)$ é denotada por $f'(x)$ ou $\frac{df}{dx}$ e representa o ritmo de mudança da função em relação à variável independente.
 
 A derivada segunda, que é a derivada de ordem superior mais comumente utilizada, é obtida pela diferenciação da primeira derivada. Matematicamente, pode ser expressa como:

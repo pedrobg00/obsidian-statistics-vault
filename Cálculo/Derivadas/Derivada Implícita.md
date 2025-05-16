@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Derivada implícita é um conceito fundamental em cálculo que permite encontrar a derivada de uma função definida implicitamente, ou seja, quando a relação entre as variáveis não pode ser expressa explicitamente. Este método é particularmente útil em situações onde a função $y$ depende de $x$ de maneira não-linear e complexa.
 
 Consideremos um exemplo simples: a equação do círculo

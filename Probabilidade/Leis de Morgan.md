@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ## Introdução Às Leis De Morgan E Suas Propriedades
 
 As leis de Morgan são fundamentais na lógica booleana, teoria da computação e matemática discreta. Elas descrevem como os operadores lógicos "não" (¬) podem ser usados para transformar expressões que contêm operações lógicas "ou" (∨) e "e" (∧). Essas leis foram propostas pelo matemático e logista Charles Sanders Peirce, mas são mais conhecidas por Augustus De Morgan.

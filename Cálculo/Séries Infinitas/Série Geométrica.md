@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 
 Uma série geométrica é caracterizada por ter uma razão constante (r) entre termos consecutivos. A forma geral de uma série geométrica é:
 

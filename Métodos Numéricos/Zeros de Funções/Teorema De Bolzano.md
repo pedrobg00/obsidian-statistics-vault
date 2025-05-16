@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 O **Teorema de Bolzano** fornece um critério rigoroso para a existência de pelo menos um zero de uma função contínua em um intervalo. Ele afirma que:
 
 Se uma função $f(x)$ é contínua em um intervalo fechado $[a, b]$ e os valores da função nos extremos do intervalo possuem sinais opostos, ou seja,
@@ -8,7 +12,7 @@ $$
 
 então existe pelo menos um número $c \in (a, b)$ tal que $f(c) = 0$.
 
-### Exemplo
+## Exemplo
 
 Considere a função $f(x) = x^3 - 2x + 1$.
 
@@ -71,7 +75,7 @@ $$
 
 Como $f(0) \cdot f(2) < 0$, existe pelo menos uma raiz em $(0,2)$.
 
-2. **Uso da Derivada para Análise Adicional**:
+1. **Uso da Derivada para Análise Adicional**:
 
 Derivamos $f(x)$:
 
@@ -87,6 +91,6 @@ $$
 
 Como $x = 1.15$ está dentro de $(0,2)$, podemos verificar que a função tem uma mudança no crescimento e pode haver apenas um zero nesse intervalo.
 
-3. **Uso de Zeros de Funções para Cálculo de Erro em Redes Neurais**
+1. **Uso de Zeros de Funções para Cálculo de Erro em Redes Neurais**
 
 Em redes neurais, encontrar os zeros de uma função é essencial para minimizar o erro do modelo. Durante o treinamento, buscamos os pontos onde a derivada da função de erro é zero, indicando um possível mínimo. Métodos numéricos, como a descida do gradiente, são usados para ajustar os pesos da rede e reduzir esse erro progressivamente, tornando as previsões mais precisas.

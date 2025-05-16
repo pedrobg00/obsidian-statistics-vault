@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A estimativa da soma de uma série é um método usado em matemática para aproximar a soma total de termos infinitos ou finitos. Este processo é especialmente útil quando a soma exata é difícil de calcular.
 
 ## Exemplo 1: Série Geométrica

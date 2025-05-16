@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 ## Formato Geral: $x^{(k+1)} = Cx^{(k)} + g$
 
 Neste formato, $x^{(k)}$ representa a solução aproximada no $k$-ésimo passo da iteração. A matriz $C$ e o vetor $g$ são parâmetros do método iterativo que podem variar dependendo do problema específico.

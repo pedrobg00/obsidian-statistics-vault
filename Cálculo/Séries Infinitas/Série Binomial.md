@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 A **série binomial** é um importante conceito na teoria dos números e em cálculo, que permite expandir expressões do tipo $(1 + x)^n$ para qualquer número real ou complexo $n$. Esta série é uma generalização da fórmula do binômio de Newton.
 
 ## Definição Da Série Binomial

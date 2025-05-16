@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Derivadas parciais permitem a análise de funções com múltiplas variáveis, permitindo estudar como uma função muda quando apenas uma das suas variáveis é alterada, mantendo as outras constantes.
 
 Consideremos uma função $f(x, y)$ que depende de duas variáveis, $x$ e $y$. A derivada parcial de $f$ com respeito a $x$, denotada por $\frac{\partial f}{\partial x}$, representa o ritmo de mudança da função em relação à variável $x$, considerando que $y$ é mantido constante. Analogamente, a derivada parcial com respeito a $y$, denotada por $\frac{\partial f}{\partial y}$, mede como a função muda quando $y$ varia e $x$ permanece inalterado.

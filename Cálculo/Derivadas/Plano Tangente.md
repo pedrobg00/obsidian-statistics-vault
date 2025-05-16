@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 O **plano tangente** é uma aplicação direta do cálculo diferencial. Ele representa um plano que toca (ou seja, é tangente) a uma superfície em um ponto específico.
 
 ## Definição Matemática

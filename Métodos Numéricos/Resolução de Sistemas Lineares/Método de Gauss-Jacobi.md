@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 O Método de Gauss-Jacobi é um algoritmo iterativo utilizado para resolver sistemas lineares de equações do tipo $Ax = b$, onde $A$ é uma matriz quadrada, $x$ e $b$ são vetores. Este método é particularmente útil quando a matriz $A$ possui certas propriedades que facilitam sua aplicação.
 
 ## Formulando O Problema

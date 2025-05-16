@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Para entender o critério da integral para a convergência de séries, é importante primeiro definir as condições e aplicar o método corretamente.
 ## Definição Do Critério Da Integral
 

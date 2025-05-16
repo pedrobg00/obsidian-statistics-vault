@@ -1,10 +1,13 @@
+---
+dg-publish: true
+dg-show-local-graph: true
+---
 %% Begin Waypoint %%
 - **[[Derivadas]]**
 	- **[[Derivada Direcional]]**
 	- [[Derivada Implícita]]
 	- [[Derivadas de Ordem Superior]]
 	- [[Derivadas Parciais]]
-	- [[Derivadas]]
 	- [[Diferenciabilidade de uma  Função]]
 	- [[Diferencial de Uma Função]]
 	- [[Plano Tangente]]
