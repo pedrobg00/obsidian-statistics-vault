@@ -309,7 +309,7 @@
     },
     {
       "label": "Add line breaks to multiline LaTeX",
-      "find": "\\$\\$(?!\\n)([\\s\\S]*?)(?<!\\n)\\$\\$",
+      "find": "\\$\\$(?!\\n)([\\s\\S]+?)(?<!\\n)\\$\\$",
       "replace": "$$$\\n$1\\n$$$",
       "flags": "g",
       "enabled": true
