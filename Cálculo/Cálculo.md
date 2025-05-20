@@ -1,6 +1,6 @@
 ---
 dg-publish: true
-dg-show-local-graph:
+dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%

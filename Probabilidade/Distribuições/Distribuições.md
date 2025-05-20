@@ -15,5 +15,6 @@ dg-show-local-graph: true
 	- [[Distribuição Poisson]]
 	- [[Distribuição Uniforme]]
 	- [[Esperança a Partir da Função Geradora de Momentos]]
+	- [[Função Gama]]
 
 %% End Waypoint %%

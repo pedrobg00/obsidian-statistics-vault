@@ -1,370 +1,553 @@
 {
-	"edges":[
-		{
-			"fromNode":"47566952600788bb",
-			"fromSide":"bottom",
-			"id":"5c59ec12e82b046e",
-			"styleAttributes":{},
-			"toNode":"83b5a2386996f1fc",
-			"toSide":"left"
-		},
-		{"fromNode":"300d177e1bf7a912","fromSide":"right","id":"7caf4c9d693b4c71","toNode":"aec36fcb8863e9f5","toSide":"left"},
-		{"fromNode":"aec36fcb8863e9f5","fromSide":"bottom","id":"4bdd5982804bcca2","toNode":"d0be5e4058686e16","toSide":"top"},
-		{"fromNode":"aec36fcb8863e9f5","fromSide":"bottom","id":"32dee8e3282541ab","toNode":"0d0aeff9b45fa9fd","toSide":"top"},
-		{"fromNode":"20e200faad2de9cc","fromSide":"right","id":"f8a541b2f0894a4d","toNode":"1ee027db7fe9995f","toSide":"top"},
-		{"fromNode":"1ee027db7fe9995f","fromSide":"right","id":"163e4e9bb99f655b","toNode":"9dffa8167b0aede7","toSide":"left"},
-		{"fromNode":"0d0aeff9b45fa9fd","fromSide":"left","id":"0ef148d73efa18b1","toNode":"bbf745f3bef978a7","toSide":"top"},
-		{
-			"fromNode":"bbf745f3bef978a7",
-			"fromSide":"right",
-			"id":"343f8818c9909d12",
-			"styleAttributes":{},
-			"toNode":"20e200faad2de9cc",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"aec36fcb8863e9f5",
-			"fromSide":"bottom",
-			"id":"66ec4e707b0913f8",
-			"styleAttributes":{},
-			"toNode":"bbbff21fe033ca25",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"d0be5e4058686e16",
-			"fromSide":"left",
-			"id":"4bdba160cbe3fac0",
-			"styleAttributes":{},
-			"toNode":"eecd7dd1958cce57",
-			"toSide":"right"
-		},
-		{
-			"fromNode":"e29c046ff87be735",
-			"fromSide":"bottom",
-			"id":"c22643aeadcf71fd",
-			"styleAttributes":{},
-			"toNode":"b41fc8ade42b60d6",
-			"toSide":"left"
-		},
-		{
-			"fromNode":"aec36fcb8863e9f5",
-			"fromSide":"bottom",
-			"id":"0cc79b7edbd9cc2a",
-			"styleAttributes":{},
-			"toNode":"e29c046ff87be735",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"aec36fcb8863e9f5",
-			"fromSide":"right",
-			"id":"23a99059aaf1969c",
-			"styleAttributes":{},
-			"toNode":"ed0b606b8b0f30c7",
-			"toSide":"left"
-		},
-		{
-			"fromNode":"ed0b606b8b0f30c7",
-			"fromSide":"bottom",
-			"id":"957e9f20028bdd29",
-			"styleAttributes":{},
-			"toNode":"9af9135e4763ba38",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"9af9135e4763ba38",
-			"fromSide":"bottom",
-			"id":"cf20cddf3b9407ae",
-			"styleAttributes":{},
-			"toNode":"d6b62fcf61668144",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"d6b62fcf61668144",
-			"fromSide":"bottom",
-			"id":"f4d316d83027c723",
-			"styleAttributes":{},
-			"toNode":"9b90497217fb0a50",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"9b90497217fb0a50",
-			"fromSide":"bottom",
-			"id":"27c01bda1970c075",
-			"styleAttributes":{},
-			"toNode":"1599bd647ec6f2f9",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"47566952600788bb",
-			"fromSide":"left",
-			"id":"3d073950c10771c1",
-			"styleAttributes":{},
-			"toNode":"764b4ebc8aca3e48",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"fd6df2f3ef1144f4",
-			"fromSide":"right",
-			"id":"fdb1a92b868088c9",
-			"styleAttributes":{},
-			"toNode":"7754c8d6e73a1f30",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"7754c8d6e73a1f30",
-			"fromSide":"left",
-			"id":"5025dcf71c255127",
-			"styleAttributes":{},
-			"toNode":"a14c75b702dad3f0",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"a14c75b702dad3f0",
-			"fromSide":"right",
-			"id":"85890792f802c54c",
-			"styleAttributes":{},
-			"toNode":"e9a45823ca1069be",
-			"toSide":"left"
-		},
-		{
-			"fromNode":"e9a45823ca1069be",
-			"fromSide":"right",
-			"id":"69d6902faa9f4bed",
-			"styleAttributes":{},
-			"toNode":"057ef3ec1a874a89",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"a35e5689523184e9",
-			"fromSide":"right",
-			"id":"9a0be3f71df23d43",
-			"styleAttributes":{},
-			"toNode":"096227db2b91f31d",
-			"toSide":"left"
-		},
-		{
-			"fromNode":"a35e5689523184e9",
-			"fromSide":"bottom",
-			"id":"15c24707cfd822d8",
-			"styleAttributes":{},
-			"toNode":"7630d5e63736c9b3",
-			"toSide":"top"
-		},
-		{
-			"fromNode":"a35e5689523184e9",
-			"fromSide":"bottom",
-			"id":"eb4fc9ed20718564",
-			"styleAttributes":{},
-			"toNode":"337b66546b73d1b0",
-			"toSide":"left"
-		}
-	],
-	"nodes":[
-		{
-			"height":2800,
-			"id":"83b5a2386996f1fc",
-			"label":"Séries Infinitas",
-			"styleAttributes":{},
-			"type":"group",
-			"width":2920,
-			"x":-800,
-			"y":80
-		},
-		{"height":2279,"id":"764b4ebc8aca3e48","label":"Derivadas","type":"group","width":1760,"x":-2720,"y":80},
-		{
-			"color":"1",
-			"height":50,
-			"id":"47566952600788bb",
-			"styleAttributes":{
-				"border":null,
-				"shape":"pill",
-				"textAlign":"center"
-			},
-			"text":"Cálculo",
-			"type":"text",
-			"width":126,
-			"x":-412,
-			"y":-320
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Sequências.md",
-			"height":540,
-			"id":"300d177e1bf7a912",
-			"styleAttributes":{},
-			"type":"file",
-			"width":434,
-			"x":-349,
-			"y":125
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Séries Alternadas.md",
-			"height":400,
-			"id":"0d0aeff9b45fa9fd",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":54,
-			"y":1392
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Teste da Raíz.md",
-			"height":400,
-			"id":"9b90497217fb0a50",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":1560,
-			"y":1665
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Testes de Comparação.md",
-			"height":400,
-			"id":"ed0b606b8b0f30c7",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":1560,
-			"y":195
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Teste da Integral.md",
-			"height":400,
-			"id":"9af9135e4763ba38",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":1560,
-			"y":680
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Teste da Razão.md",
-			"height":400,
-			"id":"d6b62fcf61668144",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":1560,
-			"y":1159
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
-			"height":400,
-			"id":"eecd7dd1958cce57",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":-686,
-			"y":1159
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
-			"height":385,
-			"id":"d0be5e4058686e16",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":-195,
-			"y":880
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Séries Infinitas.md",
-			"height":400,
-			"id":"aec36fcb8863e9f5",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":331,
-			"y":260
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Série Geométrica.md",
-			"height":400,
-			"id":"bbbff21fe033ca25",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":808,
-			"y":865
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Série P.md",
-			"height":400,
-			"id":"b41fc8ade42b60d6",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":1008,
-			"y":1792
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Convergência Absoluta.md",
-			"height":400,
-			"id":"1599bd647ec6f2f9",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":1560,
-			"y":2192
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Séries de Potências.md",
-			"height":400,
-			"id":"bbf745f3bef978a7",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":-412,
-			"y":1919
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Série Binomial.md",
-			"height":400,
-			"id":"9dffa8167b0aede7",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":1008,
-			"y":2400
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Série de Taylor.md",
-			"height":400,
-			"id":"20e200faad2de9cc",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":54,
-			"y":2119
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Série de Maclaurin.md",
-			"height":400,
-			"id":"1ee027db7fe9995f",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":531,
-			"y":2319
-		},
-		{
-			"file":"Cálculo/Séries Infinitas/Série Harmônica.md",
-			"height":400,
-			"id":"e29c046ff87be735",
-			"styleAttributes":{},
-			"type":"file",
-			"width":400,
-			"x":531,
-			"y":1465
-		},
-		{"file":"Cálculo/Derivadas/Derivadas.md","height":400,"id":"fd6df2f3ef1144f4","type":"file","width":400,"x":-2660,"y":100},
-		{"file":"Cálculo/Derivadas/Derivada Implícita.md","height":400,"id":"7754c8d6e73a1f30","type":"file","width":400,"x":-2200,"y":440},
-		{"file":"Cálculo/Derivadas/Derivadas de Ordem Superior.md","height":400,"id":"a14c75b702dad3f0","type":"file","width":400,"x":-2660,"y":760},
-		{"file":"Cálculo/Derivadas/Diferenciabilidade de uma  Função.md","height":400,"id":"e9a45823ca1069be","type":"file","width":400,"x":-2000,"y":920},
-		{"file":"Cálculo/Derivadas/Diferencial de Uma Função.md","height":400,"id":"057ef3ec1a874a89","type":"file","width":400,"x":-1400,"y":1120},
-		{"file":"Cálculo/Derivadas/Plano Tangente.md","height":400,"id":"7630d5e63736c9b3","type":"file","width":400,"x":-2600,"y":1880},
-		{"file":"Cálculo/Derivadas/Teorema de Clairaut.md","height":400,"id":"337b66546b73d1b0","type":"file","width":400,"x":-1960,"y":1920},
-		{"file":"Cálculo/Derivadas/Derivadas Parciais.md","height":400,"id":"a35e5689523184e9","type":"file","width":400,"x":-2660,"y":1280},
-		{"file":"Cálculo/Derivadas/Regras da Cadeia.md","height":400,"id":"096227db2b91f31d","type":"file","width":400,"x":-2120,"y":1440},
-		{"file":"Cálculo/Derivadas/Derivada Direcional/Derivada Direcional.md","height":400,"id":"70d48b6f557dc1a4","type":"file","width":400,"x":-1460,"y":1720}
-	]
+  "edges": [
+    {
+      "fromNode": "47566952600788bb",
+      "fromSide": "bottom",
+      "id": "5c59ec12e82b046e",
+      "styleAttributes": {
+      },
+      "toNode": "83b5a2386996f1fc",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "300d177e1bf7a912",
+      "fromSide": "right",
+      "id": "7caf4c9d693b4c71",
+      "toNode": "aec36fcb8863e9f5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aec36fcb8863e9f5",
+      "fromSide": "bottom",
+      "id": "4bdd5982804bcca2",
+      "toNode": "d0be5e4058686e16",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "aec36fcb8863e9f5",
+      "fromSide": "bottom",
+      "id": "32dee8e3282541ab",
+      "toNode": "0d0aeff9b45fa9fd",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "20e200faad2de9cc",
+      "fromSide": "right",
+      "id": "f8a541b2f0894a4d",
+      "toNode": "1ee027db7fe9995f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1ee027db7fe9995f",
+      "fromSide": "right",
+      "id": "163e4e9bb99f655b",
+      "toNode": "9dffa8167b0aede7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0d0aeff9b45fa9fd",
+      "fromSide": "left",
+      "id": "0ef148d73efa18b1",
+      "toNode": "bbf745f3bef978a7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "bbf745f3bef978a7",
+      "fromSide": "right",
+      "id": "343f8818c9909d12",
+      "styleAttributes": {
+      },
+      "toNode": "20e200faad2de9cc",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "aec36fcb8863e9f5",
+      "fromSide": "bottom",
+      "id": "66ec4e707b0913f8",
+      "styleAttributes": {
+      },
+      "toNode": "bbbff21fe033ca25",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d0be5e4058686e16",
+      "fromSide": "left",
+      "id": "4bdba160cbe3fac0",
+      "styleAttributes": {
+      },
+      "toNode": "eecd7dd1958cce57",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "e29c046ff87be735",
+      "fromSide": "bottom",
+      "id": "c22643aeadcf71fd",
+      "styleAttributes": {
+      },
+      "toNode": "b41fc8ade42b60d6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aec36fcb8863e9f5",
+      "fromSide": "bottom",
+      "id": "0cc79b7edbd9cc2a",
+      "styleAttributes": {
+      },
+      "toNode": "e29c046ff87be735",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "aec36fcb8863e9f5",
+      "fromSide": "right",
+      "id": "23a99059aaf1969c",
+      "styleAttributes": {
+      },
+      "toNode": "ed0b606b8b0f30c7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ed0b606b8b0f30c7",
+      "fromSide": "bottom",
+      "id": "957e9f20028bdd29",
+      "styleAttributes": {
+      },
+      "toNode": "9af9135e4763ba38",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9af9135e4763ba38",
+      "fromSide": "bottom",
+      "id": "cf20cddf3b9407ae",
+      "styleAttributes": {
+      },
+      "toNode": "d6b62fcf61668144",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "d6b62fcf61668144",
+      "fromSide": "bottom",
+      "id": "f4d316d83027c723",
+      "styleAttributes": {
+      },
+      "toNode": "9b90497217fb0a50",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9b90497217fb0a50",
+      "fromSide": "bottom",
+      "id": "27c01bda1970c075",
+      "styleAttributes": {
+      },
+      "toNode": "1599bd647ec6f2f9",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "47566952600788bb",
+      "fromSide": "left",
+      "id": "3d073950c10771c1",
+      "styleAttributes": {
+      },
+      "toNode": "764b4ebc8aca3e48",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "fd6df2f3ef1144f4",
+      "fromSide": "right",
+      "id": "fdb1a92b868088c9",
+      "styleAttributes": {
+      },
+      "toNode": "7754c8d6e73a1f30",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7754c8d6e73a1f30",
+      "fromSide": "left",
+      "id": "5025dcf71c255127",
+      "styleAttributes": {
+      },
+      "toNode": "a14c75b702dad3f0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a14c75b702dad3f0",
+      "fromSide": "right",
+      "id": "85890792f802c54c",
+      "styleAttributes": {
+      },
+      "toNode": "e9a45823ca1069be",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e9a45823ca1069be",
+      "fromSide": "right",
+      "id": "69d6902faa9f4bed",
+      "styleAttributes": {
+      },
+      "toNode": "057ef3ec1a874a89",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a35e5689523184e9",
+      "fromSide": "right",
+      "id": "9a0be3f71df23d43",
+      "styleAttributes": {
+      },
+      "toNode": "096227db2b91f31d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a35e5689523184e9",
+      "fromSide": "bottom",
+      "id": "15c24707cfd822d8",
+      "styleAttributes": {
+      },
+      "toNode": "7630d5e63736c9b3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a35e5689523184e9",
+      "fromSide": "bottom",
+      "id": "eb4fc9ed20718564",
+      "styleAttributes": {
+      },
+      "toNode": "337b66546b73d1b0",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 2800,
+      "id": "83b5a2386996f1fc",
+      "label": "Séries Infinitas",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2920,
+      "x": -800,
+      "y": 80
+    },
+    {
+      "height": 2279,
+      "id": "764b4ebc8aca3e48",
+      "label": "Derivadas",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1760,
+      "x": -2720,
+      "y": 80
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Testes de Comparação.md",
+      "height": 400,
+      "id": "ed0b606b8b0f30c7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1560,
+      "y": 195
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Teste da Integral.md",
+      "height": 400,
+      "id": "9af9135e4763ba38",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1560,
+      "y": 680
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Teste da Razão.md",
+      "height": 400,
+      "id": "d6b62fcf61668144",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1560,
+      "y": 1159
+    },
+    {
+      "file": "Cálculo/Derivadas/Derivadas.md",
+      "height": 400,
+      "id": "fd6df2f3ef1144f4",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2660,
+      "y": 100
+    },
+    {
+      "file": "Cálculo/Derivadas/Derivada Implícita.md",
+      "height": 400,
+      "id": "7754c8d6e73a1f30",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2200,
+      "y": 440
+    },
+    {
+      "file": "Cálculo/Derivadas/Derivadas de Ordem Superior.md",
+      "height": 400,
+      "id": "a14c75b702dad3f0",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2660,
+      "y": 760
+    },
+    {
+      "file": "Cálculo/Derivadas/Diferenciabilidade de uma  Função.md",
+      "height": 400,
+      "id": "e9a45823ca1069be",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2000,
+      "y": 920
+    },
+    {
+      "file": "Cálculo/Derivadas/Diferencial de Uma Função.md",
+      "height": 400,
+      "id": "057ef3ec1a874a89",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1400,
+      "y": 1120
+    },
+    {
+      "file": "Cálculo/Derivadas/Derivada Direcional/Derivada Direcional.md",
+      "height": 400,
+      "id": "70d48b6f557dc1a4",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1460,
+      "y": 1720
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Séries Alternadas.md",
+      "height": 400,
+      "id": "0d0aeff9b45fa9fd",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 54,
+      "y": 1392
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Teste da Raíz.md",
+      "height": 400,
+      "id": "9b90497217fb0a50",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1560,
+      "y": 1665
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Séries Infinitas.md",
+      "height": 400,
+      "id": "aec36fcb8863e9f5",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 331,
+      "y": 260
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série Geométrica.md",
+      "height": 400,
+      "id": "bbbff21fe033ca25",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 808,
+      "y": 865
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série P.md",
+      "height": 400,
+      "id": "b41fc8ade42b60d6",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1008,
+      "y": 1792
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Convergência Absoluta.md",
+      "height": 400,
+      "id": "1599bd647ec6f2f9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1560,
+      "y": 2192
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Séries de Potências.md",
+      "height": 400,
+      "id": "bbf745f3bef978a7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -412,
+      "y": 1919
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série Binomial.md",
+      "height": 400,
+      "id": "9dffa8167b0aede7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1008,
+      "y": 2400
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série de Taylor.md",
+      "height": 400,
+      "id": "20e200faad2de9cc",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 54,
+      "y": 2119
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série Harmônica.md",
+      "height": 400,
+      "id": "e29c046ff87be735",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 531,
+      "y": 1465
+    },
+    {
+      "color": "1",
+      "height": 50,
+      "id": "47566952600788bb",
+      "styleAttributes": {
+        "border": null,
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "text": "Cálculo",
+      "type": "text",
+      "width": 126,
+      "x": -412,
+      "y": -320
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Sequências.md",
+      "height": 540,
+      "id": "300d177e1bf7a912",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 434,
+      "x": -349,
+      "y": 125
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Estimativa para a Soma de uma Série.md",
+      "height": 400,
+      "id": "eecd7dd1958cce57",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -686,
+      "y": 1159
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Soma de Séries por Somas Parciais.md",
+      "height": 385,
+      "id": "d0be5e4058686e16",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -195,
+      "y": 880
+    },
+    {
+      "file": "Cálculo/Séries Infinitas/Série de Maclaurin.md",
+      "height": 400,
+      "id": "1ee027db7fe9995f",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 531,
+      "y": 2319
+    },
+    {
+      "file": "Cálculo/Derivadas/Plano Tangente.md",
+      "height": 400,
+      "id": "7630d5e63736c9b3",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2600,
+      "y": 1880
+    },
+    {
+      "file": "Cálculo/Derivadas/Teorema de Clairaut.md",
+      "height": 400,
+      "id": "337b66546b73d1b0",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1960,
+      "y": 1920
+    },
+    {
+      "file": "Cálculo/Derivadas/Derivadas Parciais.md",
+      "height": 400,
+      "id": "a35e5689523184e9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2660,
+      "y": 1280
+    },
+    {
+      "file": "Cálculo/Derivadas/Regras da Cadeia.md",
+      "height": 400,
+      "id": "096227db2b91f31d",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2120,
+      "y": 1440
+    }
+  ]
 }

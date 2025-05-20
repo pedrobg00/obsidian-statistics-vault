@@ -240,17 +240,6 @@
       "y": -1040
     },
     {
-      "file": "Probabilidade/Sigma-Álgebra de Borel.md",
-      "height": 400,
-      "id": "7990142874b911ea",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -680,
-      "y": -560
-    },
-    {
       "file": "Probabilidade/Distribuições/Distribuições.md",
       "height": 420,
       "id": "6e4b7ac9ee594124",
@@ -284,26 +273,48 @@
       "y": 683
     },
     {
-      "file": "Probabilidade/Distribuições/Distribuição Poisson.md",
+      "file": "Probabilidade/Distribuições/Binômio de Newton.md",
       "height": 400,
-      "id": "1b91eb4c32527de2",
+      "id": "039932380ec096fc",
       "styleAttributes": {
       },
       "type": "file",
       "width": 400,
-      "x": -4560,
-      "y": 1320
+      "x": -3360,
+      "y": 80
     },
     {
-      "file": "Probabilidade/Distribuições/Distribuição Geométrica.md",
+      "file": "Probabilidade/Distribuições/Esperança a Partir da Função Geradora de Momentos.md",
       "height": 400,
-      "id": "2a6a78f68764ba92",
+      "id": "6bddd799be764a2c",
       "styleAttributes": {
       },
       "type": "file",
       "width": 400,
-      "x": -3960,
-      "y": 1320
+      "x": -2780,
+      "y": 80
+    },
+    {
+      "file": "Probabilidade/Distribuições/Distribuição de Bernoulli.md",
+      "height": 400,
+      "id": "ae4e20988eb0fc09",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2780,
+      "y": 683
+    },
+    {
+      "file": "Probabilidade/Sigma-Álgebra de Borel.md",
+      "height": 400,
+      "id": "7990142874b911ea",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -680,
+      "y": -560
     },
     {
       "file": "Probabilidade/Variável Aleatória/Variável Aleatória.md",
@@ -394,6 +405,28 @@
       "y": 1640
     },
     {
+      "file": "Probabilidade/Distribuições/Distribuição Poisson.md",
+      "height": 400,
+      "id": "1b91eb4c32527de2",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -4560,
+      "y": 1320
+    },
+    {
+      "file": "Probabilidade/Distribuições/Distribuição Geométrica.md",
+      "height": 400,
+      "id": "2a6a78f68764ba92",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -3960,
+      "y": 1320
+    },
+    {
       "file": "Probabilidade/Distribuições/Distribuição Hipergeométrica.md",
       "height": 400,
       "id": "4885c56d9c90b57d",
@@ -405,28 +438,6 @@
       "y": 1520
     },
     {
-      "file": "Probabilidade/Distribuições/Binômio de Newton.md",
-      "height": 400,
-      "id": "039932380ec096fc",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -3360,
-      "y": 80
-    },
-    {
-      "file": "Probabilidade/Distribuições/Esperança a Partir da Função Geradora de Momentos.md",
-      "height": 400,
-      "id": "6bddd799be764a2c",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -2780,
-      "y": 80
-    },
-    {
       "file": "Probabilidade/Distribuições/Distribuição Binomial Negativa.md",
       "height": 400,
       "id": "c265a277e09f91b5",
@@ -436,17 +447,6 @@
       "width": 400,
       "x": -3360,
       "y": 883
-    },
-    {
-      "file": "Probabilidade/Distribuições/Distribuição de Bernoulli.md",
-      "height": 400,
-      "id": "ae4e20988eb0fc09",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -2780,
-      "y": 683
     }
   ]
 }

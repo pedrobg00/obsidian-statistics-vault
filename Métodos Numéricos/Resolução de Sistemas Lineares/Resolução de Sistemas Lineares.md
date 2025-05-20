@@ -7,6 +7,7 @@ dg-show-local-graph: true
 
 - **[[Resolução de Sistemas Lineares]]**
 	- [[Fatoração LU]]
+	- [[Interpolação Polinimial]]
 	- [[Método de Eliminação de Gauss]]
 	- [[Método de Gauss-Jacobi]]
 	- [[Método de Gauss-Seidel]]
@@ -21,29 +22,17 @@ dg-show-local-graph: true
 Uma função $f$ é dita linear se satisfaz as seguintes propriedades:
 
 1. **Aditividade**: Para quaisquer valores $x$ e $y$, temos que
-
-	$$
-	
+$$
 	   f(x + y) = f(x) + f(y).
-	
-	$$
-
+$$
 2. **Homogeneidade de grau 1**: Para qualquer escalar $c$ e valor $x$, temos que
-
-   $$
-	
+$$
 	   f(cx) = cf(x).
-	
-	$$
-
+$$
 A combinação dessas duas propriedades resulta na forma geral de uma função linear, que pode ser expressa como:
-
-	$$
-	
+$$
 	f(x) = ax + b,
-	
-	$$
-
+$$
 onde $a$ e $b$ são constantes. Aqui, $b$ é o intercepto y (o valor da função quando $x=0$), enquanto $a$ é a inclinação da reta.
 
 ### Exemplos De Funções Lineares
