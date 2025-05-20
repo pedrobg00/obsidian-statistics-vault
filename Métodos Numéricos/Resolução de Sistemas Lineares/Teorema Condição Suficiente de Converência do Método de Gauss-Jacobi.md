@@ -60,9 +60,9 @@ Considere o sistema linear:
 $$
 \begin{cases}
 
-2x_1 + x_2 - x_3 = 5 \
+2x_1 + x_2 - x_3 = 5 \\
 
--x_1 + 4x_2 + x_3 = 7 \
+-x_1 + 4x_2 + x_3 = 7 \\
 
 x_1 - x_2 + 6x_3 = 8
 
@@ -72,9 +72,9 @@ A matriz $A$ e o vetor $\mathbf{b}$ são:
 $$
 A = \begin{pmatrix}
 
-2 & 1 & -1 \
+2 & 1 & -1 \\
 
--1 & 4 & 1 \
+-1 & 4 & 1 \\
 
 1 & -1 & 6
 
@@ -82,9 +82,9 @@ A = \begin{pmatrix}
 
 \mathbf{b} = \begin{pmatrix}
 
-5 \
+5 \\
 
-7 \
+7 \\
 
 8
 
@@ -104,9 +104,9 @@ Considere o sistema:
 $$
 \begin{cases}
 
-2x_1 - x_2 = 1 \
+2x_1 - x_2 = 1 \\
 
--x_1 + 3x_2 - x_3 = 2 \
+-x_1 + 3x_2 - x_3 = 2 \\
 
 -2x_2 + 4x_3 = 3
 
@@ -116,9 +116,9 @@ Neste caso:
 $$
 A = \begin{pmatrix}
 
-2 & -1 & 0 \
+2 & -1 & 0 \\
 
--1 & 3 & -1 \
+-1 & 3 & -1 \\
 
 0 & -2 & 4
 
@@ -126,9 +126,9 @@ A = \begin{pmatrix}
 
 \mathbf{b} = \begin{pmatrix}
 
-1 \
+1 \\
 
-2 \
+2 \\
 
 3
 
@@ -138,9 +138,9 @@ As matrizes $D$, $L$ e $U$ são:
 $$
 D = \begin{pmatrix}
 
-2 & 0 & 0 \
+2 & 0 & 0 \\
 
-0 & 3 & 0 \
+0 & 3 & 0 \\
 
 0 & 0 & 4
 
@@ -149,9 +149,9 @@ $$$$
 
 L = \begin{pmatrix}
 
-0 & 0 & 0 \
+0 & 0 & 0 \\
 
--1 & 0 & 0 \
+-1 & 0 & 0 \\
 
 0 & -2 & 0
 
@@ -159,9 +159,9 @@ L = \begin{pmatrix}
 
 U = \begin{pmatrix}
 
-0 & -1 & 0 \
+0 & -1 & 0 \\
 
-0 & 0 & -1 \
+0 & 0 & -1 \\
 
 0 & 0 & 0
 

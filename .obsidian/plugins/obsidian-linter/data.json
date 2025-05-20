@@ -320,9 +320,16 @@
       "enabled": true
     },
     {
-      "label": "Remove extra spaces from multiline LaTex",
+      "label": "Remove extra lines from multiline LaTex",
       "find": "^\\s*\\$\\$\\s*\\n([\\s\\S]*?)\\n\\s*\\$\\$\\s*$",
       "replace": "$$$\\n$1\\n$$$",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "Remove extra lines in between multiline LaTex",
+      "find": "(?<=\\$\\$\\n)([\\s\\S]*?)(?=\\n\\$\\$)",
+      "replace": "${1/^\\s*\\n//gm}",
       "flags": "gm",
       "enabled": true
     }

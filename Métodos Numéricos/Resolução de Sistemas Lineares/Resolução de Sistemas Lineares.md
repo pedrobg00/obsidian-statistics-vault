@@ -4,10 +4,8 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-
 - **[[Resolução de Sistemas Lineares]]**
 	- [[Fatoração LU]]
-	- [[Interpolação Polinimial]]
 	- [[Método de Eliminação de Gauss]]
 	- [[Método de Gauss-Jacobi]]
 	- [[Método de Gauss-Seidel]]
