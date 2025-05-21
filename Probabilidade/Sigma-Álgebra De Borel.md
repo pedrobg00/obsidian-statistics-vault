@@ -2,7 +2,7 @@
 dg-publish: true
 ---
 
-## Introdução à Sigma Álgebra De Borel
+## Introdução à Sigma Álgebra de Borel
 
 A **sigma álgebra de Borel** é um conceito fundamental na teoria da medida e na probabilidade. Ela é construída a partir dos conjuntos abertos em um espaço topológico, particularmente no espaço real $\mathbb{R}$. A sigma álgebra de Borel é denotada por $\mathcal{B}$.
 
@@ -12,7 +12,7 @@ A **sigma álgebra de Borel** em $\mathbb{R}$ é a menor sigma álgebra que cont
 $$
 \mathcal{B} = \sigma(\{\text{conjuntos abertos em } \mathbb{R}\})
 $$
-### Exemplos De Conjuntos Borel
+### Exemplos de Conjuntos Borel
 
 1. **Conjuntos Abertos**: Qualquer conjunto que pode ser escrito como uma união contável de intervalos abertos é um exemplo básico de conjuntos borel.
 2. **Intervalos Fechados e Semi-abertos**: Intervalos fechados $[a, b]$, semi-abertos $(a, b]$ ou $[a, b)$ também são conjuntos borel.

@@ -4,7 +4,6 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-
 - **[[Probabilidade]]**
 	- **[[Distribuições]]**
 	- [[Leis de Morgan]]

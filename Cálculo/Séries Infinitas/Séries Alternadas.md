@@ -2,7 +2,7 @@
 dg-publish: true
 ---
 
-## Introdução Às Séries Alternadas
+## Introdução às Séries Alternadas
 
 Uma série alternada é um tipo especial de série numérica onde os termos são alternadamente positivos e negativos. Essas séries têm a forma geral:
 $$
@@ -18,7 +18,7 @@ $$
 $$
 Esta série é conhecida como a **Série Harmônica Alternada**. Ela converge para $\ln(2)$, conforme demonstrado pelo Teorema de Leibniz.
 
-## Convergência Das Séries Alternadas
+## Convergência das Séries Alternadas
 
 A convergência de uma série alternada pode ser verificada usando o **Teorema de Leibniz**, que estabelece as seguintes condições:
 
@@ -27,7 +27,7 @@ A convergência de uma série alternada pode ser verificada usando o **Teorema d
 
 Se ambas as condições forem satisfeitas, a série alternada converge.
 
-## Exemplo De Aplicação
+## Exemplo de Aplicação
 
 Considere a série:
 $$
@@ -40,7 +40,7 @@ Aqui, $b_n = \frac{1}{2^n}$.
 
 Portanto, pela condição do Teorema de Leibniz, a série converge.
 
-## Teste Da Série Alternada
+## Teste da Série Alternada
 
 O **Teste da Série Alternada** é um método utilizado para determinar a convergência condicional de séries infinitas do tipo alternado. Uma série alternada tem a forma geral:
 $$
@@ -92,7 +92,7 @@ Portanto, a série converge pelo teste da série alternada.
 
 Este método é particularmente útil para séries onde os termos alternam de sinal.
 
-## Estimativa De Somas
+## Estimativa de Somas
 
 A estimativa de somas é um processo usado para aproximar o valor de uma série infinita, especialmente quando a série converge lentamente. Este método é particularmente útil em séries alternadas, onde os termos são alternadamente positivos e negativos.
 
@@ -108,7 +108,7 @@ $$
 $$
 Isso significa que a diferença entre a soma exata e a soma parcial $S_N$ é menor que o próximo termo da sequência, $b_{N+1}$.
 
-### Exemplo De Aplicação
+### Exemplo de Aplicação
 
 Considere novamente a **Série Harmônica Alternada**:
 $$

@@ -20,7 +20,7 @@ Seja $X = \{a, b, c\}$. A maior sigma álgebra possível é $\mathcal{P}(X) = \{
 
 ## Aplicações
 
-### Teoria Da Medida
+### Teoria da Medida
 
 As sigma álgebras são essenciais na definição de medidas. Uma medida $\mu$ é uma função que associa a cada conjunto em uma sigma álgebra um valor não negativo ou infinito, representado por:
 $$

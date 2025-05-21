@@ -4,7 +4,7 @@ dg-publish: true
 
 Testes de comparação são ferramentas úteis na análise da convergência de séries infinitas. Esses testes permitem comparar a série em questão com uma série conhecida, cuja convergência ou divergência já seja estabelecida.
 
-## Teste Direto De Comparação
+## Teste Direto de Comparação
 
 O **Teste Direto de Comparação** é aplicado quando se pode comparar diretamente as termos da série com os termos de outra série cuja convergência é conhecida.
 
@@ -18,7 +18,7 @@ $$
 $$
   para $n$ suficientemente grande. Como a série geométrica converge e os termos da série original são menores ou iguais aos termos da série geométrica, podemos concluir que $\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$ também converge.
 
-## Teste De Comparação Assintótico
+## Teste de Comparação Assintótico
 
 O **Teste de Comparação Assintótico** é útil quando a série em questão tem termos que se comportam como uma função conhecida para grandes valores de $n$. Se $a_n \sim b_n$ (ou seja, $\lim_{n\to\infty} \frac{a_n}{b_n} = 1$), então as séries $\sum a_n$ e $\sum b_n$ convergem ou divergem juntas.
 
@@ -28,7 +28,7 @@ $$
 $$
   o que indica que $\frac{1}{\ln(n)}$ cresce mais rápido do que $\frac{1}{n}$, mas a divergência da série harmônica implica na divergência de nossa série original.
 
-## Teste De Comparação Pelo Mínimo
+## Teste de Comparação Pelo Mínimo
 
 O **Teste de Comparação pelo Mínimo** é útil quando se pode encontrar um termo mínimo $m_n$ que seja maior ou igual a todos os termos subsequentes e cuja convergência possa ser estabelecida.
 

@@ -30,7 +30,7 @@ Software usado: SolidWorks ^WS0jTAXY
 Exportação do desenho para .DXF ^bNQ49xPP
 
 ## Embedded Files
-0b1339c98b60fa9a738612acf1f4c7b1e95ad9ee: [[Desenho Disco .DXF.png]]
+0b1339c98b60fa9a738612acf1f4c7b1e95ad9ee: [[desenho-disco-DXF.png]]
 
 %%
 ## Drawing

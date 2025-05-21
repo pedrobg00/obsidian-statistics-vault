@@ -46,7 +46,7 @@ Por exemplo, para $n = 100$:
 $$
 H_{100} \approx \ln$100$ + 0.57721 \approx 4.60517 + 0.57721 \approx 5.18238
 $$
-## Exemplo 3: Série De Potências
+## Exemplo 3: Série de Potências
 
 Considere a série:
 $$

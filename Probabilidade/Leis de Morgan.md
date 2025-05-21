@@ -2,11 +2,11 @@
 dg-publish: true
 ---
 
-## Introdução Às Leis De Morgan E Suas Propriedades
+## Introdução às Leis de Morgan e Suas Propriedades
 
 As leis de Morgan são fundamentais na lógica booleana, teoria da computação e matemática discreta. Elas descrevem como os operadores lógicos "não" (¬) podem ser usados para transformar expressões que contêm operações lógicas "ou" (∨) e "e" (∧). Essas leis foram propostas pelo matemático e logista Charles Sanders Peirce, mas são mais conhecidas por Augustus De Morgan.
 
-### 1. Definição Das Leis De Morgan
+### 1. Definição das Leis de Morgan
 
 As leis de Morgan podem ser expressas da seguinte forma:
 $$
@@ -16,7 +16,7 @@ $$$$
 $$
 Essas leis permitem que expressões lógicas complexas sejam simplificadas ou reescritas, facilitando o processo de análise e resolução de problemas em sistemas digitais e circuitos elétricos.
 
-### 2. Exemplos De Aplicação
+### 2. Exemplos de Aplicação
 
 **Exemplo 1: Simplificação de Expressão Lógica**
 
@@ -40,7 +40,7 @@ Usando a lei de Morgan, isso pode ser simplificado para:
 $$
 \neg A \land \neg B
 $$
-### 3. Propriedades Das Leis De Morgan
+### 3. Propriedades das Leis de Morgan
 
 As leis de Morgan possuem algumas propriedades importantes:
 

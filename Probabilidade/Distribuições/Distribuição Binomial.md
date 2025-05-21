@@ -24,7 +24,7 @@ onde:
 2. **Dois Únicos Resultados Possíveis**: Em cada tentativa, há apenas dois resultados possíveis: sucesso (com probabilidade $p$) ou fracasso (com probabilidade $q = 1 - p$).
 3. **Número Fixo de Tentativas**: O experimento é composto por um número fixo $n$ de tentativas.
 
-## Exemplo De Cálculo
+## Exemplo de Cálculo
 
 Suponha que uma moeda justa seja lançada 5 vezes e queremos calcular a probabilidade de obter exatamente 3 caras. Aqui, $n = 5$, $k = 3$ e $p = 0.5$.
 

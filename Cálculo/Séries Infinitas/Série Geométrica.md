@@ -8,7 +8,7 @@ $$
 $$
 Onde 'a' é o primeiro termo e 'r' é a razão da série. A convergência de uma série geométrica depende diretamente do valor absoluto da razão |r|.
 
-## Convergência De Séries Geométricas
+## Convergência de Séries Geométricas
 
 Uma série geométrica pode convergir ou divergir dependendo do valor da razão r:
 

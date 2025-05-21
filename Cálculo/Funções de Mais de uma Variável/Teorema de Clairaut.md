@@ -1,5 +1,7 @@
 ---
 dg-publish: true
+tags:
+  - Derivadas
 ---
 
 O Teorema de Clairaut, também conhecido como Teorema da Derivada Parcial Interna, é um resultado fundamental na teoria das funções de várias variáveis. Este teorema estabelece que, sob certas condições, as derivadas parciais mistas de uma função são iguais independentemente do caminho pela qual se deriva.

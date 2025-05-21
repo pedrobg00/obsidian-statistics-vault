@@ -4,10 +4,9 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-
 - **[[Séries Infinitas]]**
 	- [[Convergência Absoluta]]
-	- [[Estimativa para a Soma de uma Série]]
+	- [[Estimativa Para a Soma de uma Série]]
 	- [[Sequências]]
 	- [[Série Binomial]]
 	- [[Série de Maclaurin]]
@@ -34,7 +33,7 @@ Uma série é a soma de uma sequência infinita de números. Matematicamente, é
 $$
  \sum_{n=1}^{\infty} a_n = a_1 + a_2 + a_3 + … 
 $$
-## Tipos Principais De Séries
+## Tipos Principais de Séries
 
 - **Séries Geométricas:** São séries onde cada termo é multiplicado por uma razão constante
 - **Séries Aritméticas:** São séries onde a diferença entre termos consecutivos é constante

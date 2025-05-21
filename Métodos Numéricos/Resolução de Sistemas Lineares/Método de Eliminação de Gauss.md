@@ -1,5 +1,6 @@
 ---
 dg-publish: true
+dg-permalink: metodos-numericos/resolucao-de-sistemas-lineares/metodo-de-eliminacao-de-gauss
 ---
 
 O Método de Eliminação de Gauss é uma técnica fundamental utilizada para resolver sistemas lineares de equações. Este método consiste em transformar um sistema linear em uma forma triangular superior, facilitando a resolução do mesmo através da substituição retroativa.
@@ -23,7 +24,7 @@ O Método de Eliminação de Gauss é uma técnica fundamental utilizada para re
    - Após obter a forma triangular superior, o sistema pode ser resolvido facilmente através da substituição retroativa.
    - Começa pela última equação e resolve para a última variável, depois usa esse valor na penúltima equação, e assim por diante.
 
-### Exemplo De Aplicação Do Método De Eliminação De Gauss
+### Exemplo de Aplicação Do Método de Eliminação de Gauss
 
 Considere o seguinte sistema linear de equações:
 $$
@@ -109,15 +110,15 @@ $$
      Substituindo $y$ e $z$ na primeira equação:
 $$
 2x + 3(-2) - \left(-\frac{9}{4}\right) = 1 \implies 2x - 6 + \frac{9}{4} = 1 \implies 2x - \frac{24}{4} + \frac{9}{4} = 1 \implies 2x - \frac{15}{4} = 1
-$$$$
-
+$$
+$$
 2x = 1 + \frac{15}{4} \implies 2x = \frac{4}{4} + \frac{15}{4} \implies 2x = \frac{19}{4} \implies x = \frac{19}{8}
 $$
 	Portanto, a solução do sistema é:
 $$
 x = \frac{19}{8}, \quad y = -2, \quad z = -\frac{9}{4}
 $$
-## Código Em Python
+## Código em Python
 
 ```python
 def print_matrix(a, b):
@@ -147,21 +148,21 @@ def gauss_elimination_verbose(a, b):
     print("Initial augmented matrix:")
     print_matrix(a, b)
 
-# Forward Elimination
+	# Forward Elimination
     for i in range(n):
-# Partial Pivoting: Find the Row with the Largest Value in Column I
+	# Partial Pivoting: Find The Row With The Largest Value In Column I
         max_row = i + max(range(n - i), key=lambda k: abs(a[i + k][i]))
         if abs(a[max_row][i]) < 1e-12:
             raise ValueError("Matrix is singular or nearly singular")
 
-# Swap Rows if Needed
+		# Swap Rows If Needed
         if max_row != i:
             a[i], a[max_row] = a[max_row], a[i]
             b[i], b[max_row] = b[max_row], b[i]
             print(f"Swapped row {i} with row {max_row}")
             print_matrix(a, b)
 
-# Eliminate Entries below the Pivot
+		# Eliminate Entries Below The Pivot
         for j in range(i + 1, n):
             factor = a[j][i] / a[i][i]
             for k in range(i, n):
@@ -170,7 +171,7 @@ def gauss_elimination_verbose(a, b):
             print(f"Eliminated row {j} using row {i} with factor {factor:.4f}")
             print_matrix(a, b)
 
-# Back Substitution
+	# Back Substitution
     x = [0 for _ in range(n)]
     print("Back substitution:")
     for i in reversed(range(n)):

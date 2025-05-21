@@ -8,6 +8,13 @@ dg-show-local-graph: true
 
 📊 This Obsidian vault stores statistics studies (in portuguese - Brazil). It includes key concepts, formulas, practical examples, and insights. The notes are structured and interconnected to make learning and review easier.
 
+## Table Of Contents
+
+- [[Cálculo]]
+- [[Controle Estatístico do Processo]]
+- [[Métodos Numéricos]]
+- [[Probabilidade]]
+
 ## Utils
 
 To input mathematical expressions in Obsidian, you can use LaTeX notation enclosed in `$$`. For instance:
@@ -24,9 +31,9 @@ $$
 
 For more info check [[Exemplos Latex (MathJax)]]
 
-## Want to Contribute?
+## Want To Contribute?
 
-### Fork the Repository
+### Fork The Repository
 
 1. Go to the [GitHub](https://github.com/luabagg/obsidian-statistics-vault) repository.  
 2. Click **"Fork"** in the top-right corner.  

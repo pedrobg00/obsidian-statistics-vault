@@ -26,7 +26,7 @@ Geometricamente, a derivada direcional representa o declive da reta tangente à 
 $$
 \frac{\partial f}{\partial x}(1, 1) = 2 \cdot 1 = 2
 $$
-## Cálculo Da Derivada Direcional
+## Cálculo da Derivada Direcional
 
 Para calcular $D_{\mathbf{u}} f(\mathbf{a})$, pode-se usar a regra do produto vetorial:
 $$

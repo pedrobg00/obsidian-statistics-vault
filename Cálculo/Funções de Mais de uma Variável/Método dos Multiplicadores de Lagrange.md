@@ -1,11 +1,12 @@
 ---
 dg-publish: true
 ---
-## Introdução Ao Método Dos Multiplicadores De Lagrange
+
+## Introdução ao Método dos Multiplicadores de Lagrange
 
 O Método dos Multiplicadores de Lagrange é uma técnica utilizada em cálculo para encontrar extremos (máximos ou mínimos) de uma função sujeita a restrições. Este método é especialmente útil quando se deseja otimizar uma função multivariável com condições restritivas.
 
-### Formulando O Problema
+### Formulando o Problema
 
 Considere uma função $f(x_1, x_2, \ldots, x_n)$ que queremos maximizar ou minimizar sujeita a uma restrição $g(x_1, x_2, \ldots, x_n) = c$. O problema pode ser formulado como:
 $$
@@ -24,7 +25,7 @@ $$
 ### Encontrando Os Extremos
 
 Para encontrar os extremos da função $f$ sujeita à restrição $g$, devemos resolver o sistema de equações:
-
+$$
 \begin{align*}
 
 \frac{\partial L}{\partial x_i} &= 0, \quad i = 1, 2, \ldots, n \\
@@ -32,7 +33,7 @@ Para encontrar os extremos da função $f$ sujeita à restrição $g$, devemos r
 \frac{\partial L}{\partial \lambda} &= 0.
 
 \end{align*}
-
+$$
 Essas equações são conhecidas como as condições de Lagrange e fornecem os pontos críticos do problema.
 
 ### Exemplo
@@ -42,7 +43,7 @@ $$
 L(x, y, \lambda) = x^2 + y^2 - \lambda (x + y - 1).
 $$
 As condições de Lagrange são:
-
+$$
 \begin{align*}
 
 \frac{\partial L}{\partial x} &= 2x - \lambda = 0 \\
@@ -52,7 +53,7 @@ As condições de Lagrange são:
 \frac{\partial L}{\partial \lambda} &= -(x + y - 1) = 0.
 
 \end{align*}
-
+$$
 Resolvendo esse sistema, obtemos:
 $$
 2x = \lambda, \quad 2y = \lambda, \quad x + y = 1.
@@ -66,7 +67,3 @@ Portanto, o ponto crítico é $(\frac{1}{2}, \frac{1}{2})$.
 ### Aplicações
 
 O Método dos Multiplicadores de Lagrange tem diversas aplicações em áreas como economia, física e engenharia. Por exemplo, pode ser usado para determinar a configuração ótima de um sistema com restrições, como o dimensionamento de uma estrutura ou a alocação de recursos.
-
-### Conclusão
-
-O Método dos Multiplicadores de Lagrange é uma ferramenta poderosa para resolver problemas de otimização sujeitos a restrições. Ele permite encontrar os extremos de funções multivariáveis em condições restritivas, facilitando a tomada de decisões em diversos campos da ciência e engenharia.

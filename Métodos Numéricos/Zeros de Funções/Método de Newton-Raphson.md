@@ -25,7 +25,7 @@ $$
 - **Convergência Local**: A convergência é rápida perto da raiz, mas pode ser lenta ou não ocorrer longe dela.
 - **Escolha Inicial**: A escolha inadequada do valor inicial pode levar à divergência.
 
-## Exemplo Em Python
+## Exemplo em Python
 
 ``` python
 from sympy import symbols, diff, lambdify

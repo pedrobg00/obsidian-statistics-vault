@@ -4,7 +4,7 @@ dg-publish: true
 
 Para entender melhor como uma série converge para sua soma, podemos analisar suas somas parciais. Uma soma parcial é a soma dos n primeiros termos de uma série.
 
-## Definição De Soma Parcial
+## Definição de Soma Parcial
 
 Para uma série ∑aₖ, a n-ésima soma parcial Sₙ é definida como:
 $$
@@ -27,7 +27,7 @@ Podemos observar que as somas parciais se aproximam cada vez mais de 2, que é o
 $$
  \lim_{n \to \infty} S_n = \frac{1}{1-\frac{1}{2}} = 2 
 $$
-## Fórmula Geral Para Soma Parcial De Série Geométrica
+## Fórmula Geral para Soma Parcial de Série Geométrica
 
 Para uma série geométrica com primeiro termo a e razão r, a n-ésima soma parcial é dada por:
 $$

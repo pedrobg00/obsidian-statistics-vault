@@ -14,7 +14,7 @@ $$
 - Se $L > 1$, a série diverge.
 - Se $L = 1$, o critério não fornece informações sobre a convergência.
 
-## Exemplos De Aplicação
+## Exemplos de Aplicação
 
 ### Exemplo 1: Série Geométrica
 
@@ -29,7 +29,7 @@ L = \lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right| = \frac{1}{2}
 $$
 Como $L < 1$, a série converge absolutamente.
 
-### Exemplo 2: Série De Fatorial
+### Exemplo 2: Série de Fatorial
 
 Considere a série $\sum_{n=1}^{\infty} \frac{n!}{(2n)!}$.
 
@@ -44,7 +44,7 @@ L = \lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right| = \lim_{n \to \infty}
 $$
 Como $L < 1$, a série converge absolutamente.
 
-### Exemplo 3: Série De Potências
+### Exemplo 3: Série de Potências
 
 Considere a série $\sum_{n=1}^{\infty} \left(\frac{x^n}{n}\right)$, onde $x$ é um número real.
 

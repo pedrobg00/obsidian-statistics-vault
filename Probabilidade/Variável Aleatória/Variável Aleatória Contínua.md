@@ -12,7 +12,7 @@ F_X(x) = \int_{-\infty}^{x} f(t) dt, \quad \forall x \in \mathbb{R}
 $$
 Essa relação garante que a FDA pode ser obtida a partir da integral da densidade $f(x)$.  
 
-## Probabilidades Para Intervalos
+## Probabilidades para Intervalos
 
 Seja $X$ uma variável aleatória contínua com função de densidade $f_X(x)$. Para quaisquer $a, b \in \mathbb{R}$, com $a \leq b$, a probabilidade de $X$ assumir valores no intervalo $[a, b]$ é dada por:
 $$

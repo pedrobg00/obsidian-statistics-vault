@@ -4,7 +4,6 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-
 - **[[Derivadas]]**
 	- **[[Derivada Direcional]]**
 	- [[Derivada Implícita]]
@@ -14,7 +13,6 @@ dg-show-local-graph: true
 	- [[Diferencial de Uma Função]]
 	- [[Plano Tangente]]
 	- [[Regras da Cadeia]]
-	- [[Teorema de Clairaut]]
 
 %% End Waypoint %%
 
@@ -26,7 +24,7 @@ f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}
 $$
 Se essa limit existir, a função $f(x)$ é diferenciável no ponto $a$. Esta definição pode ser interpretada intuitivamente como a inclinação da reta tangente à curva de $f$ no ponto $(a, f(a))$.
 
-## Exemplos De Derivadas
+## Exemplos de Derivadas
 
 1. **Derivada de uma função polinomial:**
    Considere a função $f(x) = x^2$. A derivada desta função é:

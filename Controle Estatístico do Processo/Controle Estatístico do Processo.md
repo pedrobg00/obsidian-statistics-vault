@@ -1,23 +1,19 @@
+---
+dg-publish: true
+---
 %% Begin Waypoint %%
-
 - **[[Controle Estatístico do Processo]]**
-	- [[Apostila - Professor Fernando.pdf]]
 	- **Cartas de Controle**
 		- [[Média e Amplitude]]
 		- [[Média e Desvio Padrão]]
 		- [[Proporção de Não-Conformes]]
 		- [[Valores Individuais e Amplitude Móvel]]
-	- [[Constantes CEP.pdf]]
-	- [[Controle Estatístico do Processo.canvas]]
-	- [[Controle Estatístico do Processo]]
-	- **[[Ferramentas da Qualidade - Discos Gheno]]**
-	- [[Prova 1]]
-	- [[Tabela Z parte 1 - triola.pdf]]
-	- [[Tabela Z parte 2 - triola.pdf]]
+	- **[[Ferramentas da Qualidade]]**
+	- [[O que é CEP]]
 
 %% End Waypoint %%
 
-## Introdução Ao Controle Estatístico De Processos (CEP)
+## Introdução ao Controle Estatístico de Processos (CEP)
 
 O **Controle Estatístico de Processos** (CEP) é um conjunto de técnicas e métodos estatísticos utilizados para monitorar, controlar e melhorar a qualidade de processos industriais. Este método permite identificar anomalias ou variações nos processos que podem afetar a qualidade do produto final.
 
@@ -55,7 +51,3 @@ O **Controle Estatístico de Processos** (CEP) é um conjunto de técnicas e mé
 ### Aplicações Práticas
 
 O CEP é amplamente utilizado em diversas áreas industriais, incluindo manufatura, serviços, saúde e segurança. Por exemplo, na indústria farmacêutica, o CEP é crucial para garantir que os medicamentos sejam produzidos com consistência e qualidade.
-
-### Conclusão
-
-O Controle Estatístico de Processos é uma ferramenta essencial para a gestão da qualidade em qualquer processo industrial. Ao aplicar corretamente as técnicas do CEP, as organizações podem não apenas garantir a qualidade dos produtos, mas também otimizar seus processos e reduzir custos significativamente.

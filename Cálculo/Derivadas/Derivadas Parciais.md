@@ -52,7 +52,7 @@ f(1, y) = 1 + y^2,
 $$
 e a derivada parcial $\frac{\partial f}{\partial y}\bigg|_{x=1} = 2y$ descreve a inclinação dessa curva no ponto de ordenada $y$.
 
-### Derivadas Parciais E Superfícies
+### Derivadas Parciais e Superfícies
 
 A combinação das derivadas parciais pode fornecer informações sobre o comportamento geral da superfície. Por exemplo, o gradiente de uma função multivariável é um vetor que contém as derivadas parciais em cada direção.
 
@@ -75,7 +75,7 @@ Seja:
 
 	$f(x, y) = x^2 y + 4y^3$
 
-### Derivada Parcial Em Relação a $x$
+### Derivada Parcial em Relação a $x$
 $$
 \frac{\partial f}{\partial x} = \frac{\partial}{\partial x} (x^2 y + 4y^3)
 $$
@@ -87,7 +87,7 @@ $$
 $$
 \frac{\partial f}{\partial x} = 2xy
 $$
-### Derivada Parcial Em Relação a $y$
+### Derivada Parcial em Relação a $y$
 $$
 \frac{\partial f}{\partial y} = \frac{\partial}{\partial y} (x^2 y + 4y^3)
 $$

@@ -2,11 +2,11 @@
 dg-publish: true
 ---
 
-## Definição E Introdução
+## Definição e Introdução
 
 As funções geradoras de momento (FGM) são ferramentas poderosas em teoria das probabilidades e estatística. Elas permitem a obtenção de informações sobre a distribuição de uma variável aleatória através da análise de suas momentos, que são valores esperados de potências da variável.
 
-## Tipos De Funções Geradoras De Momento
+## Tipos de Funções Geradoras de Momento
 
 Existem três tipos principais de funções geradoras de momento:
 
@@ -14,7 +14,7 @@ Existem três tipos principais de funções geradoras de momento:
 2. **Função Geradora de Momento Central (CGF)**
 3. **Função Geradora de Momento Asimétrico (AGF)**
 
-### Função Geradora De Momento (MGF)
+### Função Geradora de Momento (MGF)
 
 A função geradora de momento é definida como:
 $$
@@ -27,7 +27,7 @@ Para uma variável aleatória exponencial com parâmetro $\lambda$, a função g
 $$
 M_X(t) = \frac{\lambda}{\lambda - t} \quad \text{para} \quad t < \lambda
 $$
-### Função Geradora De Momento Central (CGF)
+### Função Geradora de Momento Central (CGF)
 
 A função geradora de momento central é definida como:
 $$
@@ -40,7 +40,7 @@ Para uma variável aleatória normal $N(\mu, \sigma^2)$, a CGF é:
 $$
 C_X(t) = e^{\mu t + \frac{1}{2} \sigma^2 t^2}
 $$
-### Função Geradora De Momento Asimétrico (AGF)
+### Função Geradora de Momento Asimétrico (AGF)
 
 A função geradora de momento asimétrico é definida como:
 $$
@@ -53,7 +53,7 @@ Para uma variável aleatória log-normal, a AGF é:
 $$
 A_X(t) = e^{\mu t + \frac{1}{2} \sigma^2 t^2}
 $$
-## Propriedades Das Funções Geradoras De Momento
+## Propriedades das Funções Geradoras de Momento
 
 As FGM possuem várias propriedades úteis:
 
