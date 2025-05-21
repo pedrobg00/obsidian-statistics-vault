@@ -6,7 +6,7 @@ dg-publish: true
 
 Neste formato, $x^{(k)}$ representa a solução aproximada no $k$-ésimo passo da iteração. A matriz $C$ e o vetor $g$ são parâmetros do método iterativo que podem variar dependendo do problema específico.
 
-### Relação Com Os Métodos Iterativos Discutidos
+### Relação com Os Métodos Iterativos Discutidos
 
 1. **Método de Gauss-Seidel**:
    O Método de Gauss-Seidel pode ser expresso no formato $x^{(k+1)} = Cx^{(k)} + g$. Aqui, a matriz $C$ é formada pelos elementos da matriz original $A$, mas com as entradas abaixo da diagonal nulas. O vetor $g$ contém os termos independentes do sistema.
@@ -34,24 +34,33 @@ A convergência dos métodos iterativos depende das seguintes condições:
 ## Exemplo
 
 Considere um sistema linear simples:
+
 $$
  A = \begin{pmatrix} 4 & -1 \\ -1 & 3 \end{pmatrix}, \quad b = \begin{pmatrix} 2 \\ 5 \end{pmatrix} 
 $$
+
 O Método de Gauss-Seidel pode ser expresso como:
+
 $$
  x^{(k+1)}_1 = \frac{1}{4}(2 + x^{(k)}_2) 
 $$
+
 $$
 x^{(k+1)}_2 = \frac{1}{3}(5 + x^{(k)}_1)
 $$
+
 Em forma matricial, isso pode ser escrito como:
+
 $$
 x^{(k+1)} = Cx^{(k)} + g
 $$
+
 onde
+
 $$
 C = \begin{pmatrix} 0 & \frac{1}{4} \\ \frac{1}{3} & 0 \end{pmatrix}, \quad g = \begin{pmatrix} \frac{1}{2} \\ \frac{5}{3} \end{pmatrix}
 $$
+
 ### Exemplos de Métodos Iterativos
 
 1. **Método da Relaxação Sazonal (SOR - Successive Over-Relaxation)**:
@@ -59,6 +68,7 @@ $$
 $$
 x^{(k+1)}_i = (1 - \omega) x^{(k)}_i + \frac{\omega}{a_{ii}} \left(b_i - \sum_{j=1}^{i-1} a_{ij}x^{(k+1)}_j - \sum_{j=i+1}^n a_{ij}x^{(k)}_j\right)
 $$
+
    onde $x^{(k)}$ é o vetor solução na iteração $k$, e $\omega$ é um parâmetro de relaxação.
 
 2. **Método de Conjugados Gradientes (CG - Conjugate Gradient)**:

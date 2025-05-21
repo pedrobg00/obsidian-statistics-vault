@@ -15,6 +15,7 @@ Os métodos diretos têm por objetivo transformar a matriz A (coeficiente) numa 
 ## Exemplo
 
 Considere o sistema linear:
+
 $$
 \begin{cases}
 2x + 3y - z = 1 \\
@@ -22,7 +23,9 @@ $$
 -2x + 2y + 3z = 0
 \end{cases}
 $$
+
 Aplicando a eliminação Gaussiana, podemos transformar a matriz $A$ em uma forma triangular superior:
+
 $$
 \begin{pmatrix}
 2 & 3 & -1 & | & 1 \\
@@ -35,6 +38,7 @@ $$
 0 & 8 & 4 & | & 2
 \end{pmatrix}
 $$
+
 Agora, o sistema pode ser resolvido de forma trivial através do backward-substitution.
 
 ## Resolução de Matriz Triangular Superior

@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+
 - **[[Ferramentas da Qualidade - Discos Gheno]]**
 	- **Fluxograma do Processo**
 		- [[Diagrama de Causa e Efeito.excalidraw]]

@@ -5,6 +5,7 @@ dg-permalink: metodos-numericos
 ---
 
 %% Begin Waypoint %%
+
 - **[[Métodos Numéricos]]**
 	- [[Interpolação Polinimial]]
 	- **[[Resolução de Sistemas Lineares]]**

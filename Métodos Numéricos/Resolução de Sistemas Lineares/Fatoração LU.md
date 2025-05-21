@@ -5,9 +5,11 @@ dg-publish: true
 ## Fatoração Lu (Lower-Upper)
 
 A **fatoração LU** é um método que decompõe uma matriz quadrada $A$ como o produto de duas matrizes triangulares:
+
 $$
 A = LU
 $$
+
 onde:
 
 - $L$ é uma **matriz triangular inferior** com 1s na diagonal principal.
@@ -46,6 +48,7 @@ $$
 ### Exemplo Numérico
 
 Considere a matriz $A$:
+
 $$
 A = \begin{pmatrix}
 2 & 3 & 1 \\
@@ -53,6 +56,7 @@ A = \begin{pmatrix}
 6 & 18 & 22
 \end{pmatrix}
 $$
+
 #### **Passo 1: Inicialização**
 
 - $L = I_3$ (matriz identidade 3×3)
@@ -76,6 +80,7 @@ $$
 - $L[2, 1] = 9$
 
 #### **Resultado Final**
+
 $$
 L = \begin{pmatrix}
 1 & 0 & 0 \\
@@ -83,6 +88,7 @@ L = \begin{pmatrix}
 3 & 9 & 1
 \end{pmatrix}
 $$
+
 $$
 U = \begin{pmatrix}
 2 & 3 & 1 \\
@@ -90,13 +96,14 @@ U = \begin{pmatrix}
 0 & 0 & 2
 \end{pmatrix}
 $$
+
 ## Pivoteamento Parcial na Fatoração Lu
 
 O **pivoteamento parcial** é uma técnica utilizada na fatoração LU para **evitar divisões por zero** e **minimizar erros numéricos** causados por pivôs pequenos. Ele consiste em **trocar linhas da matriz** $A$ (e consequentemente de $L$ e $b$, se estiver resolvendo $Ax = b$) de modo que o maior valor absoluto na coluna corrente seja usado como pivô.
 
 ---
 
-### Passo a Passo Com Pivoteamento Parcial
+### Passo a Passo com Pivoteamento Parcial
 
 Dado $A \in \mathbb{R}^{n \times n}$, o algoritmo com pivoteamento parcial segue:
 
@@ -134,9 +141,10 @@ $$
 
 ---
 
-### Forma Final da Decomposição Com Pivoteamento
+### Forma Final da Decomposição com Pivoteamento
 
 A fatoração LU com pivoteamento parcial produz:
+
 $$
 PA = LU
 $$
@@ -146,7 +154,7 @@ $$
 
 ---
 
-### Exemplo em Python Com Pivoteamento
+### Exemplo em Python com Pivoteamento
 
 ```python
 import numpy as np

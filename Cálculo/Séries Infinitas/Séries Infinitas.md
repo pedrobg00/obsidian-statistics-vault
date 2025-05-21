@@ -4,6 +4,7 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
+
 - **[[Séries Infinitas]]**
 	- [[Convergência Absoluta]]
 	- [[Estimativa Para a Soma de uma Série]]
@@ -27,12 +28,14 @@ dg-show-local-graph: true
 
 As séries são uma parte fundamental do cálculo que nos permitem estudar somas infinitas de termos. Elas são ferramentas matemáticas poderosas que aparecem em diversos contextos, desde problemas práticos até aplicações teóricas avançadas.
 
-## O Que São Séries?
+## O que São Séries?
 
 Uma série é a soma de uma sequência infinita de números. Matematicamente, é representada como:
+
 $$
  \sum_{n=1}^{\infty} a_n = a_1 + a_2 + a_3 + … 
 $$
+
 ## Tipos Principais de Séries
 
 - **Séries Geométricas:** São séries onde cada termo é multiplicado por uma razão constante

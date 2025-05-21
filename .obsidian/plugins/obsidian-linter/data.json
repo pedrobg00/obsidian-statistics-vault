@@ -86,7 +86,7 @@
       "style": "Title Case",
       "ignore-case-words": false,
       "ignore-words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript, I",
-      "lowercase-words": "a, à, e, é, o, ao, as, às,  aos, ou, um, uns, para, em, na, no, outra, outro, então, este, está, estão, de, da, das, dos"
+      "lowercase-words": "a, à, e, é, o, ao, as, às,  aos, ou, um, uns, para, em, na, no, outra, outro, então, este, está, estão, de, da, das, dos, com, como, que, quem, qual, quais, qualquer, quaisquer, por, pela, pelo, "
     },
     "file-name-heading": {
       "enabled": false
@@ -334,10 +334,10 @@
     },
     {
       "label": "Remove extra lines from multiline LaTex",
-      "find": "(?<=\\$\\$\\n)(.*?)(?=\\n\\$\\$)",
+      "find": "\\$\\$\\n([\\s\\S]*?)\\n\\$\\$",
       "replace": "$$$\\n$1\\n$$$",
       "flags": "gm",
-      "enabled": false
+      "enabled": true
     },
     {
       "label": "Replace PDF file with hosted version",

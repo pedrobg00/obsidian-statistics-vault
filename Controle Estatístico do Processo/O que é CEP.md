@@ -41,4 +41,3 @@ Permite identificar características de qualidade que contribuem para o atendime
 ![[matriz-de-qualidade.webp]]
 
 ![[exemplo-matriz-qualidade.webp]]
-

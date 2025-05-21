@@ -1,7 +1,9 @@
 ---
 dg-publish: true
 ---
+
 %% Begin Waypoint %%
+
 - **[[Ferramentas da Qualidade]]**
 	- **Caso - Discos Gheno**
 		- [[Ferramentas da Qualidade - Discos Gheno]]

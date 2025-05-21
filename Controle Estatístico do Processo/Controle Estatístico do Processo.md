@@ -1,7 +1,9 @@
 ---
 dg-publish: true
 ---
+
 %% Begin Waypoint %%
+
 - **[[Controle Estatístico do Processo]]**
 	- **Cartas de Controle**
 		- [[Média e Amplitude]]

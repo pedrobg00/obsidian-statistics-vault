@@ -7,22 +7,26 @@ Derivadas parciais permitem a análise de funções com múltiplas variáveis, p
 Consideremos uma função $f(x, y)$ que depende de duas variáveis, $x$ e $y$. A derivada parcial de $f$ com respeito a $x$, denotada por $\frac{\partial f}{\partial x}$, representa o ritmo de mudança da função em relação à variável $x$, considerando que $y$ é mantido constante. Analogamente, a derivada parcial com respeito a $y$, denotada por $\frac{\partial f}{\partial y}$, mede como a função muda quando $y$ varia e $x$ permanece inalterado.
 
 Por exemplo, considere a função $f(x, y) = x^2 + 3xy - 4y^2$. A derivada parcial de $f$ com respeito a $x$ é:
+
 $$
 \frac{\partial f}{\partial x} = 2x + 3y.
 $$
+
 Aqui, observamos que a variável $y$ é tratada como uma constante durante o cálculo da derivada parcial.
 
 Analogamente, a derivada parcial de $f$ com respeito a $y$ é:
+
 $$
 \frac{\partial f}{\partial y} = 3x - 8y.
 $$
+
 Neste caso, $x$ é considerado constante durante o cálculo da derivada parcial.
 
 ## Regra Geral
 
 Quando você deriva uma função $f(x, y, z, \ldots)$ em relação a uma variável (por exemplo, $x$), **as outras são tratadas como constantes**.
 
-### Derivada Parcial Com Respeito a $x$
+### Derivada Parcial com Respeito a $x$
 
 A derivada parcial de $f$ com respeito a $x$, denotada por $\frac{\partial f}{\partial x}$, representa o ritmo de mudança da função no sentido do eixo $x$. Geometricamente, ela pode ser interpretada como a inclinação da reta tangente ao gráfico de $f$ na direção paralela ao plano $y = c$, onde $c$ é uma constante. Em outras palavras, se você fixar um valor para $y$, a derivada parcial $\frac{\partial f}{\partial x}$ mede como a função varia quando $x$ muda.
 
@@ -31,13 +35,16 @@ Considere a função $f(x, y) = x^2 + y^2$. A derivada parcial com respeito a $x
 $$
 \frac{\partial f}{\partial x} = 2x.
 $$
+
 Se fixarmos $y = 1$, a função reduz-se a uma curva no plano $y = 1$:
+
 $$
 f(x, 1) = x^2 + 1,
 $$
+
 e a derivada parcial $\frac{\partial f}{\partial x}\bigg|_{y=1} = 2x$ descreve a inclinação dessa curva no ponto de abscissa $x$.
 
-### Derivada Parcial Com Respeito a $y$
+### Derivada Parcial com Respeito a $y$
 
 Analogamente, a derivada parcial de $f$ com respeito a $y$, denotada por $\frac{\partial f}{\partial y}$, representa o ritmo de mudança da função no sentido do eixo $y$. Geometricamente, ela é a inclinação da reta tangente ao gráfico de $f$ na direção paralela ao plano $x = c$.
 
@@ -46,10 +53,13 @@ Continuando com a função $f(x, y) = x^2 + y^2$, a derivada parcial com respeit
 $$
 \frac{\partial f}{\partial y} = 2y.
 $$
+
 Se fixarmos $x = 1$, a função reduz-se a uma curva no plano $x = 1$:
+
 $$
 f(1, y) = 1 + y^2,
 $$
+
 e a derivada parcial $\frac{\partial f}{\partial y}\bigg|_{x=1} = 2y$ descreve a inclinação dessa curva no ponto de ordenada $y$.
 
 ### Derivadas Parciais e Superfícies
@@ -61,6 +71,7 @@ Para a função $f(x, y) = x^2 + y^2$, o gradiente é:
 $$
 \nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right) = (2x, 2y).
 $$
+
 ### Aplicações Práticas
 
 Derivadas parciais são fundamentais em diversas áreas da ciência e engenharia. Por exemplo, na física, elas podem ser usadas para modelar a velocidade de um objeto em movimento no espaço multidimensional; na economia, para analisar como mudanças nas variáveis econômicas afetam o custo ou a receita.
@@ -69,13 +80,14 @@ Essa interpretação geométrica ajuda a visualizar e compreender melhor as fun�
 
 ---
 
-## Exemplo 1: Função Simples Com Duas Variáveis
+## Exemplo 1: Função Simples com Duas Variáveis
 
 Seja:
 
 	$f(x, y) = x^2 y + 4y^3$
 
 ### Derivada Parcial em Relação a $x$
+
 $$
 \frac{\partial f}{\partial x} = \frac{\partial}{\partial x} (x^2 y + 4y^3)
 $$
@@ -87,7 +99,9 @@ $$
 $$
 \frac{\partial f}{\partial x} = 2xy
 $$
+
 ### Derivada Parcial em Relação a $y$
+
 $$
 \frac{\partial f}{\partial y} = \frac{\partial}{\partial y} (x^2 y + 4y^3)
 $$
