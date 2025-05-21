@@ -1,6 +1,11 @@
+---
+dg-publish: true
+dg-show-local-graph: true
+---
+
 %% Begin Waypoint %%
 
-- **[[Ferramentas da Qualidade - Discos Gheno]]**
+- **[[Caso - Discos Gheno]]**
 	- **Fluxograma do Processo**
 		- [[Diagrama de Causa e Efeito.excalidraw]]
 		- [[Fluxograma do Processo.excalidraw]]
@@ -18,8 +23,8 @@
 Fluxograma do processo da produção de discos de frenagem para bicicletas de Downhill por GHENOrtrs.
 
 ```image-layout-a
-![[Catálogo GHENOrtrs.webp]]
-![[Disco em Roda Traseira.webp]]
+![[catálogo-GHENOrtrs.webp]]
+![[disco-em-roda-traseira.webp]]
 ```
 
 ### Processo Completo

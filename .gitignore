@@ -5,4 +5,4 @@
 !.obsidian/core-plugins.json
 .obsidian/plugins/copilot/data.json
 .obsidian/plugins/digitalgarden
-
+.DS_Store
