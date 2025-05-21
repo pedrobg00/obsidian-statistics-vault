@@ -196,7 +196,7 @@
       "enabled": false
     },
     "empty-line-around-math-blocks": {
-      "enabled": true
+      "enabled": false
     },
     "empty-line-around-tables": {
       "enabled": false
@@ -326,18 +326,18 @@
       "enabled": true
     },
     {
-      "label": "Remove extra lines from multiline LaTex",
-      "find": "^\\s*\\$\\$\\s*\\n([\\s\\S]*?)\\n\\s*\\$\\$\\s*$",
-      "replace": "$$$\\n$1\\n$$$",
-      "flags": "gm",
-      "enabled": true
-    },
-    {
       "label": "Add line in between code blocks",
       "find": "(^\\s*\\$\\$\\s*\\n[\\s\\S]*?\\n\\s*\\$\\$\\s*)(?=\\s*\\n?\\s*\\$\\$)",
       "replace": "$1\\n",
       "flags": "gm",
       "enabled": true
+    },
+    {
+      "label": "Remove extra lines from multiline LaTex",
+      "find": "(?<=\\$\\$\\n)(.*?)(?=\\n\\$\\$)",
+      "replace": "$$$\\n$1\\n$$$",
+      "flags": "gm",
+      "enabled": false
     },
     {
       "label": "Replace PDF file with hosted version",

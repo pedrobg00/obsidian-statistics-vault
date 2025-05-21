@@ -150,7 +150,7 @@ def gauss_elimination_verbose(a, b):
 
 	# Forward Elimination
     for i in range(n):
-	# Partial Pivoting: Find The Row With The Largest Value In Column I
+		# Partial Pivoting: Find The Row With The Largest Value In Column I
         max_row = i + max(range(n - i), key=lambda k: abs(a[i + k][i]))
         if abs(a[max_row][i]) < 1e-12:
             raise ValueError("Matrix is singular or nearly singular")

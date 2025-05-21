@@ -4,7 +4,6 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-
 - **[[Cálculo]]**
 	- **[[Derivadas]]**
 	- **Funções de Mais de uma Variável**

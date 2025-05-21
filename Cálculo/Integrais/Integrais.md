@@ -7,6 +7,7 @@ dg-show-local-graph:
 - **[[Integrais]]**
 	- [[Integrais Duplas]]
 	- [[Soma de Riemann]]
+	- [[Teorema de Fubini]]
 
 %% End Waypoint %%
 

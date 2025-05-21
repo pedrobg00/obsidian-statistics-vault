@@ -82,16 +82,12 @@ L = \begin{pmatrix}
 2 & 1 & 0 \\
 3 & 9 & 1
 \end{pmatrix}
-$$$$
-
+$$
+$$
 U = \begin{pmatrix}
-
 2 & 3 & 1 \\
-
 0 & 1 & 5 \\
-
 0 & 0 & 2
-
 \end{pmatrix}
 $$
 ## Pivoteamento Parcial na Fatoração Lu
@@ -174,18 +170,18 @@ def lu_decomposition_pivot(A):
     P = np.eye(n)
 
     for i in range(n):
-# Find The Index Of The Row With The Largest Absolute Value In Column I
+		# Find The Index Of The Row With The Largest Absolute Value In Column I
         pivot = np.argmax(np.abs(U[i:, i])) + i
         if U[pivot, i] == 0:
             raise ValueError("Singular matrix.")
-# Swap Rows In U
+		# Swap Rows In U
         U[[i, pivot]] = U[[pivot, i]]
-# Swap Rows In P
+		# Swap Rows In P
         P[[i, pivot]] = P[[pivot, i]]
-# Swap Rows In L (only For Previously Computed columns)
+		# Swap Rows In L (only For Previously Computed columns)
         if i > 0:
             L[[i, pivot], :i] = L[[pivot, i], :i]
-# Elimination Process
+		# Elimination Process
         for j in range(i+1, n):
             m = U[j, i] / U[i, i]
             L[j, i] = m
@@ -205,10 +201,10 @@ def solve_with_lu(P, L, U, b):
         'solution'   : Solution vector (numpy.ndarray)
         'residual'   : Final residual norm (float)
     """
-# Step 1: Apply The Permutation To B
+	# Step 1: Apply The Permutation To B
     Pb = np.dot(P, b)
 
-# Step 2: Forward Substitution To Solve Ly = Pb
+	# Step 2: Forward Substitution To Solve Ly = Pb
     n = L.shape[0]
     y = np.zeros(n)
     for i in range(n):
@@ -216,7 +212,7 @@ def solve_with_lu(P, L, U, b):
         for j in range(i):
             y[i] -= L[i, j] * y[j]
 
-# Step 3: Back Substitution To Solve Ux = Y
+	# Step 3: Back Substitution To Solve Ux = Y
     x = np.zeros(n)
     for i in range(n-1, -1, -1):
         x[i] = y[i]
@@ -228,7 +224,7 @@ def solve_with_lu(P, L, U, b):
     return {'solution': x, 'residual': residual}
 
 if __name__ == "__main__":
-# Example Usage
+	# Example Usage
     A = np.array([
         [0, 3, 1],
         [4, 7, 7],
@@ -240,9 +236,9 @@ if __name__ == "__main__":
     print("\nU =\n", U)
     print("\nVerification: P·A =\n", np.dot(P, A))
     print("\nL·U =\n", np.dot(L, U))
-# Define a Right-hand Side Vector B
+	# Define a Right-hand Side Vector B
     b = np.array([2, 4, 3], dtype=float)
-# Solve The System Ax = B
+	# Solve The System Ax = B
     result = solve_with_lu(P, L, U, b)
     print("\nSolution x =\n", result['solution'])
     print("\nFinal residual norm =", result['residual'])
