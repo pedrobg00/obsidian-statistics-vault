@@ -4,13 +4,14 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-- **[[Controle Estatístico do Processo]]**
+
+- [[Controle Estatístico do Processo]]
 	- **Cartas de Controle**
 		- [[Média e Amplitude]]
 		- [[Média e Desvio Padrão]]
 		- [[Proporção de Não-Conformes]]
 		- [[Valores Individuais e Amplitude Móvel]]
-	- **[[Ferramentas da Qualidade]]**
+	- [[Ferramentas da Qualidade]]
 	- [[O que é CEP]]
 
 %% End Waypoint %%

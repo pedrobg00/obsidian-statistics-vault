@@ -5,7 +5,7 @@ dg-show-local-graph: true
 
 %% Begin Waypoint %%
 
-- **[[Zeros de Funções]]**
+- [[Zeros de Funções]]
 	- [[Método da Bisseção]]
 	- [[Método da Falsa Posição]]
 	- [[Método das Secantes]]

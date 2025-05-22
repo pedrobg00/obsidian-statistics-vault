@@ -5,7 +5,7 @@ dg-show-local-graph: true
 
 %% Begin Waypoint %%
 
-- **[[Caso - Discos Gheno]]**
+- [[Caso - Discos Gheno]]
 	- **Fluxograma do Processo**
 		- [[Diagrama de Causa e Efeito.excalidraw]]
 		- [[Fluxograma do Processo.excalidraw]]

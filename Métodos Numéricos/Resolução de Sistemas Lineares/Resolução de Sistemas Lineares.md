@@ -5,7 +5,7 @@ dg-show-local-graph: true
 
 %% Begin Waypoint %%
 
-- **[[Resolução de Sistemas Lineares]]**
+- [[Resolução de Sistemas Lineares]]
 	- [[Fatoração LU]]
 	- [[Método de Eliminação de Gauss]]
 	- [[Método de Gauss-Jacobi]]

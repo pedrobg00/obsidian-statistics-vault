@@ -5,7 +5,7 @@ dg-show-local-graph: true
 
 %% Begin Waypoint %%
 
-- **[[Derivada Direcional]]**
+- [[Derivada Direcional]]
 	- [[Taxa Máxima da Derivada Direcional]]
 
 %% End Waypoint %%

@@ -5,7 +5,7 @@ dg-show-local-graph: true
 
 %% Begin Waypoint %%
 
-- **[[Séries Infinitas]]**
+- [[Séries Infinitas]]
 	- [[Convergência Absoluta]]
 	- [[Estimativa Para a Soma de uma Série]]
 	- [[Sequências]]

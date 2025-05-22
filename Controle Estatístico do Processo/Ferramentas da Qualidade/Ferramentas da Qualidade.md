@@ -4,8 +4,9 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-- **[[Ferramentas da Qualidade]]**
-	- **[[Caso - Discos Gheno]]**
+
+- [[Ferramentas da Qualidade]]
+	- [[Caso - Discos Gheno]]
 
 %% End Waypoint %%
 

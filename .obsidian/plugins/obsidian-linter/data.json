@@ -342,8 +342,15 @@
     {
       "label": "Remove bold from links",
       "find": "\\*\\*\\[\\[([^\\]]+?)\\]\\]\\*\\*",
-      "replace": "[[\\1]]",
-      "flags": "gm",
+      "replace": "[[$1]]",
+      "flags": "g",
+      "enabled": true
+    },
+    {
+      "label": "Remove bold from normal links",
+      "find": "\\*\\*\\[([^\\]]+?)\\]\\(([^)]+?)\\)\\*\\*",
+      "replace": "[$1]($2)",
+      "flags": "g",
       "enabled": true
     }
   ],

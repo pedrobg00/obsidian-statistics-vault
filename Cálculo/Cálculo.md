@@ -5,16 +5,16 @@ dg-show-local-graph: true
 
 %% Begin Waypoint %%
 
-- **[[Cálculo]]**
-	- **[[Derivadas]]**
+- [[Cálculo]]
+	- [[Derivadas]]
 	- **Funções de Mais de uma Variável**
 		- [[Coordenadas Polares]]
 		- [[Método dos Multiplicadores de Lagrange]]
 		- [[Teorema de Clairaut]]
 		- [[Valores de Máximo e Mínimo]]
-	- **[[Integrais]]**
-	- **[[Limites]]**
-	- **[[Séries Infinitas]]**
+	- [[Integrais]]
+	- [[Limites]]
+	- [[Séries Infinitas]]
 	- [[Teorema Fundamental do Cálculo]]
 
 %% End Waypoint %%

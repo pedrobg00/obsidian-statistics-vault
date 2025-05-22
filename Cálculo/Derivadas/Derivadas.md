@@ -5,8 +5,8 @@ dg-show-local-graph: true
 
 %% Begin Waypoint %%
 
-- **[[Derivadas]]**
-	- **[[Derivada Direcional]]**
+- [[Derivadas]]
+	- [[Derivada Direcional]]
 	- [[Derivada Implícita]]
 	- [[Derivadas de Ordem Superior]]
 	- [[Derivadas Parciais]]
