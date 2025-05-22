@@ -1,7 +1,6 @@
 ---
 dg-publish: true
 dg-show-local-graph: true
-dg-permalink: metodos-numericos
 ---
 
 %% Begin Waypoint %%

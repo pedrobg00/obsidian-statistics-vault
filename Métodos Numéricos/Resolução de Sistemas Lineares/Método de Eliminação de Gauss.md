@@ -1,6 +1,5 @@
 ---
 dg-publish: true
-dg-permalink: metodos-numericos/resolucao-de-sistemas-lineares/metodo-de-eliminacao-de-gauss
 ---
 
 O Método de Eliminação de Gauss é uma técnica fundamental utilizada para resolver sistemas lineares de equações. Este método consiste em transformar um sistema linear em uma forma triangular superior, facilitando a resolução do mesmo através da substituição retroativa.
