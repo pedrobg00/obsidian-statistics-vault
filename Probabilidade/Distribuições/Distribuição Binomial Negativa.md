@@ -2,7 +2,7 @@
 dg-publish: true
 ---
 
-A **Distribuição Binomial Negativa** é uma generalização da distribuição geométrica e descreve o número de **fracassos** até a ocorrência do **$r$-ésimo sucesso** em uma sequência de **ensaios de Bernoulli independentes**, nos quais cada tentativa resulta em sucesso com probabilidade $p$ e fracasso com probabilidade $q = 1 - p$.
+A **Distribuição Binomial Negativa** é uma generalização da [[distribuição geométrica]] e descreve o número de **fracassos** até a ocorrência do **$r$-ésimo sucesso** em uma sequência de **ensaios de Bernoulli independentes**, nos quais cada tentativa resulta em sucesso com probabilidade $p$ e fracasso com probabilidade $q = 1 - p$.
 
 ## **Definição E Parâmetros**
 
@@ -45,5 +45,5 @@ Em uma linha de produção, cada peça tem 10% de chance de ser defeituosa ($p =
 
 ## **Relações Com Outras Distribuições**
 
-- **Distribuição Geométrica:** Caso especial da binomial negativa com $r = 1$, modelando o número de fracassos até o **primeiro sucesso**.
-- **Distribuição Binomial:** Modela o número de sucessos em um número **fixo** de ensaios. A binomial negativa, por outro lado, fixa o número de sucessos e deixa variável o número de fracassos (ou tentativas).
+- **[[Distribuição Geométrica]]:** Caso especial da binomial negativa com $r = 1$, modelando o número de fracassos até o **primeiro sucesso**.
+- **[[Distribuição Binomial]]:** Modela o número de sucessos em um número **fixo** de ensaios. A binomial negativa, por outro lado, fixa o número de sucessos e deixa variável o número de fracassos (ou tentativas).

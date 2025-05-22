@@ -340,11 +340,11 @@
       "enabled": true
     },
     {
-      "label": "Replace PDF file with hosted version",
-      "find": "\\[\\[([^\\]]+?\\.pdf)(?:\\|([^\\]]+))?\\]\\]",
-      "replace": "[$2$1](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/luabagg/obsidian-statistics-vault/main/$1)",
-      "flags": "g",
-      "enabled": false
+      "label": "Remove bold from links",
+      "find": "\\*\\*\\[\\[([^\\]]+?)\\]\\]\\*\\*",
+      "replace": "[[\\1]]",
+      "flags": "gm",
+      "enabled": true
     }
   ],
   "commonStyles": {
