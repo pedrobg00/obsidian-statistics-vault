@@ -4,8 +4,7 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-
-- [[Distribuições]]
+- **[[Distribuições]]**
 	- [[Binômio de Newton]]
 	- [[Distribuição Binomial Negativa]]
 	- [[Distribuição Binomial]]
@@ -16,6 +15,7 @@ dg-show-local-graph: true
 	- [[Distribuição Hipergeométrica]]
 	- [[Distribuição Poisson]]
 	- [[Distribuição Uniforme]]
+	- [[Distribuição Weibull]]
 	- [[Esperança a Partir da Função Geradora de Momentos]]
 	- [[Função Gama]]
 

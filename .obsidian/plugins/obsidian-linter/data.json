@@ -343,14 +343,21 @@
       "label": "Remove bold from links",
       "find": "\\*\\*\\[\\[([^\\]]+?)\\]\\]\\*\\*",
       "replace": "[[$1]]",
-      "flags": "g",
+      "flags": "gm",
       "enabled": true
     },
     {
       "label": "Remove bold from normal links",
       "find": "\\*\\*\\[([^\\]]+?)\\]\\(([^)]+?)\\)\\*\\*",
       "replace": "[$1]($2)",
-      "flags": "g",
+      "flags": "gm",
+      "enabled": true
+    },
+    {
+      "label": "Remove bold from titles",
+      "find": "^(#{1,6}.*?)\\*\\*(.*?)\\*\\*",
+      "replace": "$1$2",
+      "flags": "gm",
       "enabled": true
     }
   ],
