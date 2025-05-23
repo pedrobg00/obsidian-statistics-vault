@@ -4,8 +4,8 @@ dg-show-local-graph:
 ---
 
 %% Begin Waypoint %%
-
-- [[Integrais]]
+- **[[Integrais]]**
+	- [[Integrais Duplas Sobre Regiões Gerais]]
 	- [[Integrais Duplas]]
 	- [[Soma de Riemann]]
 	- [[Teorema de Fubini]]
