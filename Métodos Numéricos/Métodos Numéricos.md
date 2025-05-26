@@ -4,10 +4,10 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-
-- [[Métodos Numéricos]]
-	- [[Interpolação Polinimial]]
-	- [[Resolução de Sistemas Lineares]]
-	- [[Zeros de Funções]]
+- **[[Métodos Numéricos]]**
+	- **Ajuste de Curvas**
+	- **[[Interpolação Polinimial]]**
+	- **[[Resolução de Sistemas Lineares]]**
+	- **[[Zeros de Funções]]**
 
 %% End Waypoint %%

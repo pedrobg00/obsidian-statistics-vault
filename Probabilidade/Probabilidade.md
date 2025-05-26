@@ -4,11 +4,12 @@ dg-show-local-graph: true
 ---
 
 %% Begin Waypoint %%
-- **[[Probabilidade]]**
-	- **[[Distribuições]]**
+
+- [[Probabilidade]]
+	- [[Distribuições]]
 	- [[Leis de Morgan]]
 	- [[Sigma-Álgebra de Borel]]
 	- [[Sigma-Álgebra]]
-	- **[[Variável Aleatória]]**
+	- [[Variável Aleatória]]
 
 %% End Waypoint %%
