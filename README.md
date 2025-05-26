@@ -3,7 +3,7 @@ dg-publish: true
 dg-home: true
 dg-show-local-graph: true
 ---
-
+olá
 ## Intro
 
 📊 This Obsidian vault stores statistics studies (in portuguese - Brazil). It includes key concepts, formulas, practical examples, and insights. The notes are structured and interconnected to make learning and review easier.
